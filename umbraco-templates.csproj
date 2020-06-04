@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>Umbraco.Packages.Templates</PackageId>
+    
+    <Title>Umbraco Package Templates</Title>
+    <Authors>UmbracoPackageTeam</Authors>
+    <Description>Templates to use when creating umbraco packages</Description>
+    <PackageTags>umbraco</PackageTags>
+
+    <TargetFramework>net472</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders> 
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ProjectTemplates\**\*;ItemTemplates\**\*"
+             Exclude="**\bin\**;**\obj\**;**\.vs\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+</Project>

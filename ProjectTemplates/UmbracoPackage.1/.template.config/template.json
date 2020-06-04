@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json.schemastore.org/template",
+  "author": "UmbracoPackageTeam",
+  "classifications": [ 
+    "Web", 
+    "Umbraco", 
+    "v8" 
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+
+  "identity": "Umbraco.Template.Package",
+
+  "name": "Empty Umbraco Package",
+  "shortName": "umbraco-package",
+  "description": "Basic umbraco package project template",
+
+  "sourceName": "UmbracoPackage.1",
+
+  "preferNameDirectory": true,
+
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!GitHub)",
+          "exclude": [
+            ".github/**/*"
+          ]
+        }
+      ]
+    }
+  ],
+
+  "symbols": {
+      "GitHub" :
+      {
+        "type": "parameter",
+        "datatype": "bool",
+        "defaultValue": "true",
+        "description": "Include the GitHub Actions in the project."
+      }
+  },
+
+
+  "postActions": [
+    {
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "description": "Restore Nuget Packages Required by this project.",
+      "manualInstructions": [
+        { "text": "Run 'dotnet restore'" }
+      ],
+      "continueOnError": true
+    }
+  ]
+}

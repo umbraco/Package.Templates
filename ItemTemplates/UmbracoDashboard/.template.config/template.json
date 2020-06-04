@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "UmbracoPackageTeam",
+    "classifications": [
+        "Web",
+        "Umbraco",
+        "v8"
+    ],
+    "tags": {
+        "language": "C#",
+        "type": "item"
+    },
+
+    "identity": "Umbraco.Templates.Items.Dashboard",
+    "groupIdentity": "Umbraco.Templates.Items.Dashboard",
+
+    "name": "Umbraco Dashboard Item",
+    "shortName": "umbraco-dashboard",
+    "description": "Umbraco dashboard files",
+    
+    "sourceName": "PluginName.1",
+
+    "primaryOutputs": [
+        { "path" : "/app_plugins/pluginname._1/dashboard.html"},
+        { "path" : "/app_plugins/pluginname._1/dashboardController.js"}
+    ]
+
+}
