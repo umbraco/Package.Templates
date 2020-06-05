@@ -1,5 +1,5 @@
 {
   "library": "src/UmbracoPackage.1",
   "pluginFolder": "UmbracoPackage.1",
-  "site": ".website/UmbracoPackage.1.site"
+  "site": ".website"
 }
