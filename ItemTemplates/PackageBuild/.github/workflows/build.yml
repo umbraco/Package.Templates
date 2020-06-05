@@ -8,7 +8,7 @@ name: Build and Package
 
 env:
   OUTPUT: ./Output
-  LIBRARY_FOLDER: ./src/EmptyPackage.1
+  LIBRARY_FOLDER: ./src/ProjectName.1
 
 on:
   push:
