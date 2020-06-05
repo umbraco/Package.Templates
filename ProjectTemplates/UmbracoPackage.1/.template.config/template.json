@@ -64,6 +64,12 @@
           "value":".website"
         },
         "replaces":"# .website #"
+      },
+      "Restore" :{
+        "type": "parameter",
+        "datatype":"bool",
+        "defaultValue": "false",
+        "description": "Restore NuGet and NPM Modules"
       }
       
   },
@@ -71,12 +77,23 @@
 
   "postActions": [
     {
+      "condition": "(Restore)",
       "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
       "description": "Restore Nuget Packages Required by this project.",
       "manualInstructions": [
         { "text": "Run 'dotnet restore'" }
       ],
       "continueOnError": true
+    },
+    {
+      "condition": "(Restore)",
+      "description": "Run npm install",
+      "manualInstructions": [{"text": "Run 'npm install'"}],
+      "actionId" :"3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
+      "args": {
+        "executable": "cmd.exe", 
+        "args": "/c npm install"
+      }
     }
   ]
 }
