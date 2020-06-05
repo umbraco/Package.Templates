@@ -1,0 +1,45 @@
+# Packages up the dotnet new commands so you can install them. 
+# 
+name: Package
+
+env:
+  OUTPUT: ./Output
+
+# happens when a commit is tagged release/[version]
+on:
+  push:
+    tags:
+      - "release/*"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  Package:
+    # The type of runner that the job will run on
+    runs-on: windows-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Get Version 
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\/release\//}
+        shell: bash
+
+      - name: checkout
+        uses: actions/checkout@v2
+        
+      - name: Setup .net core
+        uses: actions/setup-dotnet@v1.4.0
+        
+      - name: package
+        run: dotnet pack -o ${{ env.OUTPUT }} /p:version {{ steps.get_version.outputs.VERSION }}
+      
+      - name: upload-artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Build-Results-${{ steps.get_version.outputs.VERSION }}
+          path: ${{ env.OUTPUT }}/**/*
+       
+       
+       
+
