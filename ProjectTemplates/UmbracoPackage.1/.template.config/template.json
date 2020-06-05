@@ -41,7 +41,18 @@
         "datatype": "bool",
         "defaultValue": "true",
         "description": "Include the GitHub Actions in the project."
+      },
+      "ignore" :
+      {
+        "type": "generated",
+        "generator": "constant",
+        "description" : "puts .website in the gitignore",
+        "parameters": {
+          "value":".website"
+        },
+        "replaces":"# .website #"
       }
+      
   },
 
 
