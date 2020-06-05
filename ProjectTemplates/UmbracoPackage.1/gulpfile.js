@@ -33,6 +33,9 @@ const appPlugin = {
  */
 
 function copy(path, baseFolder, target) {
+
+    console.log('copy: \x1b[36m%s\x1b[0m %s', path, target);  
+
     return src(path, { base: baseFolder })
         .pipe(dest(target));
 }
