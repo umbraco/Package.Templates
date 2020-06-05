@@ -32,7 +32,7 @@ jobs:
         uses: actions/setup-dotnet@v1.4.0
         
       - name: package
-        run: dotnet pack -o ${{ env.OUTPUT }} /p:version ${{ steps.get_version.outputs.VERSION }}
+        run: dotnet pack -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }}
       
       - name: upload-artifacts
         uses: actions/upload-artifact@v2
