@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="powershell.exe $(SolutionDir)..\build\post-build.ps1 $(TargetPath)" />
+    <Exec Command="XCOPY $(TargetPath) $(SolutionDir)..\.website\bin\ /y /q &#xD;&#xA;" />
   </Target>
 
 </Project>
