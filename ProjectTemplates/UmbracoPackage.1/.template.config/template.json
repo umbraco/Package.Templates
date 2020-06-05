@@ -29,7 +29,14 @@
           "exclude": [
             ".github/**/*"
           ]
+        },
+        {
+          "condition": "(!TestSite)",
+          "exclude": [
+            ".website/**/*"
+          ]
         }
+
       ]
     }
   ],
@@ -41,6 +48,12 @@
         "datatype": "bool",
         "defaultValue": "true",
         "description": "Include the GitHub Actions in the project."
+      },
+      "TestSite": {
+        "type": "parameter",
+        "datatype": "bool",
+        "defaultValue": "true",
+        "description": "Include the test umbraco site project in .website"
       },
       "ignore" :
       {

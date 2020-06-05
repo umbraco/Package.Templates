@@ -9,4 +9,8 @@
     <PackageReference Include="UmbracoCms.Web" Version="8.6.2" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="powershell.exe $(SolutionDir)..\build\post-build.ps1 $(TargetPath)" />
+  </Target>
+
 </Project>

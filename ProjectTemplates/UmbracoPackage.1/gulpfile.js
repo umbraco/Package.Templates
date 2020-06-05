@@ -1,4 +1,4 @@
-/// <binding AfterBuild='postbuild' ProjectOpened='default' />
+/// <binding ProjectOpened='default' />
 //
 const { watch, src, dest } = require('gulp');
 var config = require('./paths.json');
@@ -59,8 +59,3 @@ function watchAppPlugins() {
 exports.default = function () {
     watchAppPlugins();
 };
-
-exports.postbuild = function () {
-
-    return Promise.resolve('copy build files to test site....');
-}
