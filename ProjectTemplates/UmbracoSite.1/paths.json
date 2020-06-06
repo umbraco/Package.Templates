@@ -1,0 +1,4 @@
+{
+  "library": "src/UmbracoSite.1.Library",
+  "site": "src/UmbracoSite.1.Site"
+}

@@ -18,11 +18,11 @@
     "shortName": "umbraco-dashboard",
     "description": "Umbraco dashboard files",
     
-    "sourceName": "PluginName.1",
+    "sourceName": "UmbracoPackage.1",
 
     "primaryOutputs": [
-        { "path" : "/app_plugins/pluginname._1/dashboard/dashboard.html"},
-        { "path" : "/app_plugins/pluginname._1/dashboard/dashboard/dashboardController.js"},
-        { "path" : "/app_plugins/pluginname._1/dashboard/dashboard/package.manifest"}
+        { "path" : "/app_plugins/UmbracoPackage._1/dashboard/dashboard.html"},
+        { "path" : "/app_plugins/UmbracoPackage._1/dashboard/dashboard/dashboardController.js"},
+        { "path" : "/app_plugins/UmbracoPackage._1/dashboard/dashboard/package.manifest"}
     ]
 }
