@@ -3,7 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
     <RootNamespace>UmbracoPackage._1</RootNamespace>
-  </PropertyGroup>
+
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<ContentTargetFolders>content</ContentTargetFolders>
+
+	</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="UmbracoCms.Web" Version="8.6.2" />
@@ -13,4 +17,8 @@
     <Exec Command="XCOPY $(TargetPath) $(SolutionDir)..\.website\bin\ /y /q &#xD;&#xA;" />
   </Target>
 
+	<ItemGroup>
+		<Content Include="App_Plugins\**\*" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
 </Project>

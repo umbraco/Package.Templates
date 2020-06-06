@@ -9,6 +9,7 @@ name: Build and Package
 env:
   OUTPUT: ./Output
   LIBRARY_FOLDER: ./src/UmbracoPackage.1
+  CONFIG: release
 
 on:
   push:
@@ -41,12 +42,12 @@ jobs:
         uses: microsoft/setup-msbuild@v1
       
       - name: Build Project
-        run: msbuild ./src -p:Configuration=Release
+        run: msbuild ./src -p:Configuration=${{ env.CONFIG }}
       
-      - name: nuget Pack 
-        run: nuget pack -Build ${{ env.LIBRARY_FOLDER }} -version ${{ steps.get_version.outputs.VERSION }} -Prop Configuration=Release -OutputDirectory ${{ env.OUTPUT }} -Symbols
+      - name: Create NuGet package file
+        run: dotnet pack ${{ env.LIBRARY_FOLDER }} -c ${{ env.CONFIG }} --no-build --include-symbols -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }} 
         
-      - name: create umbraco package
+      - name: Create Umbraco package file
         run: UmbPack pack ./src/package.xml -o ${{ env.OUTPUT }} -v ${{ steps.get_version.outputs.VERSION }}
         
       - name: upload-artifacts
@@ -54,8 +55,3 @@ jobs:
         with:
           name: Build-Results-${{ steps.get_version.outputs.VERSION }}
           path: ${{ env.OUTPUT }}/**/*
-
-
-
-
-
