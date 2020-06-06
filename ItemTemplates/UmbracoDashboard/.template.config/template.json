@@ -22,6 +22,7 @@
 
     "primaryOutputs": [
         { "path" : "/app_plugins/pluginname._1/dashboard/dashboard.html"},
-        { "path" : "/app_plugins/pluginname._1/dashboard/dashboard/Controller.js"}
+        { "path" : "/app_plugins/pluginname._1/dashboard/dashboard/dashboardController.js"}
+        { "path" : "/app_plugins/pluginname._1/dashboard/dashboard/package.manifest"}
     ]
 }
