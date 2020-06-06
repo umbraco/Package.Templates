@@ -34,13 +34,7 @@ jobs:
         
       - name: package
         run: dotnet pack -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }}
-
-      - name: Get a changelog between two references
-        id: changelog
-        uses: metcalfc/changelog-generator@v0.4.0
-        with:
-          mytoken: ${{ secrets.GITHUB_TOKEN }}
-      
+     
       - name: Create a release
         id: create_release
         uses: actions/create-release@v1
@@ -51,7 +45,6 @@ jobs:
           release_name: Release ${{ steps.get_version.outputs.VERSION }}
           body: | 
             New Release ${{ steps.get_version.outputs.VERSION }}
-            ${{ steps.changelog.outputs.steps.changelog.outputs.changelog }}
           draft: false
           prerelease: true
           
