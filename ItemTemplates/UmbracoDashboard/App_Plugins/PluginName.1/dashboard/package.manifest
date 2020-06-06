@@ -1,0 +1,12 @@
+{
+  "javascript": [
+      "~/App_Plugins/PluginName.1/dashboardController.js"
+  ],
+  "dashboards": [
+    {
+      "alias": "pluginname._1",
+      "view": "~/App_Plugins/PluginName.1/dashboard/dashboard.html",
+      "sections": [ "settings" ]
+    }
+  ]
+}
