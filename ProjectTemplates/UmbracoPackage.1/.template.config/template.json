@@ -14,7 +14,7 @@
   "identity": "Umbraco.Template.Package",
 
   "name": "Empty Umbraco Package",
-  "shortName": "umbraco-package",
+  "shortName": "umbraco-v8-package",
   "description": "Basic umbraco package project template",
 
   "sourceName": "UmbracoPackage.1",
@@ -23,6 +23,18 @@
 
   "sources": [
     {
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.vs/**",
+        "**/packages/**",
+        "**/node_modules/**",
+        "**/umbraco/**"
+      ],
       "modifiers": [
         {
           "condition": "(!GitHub)",
@@ -35,43 +47,85 @@
           "exclude": [
             ".website/**/*"
           ]
+        },
+        {
+          "condition": "(!dashboard)",
+          "exclude": [
+            "**/dashboard/**"
+          ]
+        },
+        {
+          "condition": "(!propertyEditory)",
+          "exclude": [
+            "**/property/**"
+          ]
         }
-
       ]
     }
   ],
 
-  "symbols": {
-      "GitHub" :
-      {
-        "type": "parameter",
-        "datatype": "bool",
-        "defaultValue": "true",
-        "description": "Include the GitHub Actions in the project."
-      },
-      "TestSite": {
-        "type": "parameter",
-        "datatype": "bool",
-        "defaultValue": "true",
-        "description": "Include the test umbraco site project in .website"
-      },
-      "ignore" :
-      {
-        "type": "generated",
-        "generator": "constant",
-        "description" : "puts .website in the gitignore",
-        "parameters": {
-          "value":".website"
-        },
-        "replaces":"# .website #"
-      },
-      "Restore" :{
-        "type": "parameter",
-        "datatype":"bool",
-        "defaultValue": "false",
-        "description": "Restore NuGet and NPM Modules"
+  "symbols": { 
+    "siteGuid" : {
+       "type": "generated",
+       "generator": "guid",
+       "replaces": "004F67C2-9A9E-49C3-8925-A55099E47D41",
+       "parameters": {
+         "format": "D"
+       }
+    },
+    "sitePort" : {
+      "type" : "generated",
+      "generator": "port",
+      "replaces": "44398",
+      "parameters": {
+        "high" :44399,
+        "low": 44300
       }
-      
+    },
+    "dashboard" : 
+    {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Include template code for a dashboard"
+    },
+    "propertyEditor" :
+    {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Include template code for a property Type Editor"
+    },
+    "github" :
+    {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Include the GitHub Actions in the project."
+    },
+    "testsite": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Include the test umbraco site project in .website"
+    },
+    "ignore" :
+    {
+      "type": "generated",
+      "generator": "constant",
+      "description" : "puts .website in the gitignore",
+      "parameters": {
+        "value":".website"
+      },
+      "replaces":"# .website #"
+    },
+    "restore" :{
+      "type": "parameter",
+      "datatype":"bool",
+      "defaultValue": "false",
+      "description": "Restore NuGet and NPM Modules"
+    }
+    
   },
 
 

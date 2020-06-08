@@ -15,7 +15,7 @@
     "groupIdentity": "Umbraco.Templates.Items.Github.Build",
 
     "name": "Umbraco Github build script",
-    "shortName": "umbraco-github-build",
+    "shortName": "umbraco-v8-github-build",
     "description": "Umbraco build.yml file for github actions",
 
     "sourceName": "UmbracoPackage.1",

@@ -15,7 +15,7 @@
     "groupIdentity": "Umbraco.Templates.Items.Dashboard",
 
     "name": "Umbraco Dashboard Item",
-    "shortName": "umbraco-dashboard",
+    "shortName": "umbraco-v8-dashboard",
     "description": "Umbraco dashboard files",
     
     "sourceName": "UmbracoPackage.1",

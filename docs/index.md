@@ -5,7 +5,7 @@
 A new blank project for building an umbraco package
 
 ```
-dotnet new umbraco-package -n MySuperAwesomePackage
+dotnet new umbraco-v8-package -n MySuperAwesomePackage
 ```
 
 # Item Templates
@@ -16,7 +16,7 @@ Adds the required javascript to a project to have a
 dashboard 
 
 ```
-dotnet new umbraco-dashboard 
+dotnet new umbraco-v8-dashboard 
 ```
 
 ## Add github actions to a current repository
@@ -24,5 +24,5 @@ dotnet new umbraco-dashboard
 Add the build.yml to your current project to build and package your project based on a `release\version` tag.
 
 ```
-dotnet new umbraco-github-build 
+dotnet new umbraco-v8-github-build 
 ```

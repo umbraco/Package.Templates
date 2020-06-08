@@ -21,4 +21,10 @@
 		<Content Include="App_Plugins\**\*" />
 		<Compile Remove="**\*" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="App_Plugins\UmbracoPackage.1\Dashboard\dashboard.html" />
+	  <None Remove="App_Plugins\UmbracoPackage.1\Dashboard\dashboardController.js" />
+	  <None Remove="App_Plugins\UmbracoPackage.1\Dashboard\package.manifest" />
+	</ItemGroup>
 </Project>

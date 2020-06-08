@@ -14,7 +14,7 @@
   "identity": "Umbraco.Template.Site",
 
   "name": "Empty Umbraco Site",
-  "shortName": "umbraco-site",
+  "shortName": "umbraco-v8-site",
   "description": "Basic umbraco site project template",
 
   "sourceName": "UmbracoSite.1",
@@ -37,6 +37,14 @@
   "preferNameDirectory": true,
 
   "symbols": {
+    "siteguid" : {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "B56F26F4-09D7-48AF-947D-66DEEE1A024B",
+      "parameters": {
+        "format": "D"
+      }
+   },    
       "Restore" :{
         "type": "parameter",
         "datatype":"bool",
