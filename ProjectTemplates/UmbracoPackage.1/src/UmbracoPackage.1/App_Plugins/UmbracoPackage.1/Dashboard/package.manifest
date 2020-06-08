@@ -8,7 +8,7 @@
       "sections": [
         "content"
       ],
-      "view": "~/App_Plugins/UmbracoPagkage.1/dashboard/dashboard.html"
+      "view": "~/App_Plugins/UmbracoPackage.1/dashboard/dashboard.html"
     }
   ]
 }
