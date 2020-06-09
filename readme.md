@@ -15,7 +15,7 @@ dotnet new -i [path-to-nuget]
 to see what packages you have installed run: 
 
 ```
-dotnet new -l
+dotnet new umbraco -l
 ```
 
 All the umbraco packages are prefixed `umbraco-` 
