@@ -45,12 +45,21 @@
         "format": "D"
       }
    },    
-      "Restore" :{
-        "type": "parameter",
-        "datatype":"bool",
-        "defaultValue": "false",
-        "description": "Restore NuGet and NPM Modules"
+   "sitePort" : {
+      "type" : "generated",
+      "generator": "port",
+      "replaces": "44321",
+      "parameters": {
+        "high" :44399,
+        "low": 44300
       }
+    },
+    "Restore" :{
+      "type": "parameter",
+      "datatype":"bool",
+      "defaultValue": "false",
+      "description": "Restore NuGet and NPM Modules"
+    }
   },
 
 
