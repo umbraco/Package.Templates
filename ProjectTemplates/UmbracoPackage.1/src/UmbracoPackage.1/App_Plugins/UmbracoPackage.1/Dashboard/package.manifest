@@ -1,5 +1,6 @@
 {
   "javascript": [
+    "~/App_Plugins/UmbracoPackage.1/dashboard/dashboardService.js",
     "~/App_Plugins/UmbracoPackage.1/dashboard/dashboardController.js"
   ],
   "dashboards": [
