@@ -47,11 +47,11 @@
    },    
    "sitePort" : {
       "type" : "generated",
-      "generator": "port",
+      "generator": "random",
       "replaces": "44321",
       "parameters": {
-        "high" :44399,
-        "low": 44300
+        "low": 44300,
+        "high" :44399
       }
     },
     "Restore" :{

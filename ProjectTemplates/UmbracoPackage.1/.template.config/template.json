@@ -75,12 +75,12 @@
     },
     "sitePort" : {
       "type" : "generated",
-      "generator": "port",
-      "replaces": "44398",
+      "generator": "random",
       "parameters": {
-        "high" :44399,
-        "low": 44300
-      }
+        "low": 44300,
+        "high" :44399
+      },
+      "replaces": "44398"
     },
     "dashboard" : 
     {
