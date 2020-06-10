@@ -23,14 +23,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="App_Plugins\UmbracoPackage.1\Dashboard\dashboard.html" />
-	  <None Remove="App_Plugins\UmbracoPackage.1\Dashboard\dashboardController.js" />
-	  <None Remove="App_Plugins\UmbracoPackage.1\Dashboard\dashboardService.js" />
-	  <None Remove="App_Plugins\UmbracoPackage.1\Dashboard\package.manifest" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Include="Controllers\DashboardComponent.cs" />
-	  <Compile Include="Controllers\DashboardController.cs" />
+	  <Compile Include="Controllers\**\*" />
 	</ItemGroup>
 </Project>
