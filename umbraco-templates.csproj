@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <Content Include="ProjectTemplates\**\*;ItemTemplates\**\*"
-             Exclude="**\bin\**;**\obj\**;**\.vs\**" />
+             Exclude="**\bin\**;**\obj\**;**\.vs\**;**\umbraco\**;**\packages\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
 </Project>
