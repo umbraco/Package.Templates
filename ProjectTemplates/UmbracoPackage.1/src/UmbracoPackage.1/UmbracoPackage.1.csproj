@@ -13,10 +13,6 @@
     <PackageReference Include="UmbracoCms.Web" Version="8.6.2" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="&#xD;&#xA;" />
-  </Target>
-
 	<ItemGroup>
 		<Content Include="App_Plugins\**\*" />
 		<Compile Remove="**\*" />
