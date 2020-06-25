@@ -43,9 +43,12 @@
           ]
         },
         {
-          "condition": "(!testsite)",
+          "condition": "(!testsite)", 
           "exclude": [
-            "**/.website/**/*"
+            "**/.website/**/*", 
+            "gulpfile.js",
+            "paths.json",
+            "package.json"
           ]
         },
         {
@@ -70,17 +73,18 @@
        "type": "generated",
        "generator": "guid",
        "replaces": "004F67C2-9A9E-49C3-8925-A55099E47D41",
-       "parameters": {
-         "format": "D"
-       }
+       "parameters": { "format": "D" }
+    },
+    "projectRefGuid" : {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "F002C1EA-C083-4C69-878C-C1875385E534",
+      "parameters": { "format": "D"}
     },
     "sitePort" : {
       "type" : "generated",
       "generator": "random",
-      "parameters": {
-        "low": 44300,
-        "high" :44399
-      },
+      "parameters": { "low": 44300, "high" :44399 },
       "replaces": "44398"
     },
     "dashboard" : 
@@ -130,7 +134,7 @@
   },
 
 
-  "postActions": [
+  "postActions": [   
     {
       "condition": "(restore)",
       "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
@@ -141,7 +145,7 @@
       "continueOnError": true
     },
     {
-      "condition": "(restore)",
+      "condition": "(testsite && restore)",
       "description": "Run npm install",
       "manualInstructions": [{"text": "Run 'npm install'"}],
       "actionId" :"3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",

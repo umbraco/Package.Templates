@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="XCOPY $(TargetPath) $(SolutionDir)..\.website\bin\ /y /q &#xD;&#xA;" />
+    <Exec Command="&#xD;&#xA;" />
   </Target>
 
 	<ItemGroup>
