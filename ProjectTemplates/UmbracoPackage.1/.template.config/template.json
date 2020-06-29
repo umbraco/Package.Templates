@@ -48,7 +48,8 @@
             "**/.website/**/*", 
             "gulpfile.js",
             "paths.json",
-            "package.json"
+            "package.json",
+            "*.sln"
           ]
         },
         {
