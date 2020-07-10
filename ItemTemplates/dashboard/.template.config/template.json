@@ -21,8 +21,12 @@
     "sourceName": "UmbracoPackage.1",
 
     "primaryOutputs": [
-        { "path" : "/app_plugins/UmbracoPackage._1/dashboard/dashboard.html"},
-        { "path" : "/app_plugins/UmbracoPackage._1/dashboard/dashboard/dashboardController.js"},
-        { "path" : "/app_plugins/UmbracoPackage._1/dashboard/dashboard/package.manifest"}
+        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/lang/en.xml"},
+        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/dashboard.html"},
+        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/dashboardService.html"},
+        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/dashboardController.js"},
+        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/package.manifest"},
+        { "path" : "/Controllers/DashboardComponent.cs"},
+        { "path" : "/Controllers/DashboardController.cs"}
     ]
 }
