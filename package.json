@@ -1,0 +1,25 @@
+{
+  "name": "package.templates",
+  "version": "1.0.0",
+  "description": "Package Templates for Umbraco",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umbraco/Package.Templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umbraco/Package.Templates/issues"
+  },
+  "homepage": "https://github.com/umbraco/Package.Templates#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
