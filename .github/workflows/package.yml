@@ -33,7 +33,7 @@ jobs:
         uses: actions/setup-dotnet@v1.4.0
         
       - name: package
-        run: dotnet pack -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }}
+        run: dotnet pack -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }} /p:PackageId=Testing.Tools.Package.Templates
      
       - name: Create a release
         id: create_release
@@ -58,6 +58,11 @@ jobs:
           asset_path: ${{ env.OUTPUT }}/${{ env.PACKAGE_NAME }}.${{ steps.get_version.outputs.VERSION }}.nupkg
           asset_name: ${{ env.PACKAGE_NAME }}.${{ steps.get_version.outputs.VERSION }}.nupkg
           asset_content_type: application/zip
+      
+      - name: Push package to NuGet
+        run: dotnet nuget push **/*.nupkg
+              --api-key ${{ secrets.NUGET_DEPLOY_KEY }}
+              --source https://api.nuget.org/v3/index.json
       
        
        
