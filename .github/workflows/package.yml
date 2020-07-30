@@ -4,7 +4,7 @@ name: Package
 
 env:
   OUTPUT: ./Output
-  PACKAGE_NAME: Jesper.Tools.Packages.Templates
+  PACKAGE_NAME: Umbraco.Tools.Packages.Templates
 
 # happens when a commit is tagged release/[version]
 on:
