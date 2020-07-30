@@ -4,7 +4,7 @@ name: Package
 
 env:
   OUTPUT: ./Output
-  PACKAGE_NAME: Umbraco.Packages.Templates
+  PACKAGE_NAME: Umbraco.Tools.Packages.Templates
 
 # happens when a commit is tagged release/[version]
 on:
@@ -33,7 +33,7 @@ jobs:
         uses: actions/setup-dotnet@v1.4.0
         
       - name: package
-        run: dotnet pack -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }} /p:PackageId=Testing.Tools.Package.Templates
+        run: dotnet pack -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }}
      
       - name: Create a release
         id: create_release
