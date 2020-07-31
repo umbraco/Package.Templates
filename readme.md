@@ -8,8 +8,13 @@ The templates can be used via the `dotnet new` command.
 You can install all the templates from a NuGet package
 
 ```
-dotnet new -i [path-to-nuget]
+dotnet new -i Umbraco.Tools.Packages.templates
 ```
+
+### Updating
+To check for any updates you can run the `dotnet new --update-check` command. 
+
+The `dotnet new --update-apply` command will update any of the installed template packages you have insalled.
 
 ## Usage
 to see what packages you have installed run: 
