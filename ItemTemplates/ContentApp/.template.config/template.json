@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "UmbracoPackageTeam",
+    "classifications": [
+        "Web",
+        "Umbraco",
+        "v8"
+    ],
+    "tags": {
+        "language": "C#",
+        "type": "item"
+    },
+
+    "identity": "Umbraco.Templates.Items.ContentApp",
+    "groupIdentity": "Umbraco.Templates.Items.ContentApp",
+
+    "name": "Umbraco Content App Item",
+    "shortName": "umbraco-v8-contentapp",
+    "description": "Umbraco content app files",
+    
+    "sourceName": "UmbracoPackage.1"
+}

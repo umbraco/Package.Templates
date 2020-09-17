@@ -60,9 +60,16 @@
           ]
         },
         {
-          "condition": "(!propertyEditory)",
+          "condition": "(!contentApp)",
           "exclude": [
-            "**/property/**"
+            "**/[Cc]ontent[Aa]pp/**/*",
+            "**/[Cc]ontent[Aa]pp*.cs"
+          ]
+        },
+        {
+          "condition": "(!propertyEditor)",
+          "exclude": [
+            "**/[Pp]roperty[Ee]ditor/**"
           ]
         }
       ]
@@ -95,12 +102,19 @@
       "defaultValue": "false",
       "description": "Include template code for a dashboard"
     },
+    "contentApp" : 
+    {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Include template code for a content app"
+    },
     "propertyEditor" :
     {
       "type": "parameter",
       "datatype": "bool",
       "defaultValue": "false",
-      "description": "Include template code for a property Type Editor"
+      "description": "Include template code for a property Type Editor (not yet implemented)"
     },
     "github" :
     {
