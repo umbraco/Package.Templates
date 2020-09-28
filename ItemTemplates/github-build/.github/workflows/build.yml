@@ -42,7 +42,7 @@ jobs:
         uses: microsoft/setup-msbuild@v1
       
       - name: Build Project
-        run: msbuild ./src -p:Configuration=${{ env.CONFIG }}
+        run: msbuild ./src -p:Configuration=${{ env.CONFIG }} /t:Restore
       
       - name: Create NuGet package file
         run: dotnet pack ${{ env.LIBRARY_FOLDER }} -c ${{ env.CONFIG }} --no-build --include-symbols -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }} 
