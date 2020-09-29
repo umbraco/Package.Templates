@@ -33,7 +33,7 @@ Supply the name of the project on the command line, this will
 setup the namespaces and folders within the project. 
 
 ```
-dotnet new Umbraco.Package -n MySuperNewPackage
+dotnet new umbraco-v8-package -n MySuperNewPackage
 ```
 ---
 ## Developing this Repository
