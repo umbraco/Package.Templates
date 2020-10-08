@@ -40,7 +40,10 @@ jobs:
         
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
-      
+
+      - name: Restore Packages
+        run: dotnet restore ./src
+
       - name: Build Project
         run: msbuild ./src -p:Configuration=${{ env.CONFIG }}
       

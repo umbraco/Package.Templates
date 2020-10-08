@@ -1,17 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
-    <RootNamespace>UmbracoPackage._1</RootNamespace>
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<RootNamespace>UmbracoPackage._1</RootNamespace>
 
 		<IncludeContentInPack>true</IncludeContentInPack>
 		<ContentTargetFolders>content</ContentTargetFolders>
-
 	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="UmbracoCms.Web" Version="8.6.2" />
-  </ItemGroup>
+	<PropertyGroup>
+		<OutputPath>bin\output\</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="UmbracoCms.Web" Version="8.6.2" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<Content Include="App_Plugins\**\*" />
@@ -19,6 +23,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Include="Controllers\**\*" />
+		<Compile Include="Controllers\**\*" />
 	</ItemGroup>
 </Project>
