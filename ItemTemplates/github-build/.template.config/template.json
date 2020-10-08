@@ -20,6 +20,15 @@
 
     "sourceName": "UmbracoPackage.1",
 
+    "symbols": { 
+        "packageFile" : {
+            "type": "parameter",
+            "defaultValue": "./package.xml",
+            "replaces": "./package.xml",
+            "description": "Path to your package.xml file"
+        }
+    },
+
     "primaryOutputs": [
         {"path": "/.github/workflows/build.yml"}
     ]
