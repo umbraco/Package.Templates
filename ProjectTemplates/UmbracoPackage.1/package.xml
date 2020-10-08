@@ -21,7 +21,7 @@
   </info>
   <files>
     <folder path="src/UmbracoPackage.1/App_Plugins/UmbracoPackage.1" orgPath="App_Plugins/UmbracoPackage.1" />
-    <file path="src/UmbracoPackage.1/bin/release/UmbracoPackage.1.dll" orgPath="bin/UmbracoPackage.1.dll" />
+    <file path="src/UmbracoPackage.1/bin/output/UmbracoPackage.1.dll" orgPath="bin/UmbracoPackage.1.dll" />
   </files>
   <Actions />
   <control />
