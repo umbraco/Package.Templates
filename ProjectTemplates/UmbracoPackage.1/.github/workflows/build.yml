@@ -53,6 +53,10 @@ jobs:
       # path to your package.xml file should go here.
       - name: Create Umbraco package file
         run: UmbPack pack ./package.xml -o ${{ env.OUTPUT }} -v ${{ steps.get_version.outputs.VERSION }}
+
+#        For the push step to work you will need to create an api key on Our, and save it as a secret on Github with the name "UMBRACO_DEPLOY_KEY"
+#      - name: Push package to Our
+#        run: umbpack push ${{ env.OUTPUT }}/UmbracoPackage.1_${{ steps.get_version.outputs.VERSION }}.zip -k ${{ secrets.UMBRACO_DEPLOY_KEY }}
         
       - name: upload-artifacts
         uses: actions/upload-artifact@v2
