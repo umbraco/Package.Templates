@@ -49,10 +49,18 @@ jobs:
       
       - name: Create NuGet package file
         run: dotnet pack ${{ env.LIBRARY_FOLDER }} -c ${{ env.CONFIG }} --no-build --include-symbols -o ${{ env.OUTPUT }} /p:version=${{ steps.get_version.outputs.VERSION }} 
+
+#      # For the push step to work you will need to create an api key on NuGet, and save it as a secret on Github with the name "NUGET_DEPLOY_KEY"
+#      - name: Push package to NuGet
+#        run: dotnet nuget push ${{ env.OUTPUT }}/*.nupkg -k ${{ secrets.NUGET_DEPLOY_KEY } -s https://api.nuget.org/v3/index.json
         
       # path to your package.xml file should go here.
       - name: Create Umbraco package file
         run: UmbPack pack ./package.xml -o ${{ env.OUTPUT }} -v ${{ steps.get_version.outputs.VERSION }}
+
+#      # For the push step to work you will need to create an api key on Our, and save it as a secret on Github with the name "UMBRACO_DEPLOY_KEY"
+#      - name: Push package to Our
+#        run: umbpack push ${{ env.OUTPUT }}/UmbracoPackage.1_${{ steps.get_version.outputs.VERSION }}.zip -k ${{ secrets.UMBRACO_DEPLOY_KEY }}
         
       - name: upload-artifacts
         uses: actions/upload-artifact@v2
