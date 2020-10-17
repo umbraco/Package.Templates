@@ -4,6 +4,10 @@ This repository contains some templates for starting new Umbraco package project
 
 The templates can be used via the `dotnet new` command. 
 
+## Pre-requisite
+You must be using Visual Studio 2019 to work with these templates.
+
+
 ## Installation 
 You can install all the templates from a NuGet package
 
