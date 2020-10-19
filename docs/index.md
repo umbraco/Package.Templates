@@ -1,5 +1,8 @@
 # Project Templates
 
+## Pre-requisite
+You must be using Visual Studio 2019 else you are likely to have Roslyn issues.
+
 ## 1. Create a new Umbraco Package
 
 A new blank project for building an umbraco package
