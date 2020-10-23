@@ -53,6 +53,13 @@
           ]
         },
         {
+          "condition": "(!contentApp)",
+          "exclude": [
+            "**/[Cc]ontent[Aa]pp/**/*",
+            "**/[Cc]ontent[Aa]pp*.cs"
+          ]
+        },
+        {
           "condition": "(!dashboard)",
           "exclude": [
             "**/[Dd]ashboard/**/*",
@@ -87,6 +94,13 @@
       "generator": "random",
       "parameters": { "low": 44300, "high" :44399 },
       "replaces": "44398"
+    },
+    "contentApp" : 
+    {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Include template code for a content app"
     },
     "dashboard" : 
     {
