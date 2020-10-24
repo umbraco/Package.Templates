@@ -18,15 +18,5 @@
     "shortName": "umbraco-v8-dashboard",
     "description": "Umbraco dashboard files",
     
-    "sourceName": "UmbracoPackage.1",
-
-    "primaryOutputs": [
-        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/lang/en.xml"},
-        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/dashboard.html"},
-        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/dashboardService.html"},
-        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/dashboardController.js"},
-        { "path" : "/App_Plugins/UmbracoPackage._1/dashboard/dashboard/package.manifest"},
-        { "path" : "/Controllers/DashboardComponent.cs"},
-        { "path" : "/Controllers/DashboardController.cs"}
-    ]
+    "sourceName": "UmbracoPackage.1"
 }
