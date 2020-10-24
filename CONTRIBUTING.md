@@ -88,6 +88,7 @@ You need to copy in the source files that you added to the Project Template; the
 Open a command prompt in the root of the Package.Templates repository:
 ```
 npm install
+npm install gulp -g
 gulp
 ```
 
