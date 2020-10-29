@@ -3,13 +3,16 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageId>Umbraco.Packages.Templates</PackageId>
-    
-    <Title>Umbraco Package Templates</Title>
-    <Authors>UmbracoPackageTeam</Authors>
-    <Description>Templates to use when creating umbraco packages</Description>
-    <PackageTags>umbraco</PackageTags>
 
     <TargetFramework>net472</TargetFramework>
+
+    <Title>Umbraco Package Templates</Title>
+    <Description>Templates to use when creating Umbraco packages</Description>
+    <Authors>The Umbraco Community</Authors>
+    <PackageProjectUrl>https://github.com/umbraco/Umbraco.Package.Templates</PackageProjectUrl>
+    <PackageTags>umbraco</PackageTags>
+    <RepositoryUrl>https://github.com/umbraco/Umbraco.Package.Templates</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
 
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
