@@ -65,12 +65,6 @@
             "**/[Dd]ashboard/**/*",
             "**/[Dd]ashboard*.cs"
           ]
-        },
-        {
-          "condition": "(!propertyEditory)",
-          "exclude": [
-            "**/property/**"
-          ]
         }
       ]
     }
@@ -108,13 +102,6 @@
       "datatype": "bool",
       "defaultValue": "false",
       "description": "Include template code for a dashboard"
-    },
-    "propertyEditor" :
-    {
-      "type": "parameter",
-      "datatype": "bool",
-      "defaultValue": "false",
-      "description": "Include template code for a property Type Editor"
     },
     "github" :
     {
