@@ -21,8 +21,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="ProjectTemplates\**\*;ItemTemplates\**\*"
-             Exclude="**\bin\**;**\obj\**;**\.vs\**;**\umbraco\**;**\packages\**" />
+    <Content Include="ProjectTemplates\**\*;ItemTemplates\**\*" Exclude="**\bin\**;**\obj\**;**\.vs\**;**\umbraco\**;**\packages\**" />
     <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ItemTemplates\PropertyEditor\App_Plugins\UmbracoPackage.1\PropertyEditor\editor.controller.js" />
+    <None Remove="ItemTemplates\PropertyEditor\App_Plugins\UmbracoPackage.1\PropertyEditor\editor.html" />
+    <None Remove="ItemTemplates\PropertyEditor\App_Plugins\UmbracoPackage.1\PropertyEditor\package.manifest" />
+    <None Remove="ProjectTemplates\UmbracoPackage.1\src\UmbracoPackage.1\App_Plugins\UmbracoPackage.1\MarkdownPropertyEditor\editor.controller.js" />
+    <None Remove="ProjectTemplates\UmbracoPackage.1\src\UmbracoPackage.1\App_Plugins\UmbracoPackage.1\MarkdownPropertyEditor\editor.html" />
+    <None Remove="ProjectTemplates\UmbracoPackage.1\src\UmbracoPackage.1\App_Plugins\UmbracoPackage.1\MarkdownPropertyEditor\package.manifest" />
+    <None Remove="ProjectTemplates\UmbracoPackage.1\src\UmbracoPackage.1\App_Plugins\UmbracoPackage.1\PropertyEditor\editor.controller.js" />
+    <None Remove="ProjectTemplates\UmbracoPackage.1\src\UmbracoPackage.1\App_Plugins\UmbracoPackage.1\PropertyEditor\editor.html" />
+    <None Remove="ProjectTemplates\UmbracoPackage.1\src\UmbracoPackage.1\App_Plugins\UmbracoPackage.1\PropertyEditor\package.manifest" />
   </ItemGroup>
 </Project>

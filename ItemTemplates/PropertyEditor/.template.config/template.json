@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "UmbracoPackageTeam",
+  "classifications": [
+    "Web",
+    "Umbraco",
+    "v8"
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+
+  "identity": "Umbraco.Templates.Items.PropertyEditor",
+  "groupIdentity": "Umbraco.Templates.Items.PropertyEditor",
+
+  "name": "Umbraco Property Editor Item",
+  "shortName": "umbraco-v8-dashboard",
+  "description": "Umbraco property editor files",
+
+  "sourceName": "UmbracoPackage.1"
+}
