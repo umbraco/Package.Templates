@@ -1,0 +1,1241 @@
+Couldn't find an installed template that matches the input, searching online for one that does...
+Matches from template source: NuGet
+-----------------------------------
+Template name "Cynosura" (cynosura) from author "Vassily Ivanov" in pack Cynosura.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Cynosura.Template::0.2.1-b327
+
+Template name "Clean Architecture Solution" (ca-sln) from author "Jason Taylor" in pack Clean.Architecture.Solution.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Clean.Architecture.Solution.Template::1.1.1
+
+Template name "Azure Functions" (func) from author "Microsoft" in pack Microsoft.Azure.WebJobs.ProjectTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.Azure.WebJobs.ProjectTemplates::3.1.1624
+
+Template name "Saturn" (Saturn) from author "Krzysztof Cieslak" in pack Saturn.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Saturn.Template::0.14.1
+
+Template name "Minimal ASP.Net Core with Vue.js" (simplevue) from author "Jaxel Rojas" in pack Vue.Simple.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Vue.Simple.Template::0.5.0
+
+Template name "Minimal Elmish application with Fulma support" (fulma-minimal) from author "Maxime Mangel" in pack Fable.Template.Fulma.Minimal
+    To use this template, run the following command and try again:
+        dotnet new -i Fable.Template.Fulma.Minimal::3.1.1
+
+Template name "Clean Architecture Project Template" (cleanarchitecture) from author "Jacob Duijzer" in pack JacobsApps.CleanArchitectureProjectTemplate.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i JacobsApps.CleanArchitectureProjectTemplate.CSharp::2.6.3
+
+Template name "FewBox Plugin" (fbp) from author "FewBox" in pack FewBox.Template.Service
+    To use this template, run the following command and try again:
+        dotnet new -i FewBox.Template.Service::0.0.35
+
+Template name "Beef (Business Entity Execution Framework) solution" (beef) from author "Beef (https://github.com/avanade/beef)" in pack Beef.Template.Solution
+    To use this template, run the following command and try again:
+        dotnet new -i Beef.Template.Solution::4.1.2
+
+Template name "OSharp Build Command File" (osharp) from author "LiuliuSoft" in pack OSharpNS.Template.Mvc_Angular
+Template name "OSharp Solution Project" (osharp_sln) from author "LiuliuSoft" in pack OSharpNS.Template.Mvc_Angular
+Template name "OSharp EntityConfiguration Project" (osharp_entityconfig) from author "LiuliuSoft" in pack OSharpNS.Template.Mvc_Angular
+Template name "OSharp Angular Project" (osharp_ng) from author "LiuliuSoft" in pack OSharpNS.Template.Mvc_Angular
+    To use this template, run the following command and try again:
+        dotnet new -i OSharpNS.Template.Mvc_Angular::3.1.2.326
+
+Template name "C/C++/CPP/VCXPROJ Build Template using GCC/G++" (gccbuild) from author "Roozbeh GH." in pack GCC.Build.Template
+    To use this template, run the following command and try again:
+        dotnet new -i GCC.Build.Template::1.19.325.4
+
+Template name "ASP NET Core with Angular" (dotnetng) from author "Dima Belov" in pack dotnetng.template
+    To use this template, run the following command and try again:
+        dotnet new -i dotnetng.template::1.0.0.10
+
+Template name "Angular Template" (nordron-angular) from author "NorDroN" in pack NorDroN.AngularTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i NorDroN.AngularTemplate::0.1.6
+
+Template name "Hub3c Integration Template Project" (hub3c) from author "Armand Caesario" in pack Hub3c.Integration.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Hub3c.Integration.Template::0.0.3
+
+Template name "Template with Newbe.Mahua for all QQ robot platform" (newbe.mahua.all) from author "newbe36524" in pack Newbe.Mahua.Template
+Template name "Template with Newbe.Mahua for CQP" (newbe.mahua.cqp) from author "newbe36524" in pack Newbe.Mahua.Template
+Template name "Template with Newbe.Mahua for MPQ" (newbe.mahua.mpq) from author "newbe36524" in pack Newbe.Mahua.Template
+Template name "Template with Newbe.Mahua for QQLight" (newbe.mahua.qqlight) from author "newbe36524" in pack Newbe.Mahua.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Newbe.Mahua.Template::1.19.0
+
+Template name "Suave v0.0.1" (Suave) from author "Jacob Chang" in pack Suave.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Suave.Template::0.0.1
+
+Template name "FarNet module" (farnet) from author "Roman Kuzmin" in pack FarNet.template
+    To use this template, run the following command and try again:
+        dotnet new -i FarNet.template::1.0.1
+
+Template name "ASP.NET Core Kubernetes App" (k8sapp) from author "https://github.com/cushind" in pack AspNetCore.Kubernetes.Template
+    To use this template, run the following command and try again:
+        dotnet new -i AspNetCore.Kubernetes.Template::1.0.0
+
+Template name "ASP.NET Core with Vue, Vuex and TypeScript" (vuetypescript) from author "Danijel Hrcek" in pack AspNetCore.Vue.TypeScript.Template
+    To use this template, run the following command and try again:
+        dotnet new -i AspNetCore.Vue.TypeScript.Template::2.0.0
+
+Template name "ReSharper Minimal Plugin" (ReSharper.MinimalPlugin) from author "Yan Drugalya" in pack ReSharper.MinimalPluginTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i ReSharper.MinimalPluginTemplate::1.0.0
+
+Template name "Build Task NuGet Package" (nugetbuildtask) from author "Curtis Carter" in pack BuildTaskNuGetPackage.Template
+    To use this template, run the following command and try again:
+        dotnet new -i BuildTaskNuGetPackage.Template::0.0.0.2
+
+Template name "TeGun Project Template 0.4.0" (tegun) from author "Alexander Clare" in pack dotnet-tegun.template
+    To use this template, run the following command and try again:
+        dotnet new -i dotnet-tegun.template::0.4.1
+
+Template name "Custom Code Generator for ASP.NET Core" (codegenerator) from author "Prafull Bhosale" in pack CustomAspNetCodeGeneratorTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i CustomAspNetCodeGeneratorTemplate::1.0.0
+
+Template name "Clean Architecture Solution" (cas) from author "ilker Ayti" in pack Matech.Clean.Architecture.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Matech.Clean.Architecture.Template::1.0.6
+
+Template name "Thunder Web Framework Template" (thunder) from author "Jeferson Tenorio" in pack Thunder.Web.Framework.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Thunder.Web.Framework.Template::1.0.11
+
+Template name "Cake Frosting Build Script" (cakefrosting) from author "Patrik Svensson, Mattias Karlsson, Gary Ewan Park, Alistair Chapman, Martin Björkström, Dave Glick, Pascal Berger, Jérémie Desautels, Enrico Campidoglio and contributors" in pack Cake.Frosting.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Cake.Frosting.Template::1.0.0-rc0001
+
+Template name "ASP.NET Web API for Raspbery Pi for Linux" (rpiwebapi) from author "José Manuel Nieto (@SuperJMN)" in pack RaspberryPi.Template.WebApi
+    To use this template, run the following command and try again:
+        dotnet new -i RaspberryPi.Template.WebApi::0.2.1
+
+Template name "Maple branch module template" (mt) from author "Maple512" in pack Maple.Branch.Module.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Maple.Branch.Module.Template::1.0.0
+
+Template name "Stream Deck Plugin" (streamdeck-plugin) from author "csharpfritz" in pack StreamDeckPluginTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i StreamDeckPluginTemplate::0.4.480
+
+Template name "Leaf templates: MicroService Module" (leafmodule) from author "Maple512" in pack Leaf.Module.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Leaf.Module.Template::2.8.0
+
+Template name ".NET Core project with unit test" (yzproj) from author "Yu Zhu" in pack com.zhusmelb.Template.Project
+    To use this template, run the following command and try again:
+        dotnet new -i com.zhusmelb.Template.Project::1.0.9
+
+Template name "HanaTech Build Command File" (hanatech) from author "HanaTechQD" in pack HanaTech.Template.Mvc_Angular
+Template name "HanaTech Solution Project" (hanatech_sln) from author "HanaTechQD" in pack HanaTech.Template.Mvc_Angular
+Template name "HanaTech EntityConfiguration Project" (hanatech_entityconfig) from author "HanaTechQD" in pack HanaTech.Template.Mvc_Angular
+    To use this template, run the following command and try again:
+        dotnet new -i HanaTech.Template.Mvc_Angular::3.1.3.9
+
+Template name "MSBuild Extension" (msbuild-extension) from author "Adam Friedman (tintoy@tintoy.io)" in pack MSBuildExtensionTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i MSBuildExtensionTemplate::0.1.0
+
+Template name "bUnit Test Project" (bunit) from author "Egil Hansen" in pack bunit.template
+    To use this template, run the following command and try again:
+        dotnet new -i bunit.template::1.0.0-beta-11
+
+Template name "Rafael template de testes local" (meu-template) from author "Rafael Neto" in pack Rafael.Neto.Teste.Template.Api
+    To use this template, run the following command and try again:
+        dotnet new -i Rafael.Neto.Teste.Template.Api::1.0.0
+
+Template name "Wiz Template - Azure Function v2 (Core)" (wizfunction) from author "Wiz Solucoes e Corretagem de Seguros S.A." in pack Wiz.Dotnet.Template.Function
+    To use this template, run the following command and try again:
+        dotnet new -i Wiz.Dotnet.Template.Function::1.1.26021
+
+Template name "Audited Web API" (webapiaudit) from author "Federico Colombo" in pack Audit.WebApi.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Audit.WebApi.Template::1.0.0
+
+Template name "IntelliTect Coalesce Web App Vue Template" (coalescevue) from author "IntelliTect" in pack IntelliTect.Coalesce.Vue.Template
+    To use this template, run the following command and try again:
+        dotnet new -i IntelliTect.Coalesce.Vue.Template::1.0.13
+
+Template name "Plugin for the Flow launcher" (flow-plugin) from author "Ioannis G." in pack Flow.Launcher.Plugin.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Flow.Launcher.Plugin.Template::1.1.0
+
+Template name "Philadelphia Toolkit Powered Web Solution" (phillyapp) from author "Dominik Pytlewski and Tomasz Sztokinier" in pack Philadelphia.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Philadelphia.Template::0.20.9.1
+
+Template name "FUSEE Application" (fusee) from author "Christoph Müller" in pack Fusee.Template.dotnet
+    To use this template, run the following command and try again:
+        dotnet new -i Fusee.Template.dotnet::0.8.2
+
+Template name "Clean Architecture Template [Web API]" (cleanarch) from author "Krzysztof Tutak" in pack Clean.Architecture.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Clean.Architecture.Template::1.0.48
+
+Template name "PowerShell Standard Module" (psmodule) from author "Microsoft Corporation" in pack Microsoft.PowerShell.Standard.Module.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.PowerShell.Standard.Module.Template::0.1.3
+
+Template name "Chromely CefGlue Windows Application Template" (chromelywin) from author "Chromely Projects" in pack Chromely.CefGlue.Win.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Chromely.CefGlue.Win.Template::70.0.0
+
+Template name "OASP4Net API solution template" (OASP4NetAPI) from author "Capgemini Valencia " in pack OASP4Net.WebAPI.Template
+    To use this template, run the following command and try again:
+        dotnet new -i OASP4Net.WebAPI.Template::1.0.0
+
+Template name "Plugin Library for the Wox launcher" (wox-plugin) from author "Ioannis G." in pack Wox.Plugin.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Wox.Plugin.Template::1.1.0
+
+Template name "Genocs: Clean Architecture for .NET Core" (cleanarchitecture) from author "Nocco Giovanni Emanuele" in pack Genocs.CleanArchitectureTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i Genocs.CleanArchitectureTemplate::0.1.13
+
+Template name "Invoke-Build script" (ib) from author "Roman Kuzmin" in pack Invoke-Build.template
+    To use this template, run the following command and try again:
+        dotnet new -i Invoke-Build.template::1.0.2
+
+Template name ".NET Core MVC SPA using Vue with Auth" (jeffb.mvc2) from author "Jeff Brown" in pack jeffb.template.MvcVueSpa.Auth
+    To use this template, run the following command and try again:
+        dotnet new -i jeffb.template.MvcVueSpa.Auth::1.1.0
+
+Template name "Microsoft Teams Outgoing Webhook Application" (teamswebhook) from author "Tony Xia" in pack MicrosoftTeams.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i MicrosoftTeams.Templates::0.9.5
+
+Template name "Azure functions timer function (DI)" (smairo-function-timer) from author "Miro Holopainen" in pack Smairo.Template.AzureFunction.Timer
+    To use this template, run the following command and try again:
+        dotnet new -i Smairo.Template.AzureFunction.Timer::3.2.1
+
+Template name "Devon4Net API solution template" (Devon4NetAPI) from author "Capgemini Valencia " in pack Devon4Net.WebAPI.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Devon4Net.WebAPI.Template::3.1.4
+
+Template name "Camunda Console Process Template" (CamundaProcess) from author "Sjef van Leeuwen" in pack CamundaProcessTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i CamundaProcessTemplate::0.0.2
+
+Template name "DooM Template Multi Tenancy - Erick pinheiro - Web API .NET Core 3 " (doom-mt) from author "Erick Pinheiro de Sousa" in pack Template.Api.Multi.Tenancy
+    To use this template, run the following command and try again:
+        dotnet new -i Template.Api.Multi.Tenancy::1.0.0
+
+Template name "Barebones MVC application using super package" (jeffb.mvc1) from author "Jeff Brown" in pack jeffb.template.BareMvcAll
+    To use this template, run the following command and try again:
+        dotnet new -i jeffb.template.BareMvcAll::1.0.1
+
+Template name "FlubuCore Build Script" (FlubuCore) from author "Marko Zorec(mzorec@gmail.com)" in pack FlubuCore.Template
+    To use this template, run the following command and try again:
+        dotnet new -i FlubuCore.Template::5.1.8
+
+Template name "XPNet X-Plane Plugin" (xpnetplugin) from author "Stephen Quattlebaum" in pack XPNet.CLR.Template
+    To use this template, run the following command and try again:
+        dotnet new -i XPNet.CLR.Template::0.1.5
+
+Template name "Nullforce Template for GitHub" (nf-github) from author "nullforce" in pack Nullforce.DotnetTemplate.GitHub
+    To use this template, run the following command and try again:
+        dotnet new -i Nullforce.DotnetTemplate.GitHub::0.1.1-ci0009
+
+Template name "ASP.NET CORE love Vue" (netvue) from author "treenew" in pack Aoite.Template.NetVue
+    To use this template, run the following command and try again:
+        dotnet new -i Aoite.Template.NetVue::1.0.4
+
+Template name "Barebones MVC application using super package" (jeffb.vue) from author "Jeff Brown" in pack jeffb.template.MvcVueSpa
+    To use this template, run the following command and try again:
+        dotnet new -i jeffb.template.MvcVueSpa::1.0.0
+
+Template name "Sequor Microservice Template" (sequor-ms) from author "Sequor Industrial Software" in pack Sequor.Microservice.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Sequor.Microservice.Template::2.0.4
+
+Template name "Custom template for Xamarin cross platform libraries and bindings" (hw-structure) from author "HolisticWare/Xamarin moljac Miljenko Mel Cvjetko" in pack HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp::2019.11.27.2149
+
+Template name "Course for Xamarin University" (xamu-course) from author "Adam Patridge" in pack XamarinUniversity.ContentTemplates
+Template name "Course Objective for Xamarin University" (xamu-objective) from author "Adam Patridge" in pack XamarinUniversity.ContentTemplates
+Template name "Course exercise for Xamarin University" (xamu-exercise) from author "Adam Patridge" in pack XamarinUniversity.ContentTemplates
+Template name "Course Page for Xamarin University" (xamu-page) from author "Adam Patridge" in pack XamarinUniversity.ContentTemplates
+Template name "Course Page for Xamarin University" (xamu-videoPage) from author "Adam Patridge" in pack XamarinUniversity.ContentTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i XamarinUniversity.ContentTemplates::0.8.6
+
+Template name "IntelliTect Coalesce Web App KnockoutJS Template" (coalesceko) from author "IntelliTect" in pack IntelliTect.Coalesce.KnockoutJS.Template
+    To use this template, run the following command and try again:
+        dotnet new -i IntelliTect.Coalesce.KnockoutJS.Template::1.0.9
+
+Template name "Pursue.Template.Core" (Pursue.Template) from author "Reborn" in pack Pursue.Template.Core
+    To use this template, run the following command and try again:
+        dotnet new -i Pursue.Template.Core::1.0.4
+
+Template name "OA.RSI Architecture Dotnet" (oarsitpl) from author "Onlly Archibald" in pack OA.RSI.Template
+    To use this template, run the following command and try again:
+        dotnet new -i OA.RSI.Template::1.0.7
+
+Template name "Hcf Build Command File" (hcf) from author "Lemon" in pack HcfNS.Template.Mvc_Layui
+Template name "Hcf Solution Project" (hcf_sln) from author "Lemon" in pack HcfNS.Template.Mvc_Layui
+Template name "Hcf EntityConfiguration Project" (hcf_entityconfig) from author "Lemon" in pack HcfNS.Template.Mvc_Layui
+    To use this template, run the following command and try again:
+        dotnet new -i HcfNS.Template.Mvc_Layui::3.3.1.2
+
+Template name "DefiantCode Cake Frosting Build Script" (cakefrosting-dc) from author "defiantcode" in pack DefiantCode.Cake.Frosting.Template
+    To use this template, run the following command and try again:
+        dotnet new -i DefiantCode.Cake.Frosting.Template::0.0.4
+
+Template name "Anny Dotnet Core 3 With Vue Cli 3" (annydotnetvuecli) from author "Anny Chang" in pack Anny.DotnetCore.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Anny.DotnetCore.Template::1.0.3
+
+Template name "Market6 Cake Frosting Build Script" (cakefrosting-m6) from author "market6" in pack MK6.Tools.CakeBuild.Frosting.Template
+    To use this template, run the following command and try again:
+        dotnet new -i MK6.Tools.CakeBuild.Frosting.Template::0.0.5
+
+Template name "UnderTest Test Project" (undertest) from author "Ron Myers (@ronkmyers)" in pack UnderTest.Templates
+Template name "UnderTest Feature" (undertest-feature) from author "Ron Myers (@ronkmyers)" in pack UnderTest.Templates
+Template name "UnderTest Feature Handler" (undertest-featurehandler) from author "Ron Myers (@ronkmyers)" in pack UnderTest.Templates
+Template name "UnderTest FeatureService" (undertest-featureservice) from author "Ron Myers (@ronkmyers)" in pack UnderTest.Templates
+Template name "UnderTest Step Parameter" (undertest-stepparam) from author "Ron Myers (@ronkmyers)" in pack UnderTest.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i UnderTest.Templates::0.6.0
+
+Template name "Serverless AspNet Core Azure Function App" (serverless-aspnetcore) from author "Nico Lachmuth" in pack NL.Serverless.AspNetCore.Template
+    To use this template, run the following command and try again:
+        dotnet new -i NL.Serverless.AspNetCore.Template::3.0.9
+
+Template name "ASP.NET Core Web API via Visual Basic" (webapivb) from author "Tomoaki Masuda" in pack Moonmile.WebapiTemplate.VB
+    To use this template, run the following command and try again:
+        dotnet new -i Moonmile.WebapiTemplate.VB::0.1.0
+
+Template name "Wiz Template Multitenant - Web API .NET Core 3" (wizapi-multitenant) from author "Wiz Solucoes e Corretagem de Seguros S.A." in pack Wiz.Dotnet.Template.Multitenant.API
+    To use this template, run the following command and try again:
+        dotnet new -i Wiz.Dotnet.Template.Multitenant.API::1.1.36512
+
+Template name "SharpPad Template (.NET Core 3.0 - Synchronous)" (sharppad3-sync) from author "Sidney Andrews" in pack SharpPad.Template.NETCore30
+    To use this template, run the following command and try again:
+        dotnet new -i SharpPad.Template.NETCore30::1.4.0
+
+Template name "ZhouYou WebApi" (zhouyouwebapi) from author "ZhouYou" in pack ZY.Template.Core
+    To use this template, run the following command and try again:
+        dotnet new -i ZY.Template.Core::1.0.0.4
+
+Template name "BoB AutoMapper Config project" (BoB.AutoMapper) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB BaseModule project" (BoB.BaseModule) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Customize Exceptions Handler project" (BoB.Exceptions) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Customize Logger Handler project" (BoB.BoBLogger) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Customize Cache Manager project" (BoB.CacheManager) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Quick Start HelloWorldApi project" (BoB.HelloWorldApi) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Language Manager project" (BoB.LanguageManager) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Quick Start MainDatabase project" (BoB.MainDatabase) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Quick Start PeopleEntities project" (BoB.PeopleEntities) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Base Front end bus project" (BoB.UseBus) from author "Li YingCheng" in pack BoB.BaseTemplate
+Template name "BoB Quick Start WorldAction project" (BoB.WorldAction) from author "Li YingCheng" in pack BoB.BaseTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i BoB.BaseTemplate::1.0.3
+
+Template name "ASP.NET 3.1 + Vue + Vuex + Vuetify + Router" (vue-vuetify) from author "Diego Vieira" in pack aspnetcore-vuejs-template
+    To use this template, run the following command and try again:
+        dotnet new -i aspnetcore-vuejs-template::1.0.1
+
+Template name "ASP.NET Core RESTfulAPI Template by Larsson" (restful-api-l) from author "Larsson SUN" in pack Larsson.Template.RESTfulAPI
+    To use this template, run the following command and try again:
+        dotnet new -i Larsson.Template.RESTfulAPI::1.0.4
+
+Template name "Paul.Core Dotnet" (paulcoretpl) from author "Paul" in pack Paul.core.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Paul.core.Template::1.0.0
+
+Template name "ASP.NET Core with Vue.js" (vue) from author "Douglas Cameron" in pack Nyami.AspNetCore.Vue.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Nyami.AspNetCore.Vue.Template::3.1.2
+
+Template name "MSBuild.Sdk.CMake.Template.Library" (cmlib) from author "Itn3000" in pack MSBuild.Sdk.CMake.Template.Library
+    To use this template, run the following command and try again:
+        dotnet new -i MSBuild.Sdk.CMake.Template.Library::0.1.0
+
+Template name "ASP.NET Core, React, Ant Design, Typescript modular boilerplate" (glow-module) from author "Jannik Buschke" in pack Glow.Module.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Glow.Module.Template::0.4.0
+
+Template name "Bot Builder v4 Preview" (v4bot-pre) from author "Kristian Brimble" in pack BotBuilder.V4PreviewTemplate.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i BotBuilder.V4PreviewTemplate.CSharp::1.0.1
+
+Template name "CaliburnMicro WPF application on generic host" (caliburnmicrohost) from author "Dapplo" in pack Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template.CSharp::0.5.2
+
+Template name "ASP.NET Core with Typescript, React, Redux and Webpack" (dotnettsreactredux) from author "Michael Jewell" in pack Arragro.Dotnet.TS.React.Redux.Project.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Arragro.Dotnet.TS.React.Redux.Project.Template::0.0.1-alpha
+
+Template name "Azure IoT Edge Module" (aziotedgemodule) from author "Microsoft" in pack Microsoft.Azure.IoT.Edge.Module
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.Azure.IoT.Edge.Module::3.1.0
+
+Template name "Interactive documentation" (trydotnet-tutorial) from author "Microsoft" in pack Microsoft.DotNet.Try.ProjectTemplate.Tutorial
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.DotNet.Try.ProjectTemplate.Tutorial::1.0.19319.1
+
+Template name "Fur Core Webapi" (FurWebapiTpl) from author "Rockn" in pack Fur.Core.Webapi.Template
+    To use this template, run the following command and try again:
+        dotnet new -i Fur.Core.Webapi.Template::1.1.4
+
+Template name "QsModular Dotnet" (qsmodulartpl) from author "qingsong yuodao" in pack QsModular.Webapi.Template
+    To use this template, run the following command and try again:
+        dotnet new -i QsModular.Webapi.Template::1.0.1
+
+Template name "MSBuild.Sdk.CMake.Template.Console" (cmconsole) from author "Itn3000" in pack MSBuild.Sdk.CMake.Template.Console
+    To use this template, run the following command and try again:
+        dotnet new -i MSBuild.Sdk.CMake.Template.Console::0.1.0
+
+Template name ".NET 5 IoT Hub REST API Template" (iothubwebapi5) from author "Jon Mikel Inza" in pack JMI.DotNet5.IoTHub.REST.API.Template.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i JMI.DotNet5.IoTHub.REST.API.Template.CSharp::5.0.1013
+
+Template name "isRock.Template.LineBotPush" (linebotpush) from author "David Tung" in pack isRock.Template.LineBotPush
+    To use this template, run the following command and try again:
+        dotnet new -i isRock.Template.LineBotPush::1.0.9
+
+Template name "Rage MP ResourceTemplate" (ragempresource) from author "foxpro" in pack FoxPro.RageMPResourceTemplate.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i FoxPro.RageMPResourceTemplate.CSharp::1.0.0
+
+Template name ".Net Core Console Autofac+Serilog" (core-console-autofac) from author "superwalnut" in pack Superwalnut.NetCoreConsoleTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i Superwalnut.NetCoreConsoleTemplate::1.1.6
+
+Template name "QsModularModuleNews Dotnet" (qsmodularmodulenewstpl) from author "qingsong yuodao" in pack QsModular.Module.News.Template
+    To use this template, run the following command and try again:
+        dotnet new -i QsModular.Module.News.Template::1.0.1
+
+Template name "Blazor clean architecture project template" (CleanBlazor) from author "NightBaker" in pack NightBaker.ProjectTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i NightBaker.ProjectTemplate::0.1.1
+
+Template name "DotNet NuGet Package Template CSharp" (cspackage) from author "Lou Parslow" in pack DotNet.Template.CSharp.Package
+    To use this template, run the following command and try again:
+        dotnet new -i DotNet.Template.CSharp.Package::0.0.0
+
+Template name "ElGuerre Api Rest Template" (elguerre-apirest) from author "Juan Luis Guerrero Minero" in pack ElGuerre.ApiRest.Template
+    To use this template, run the following command and try again:
+        dotnet new -i ElGuerre.ApiRest.Template::1.0.0-Beta2
+
+Template name "Original Circuit ASP.NET MVC Admin Panel Template" (oc-adminpanel) from author "Mark Harris" in pack OriginalCircuit.AdminPanelTemplate
+    To use this template, run the following command and try again:
+        dotnet new -i OriginalCircuit.AdminPanelTemplate::1.0.0
+
+Template name "CommandLineUtils Template" (cmd-utils) from author "Freesia" in pack StudioFreesia.CommandLineUtils.Template
+    To use this template, run the following command and try again:
+        dotnet new -i StudioFreesia.CommandLineUtils.Template::0.1.1
+
+Template name "CampusOrder Dotnet" (campusordertpl) from author "david" in pack CampusOrder.Webapi.Template
+    To use this template, run the following command and try again:
+        dotnet new -i CampusOrder.Webapi.Template::1.0.0
+
+Template name "Azure functions http function (DI)" (smairo-function-http) from author "Miro Holopainen" in pack Smairo.Template.AzureFunction.Http
+    To use this template, run the following command and try again:
+        dotnet new -i Smairo.Template.AzureFunction.Http::3.2.1
+
+Template name "Custom WebApi" (CustomWebApi) from author "Artech" in pack Custom.Template.NetCore.ZW
+    To use this template, run the following command and try again:
+        dotnet new -i Custom.Template.NetCore.ZW::1.0.1
+
+Template name "Azure functions durable function (DI)" (smairo-function-durable) from author "Miro Holopainen" in pack Smairo.Template.AzureFunction.Durable
+    To use this template, run the following command and try again:
+        dotnet new -i Smairo.Template.AzureFunction.Durable::3.2.1
+
+Template name "ASP.NET Core With React.js and MaterialUI" (react-material) from author "Julio C. Ramos" in pack RamosISW.ReactMaterialTemplate.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i RamosISW.ReactMaterialTemplate.CSharp::1.0.0
+
+Template name "dotnet campus .NET Package Template for GitHub" (githubcbb) from author "dotnet-campus" in pack dotentCampus.DotnetPackageTemplateForGitHub
+    To use this template, run the following command and try again:
+        dotnet new -i dotentCampus.DotnetPackageTemplateForGitHub::1.1.3
+
+Template name "Template creator: .nuspec template for projects" (add-nuspec) from author "Adam Patridge" in pack dotnet-new-project-helper
+Template name "Template creator: license template for Git/GitHub repos" (add-license) from author "Adam Patridge" in pack dotnet-new-project-helper
+Template name "Template creator: README.md template for Git/GitHub repos" (add-readme) from author "Adam Patridge" in pack dotnet-new-project-helper
+    To use this template, run the following command and try again:
+        dotnet new -i dotnet-new-project-helper::0.2.0
+
+Template name "GranSteL.Chatbot" (gsl.chatbot.full) from author "GranSteL" in pack GranSteL.Templates.Chatbot
+    To use this template, run the following command and try again:
+        dotnet new -i GranSteL.Templates.Chatbot::1.1.1
+
+Template name "QueueTrigger" (queue) from author "Microsoft" in pack Microsoft.Azure.WebJobs.ItemTemplates
+Template name "DurableFunctionsOrchestration" (durable) from author "Microsoft" in pack Microsoft.Azure.WebJobs.ItemTemplates
+Template name "EventHubTrigger" (eventhub) from author "Microsoft" in pack Microsoft.Azure.WebJobs.ItemTemplates
+Template name "ServiceBusQueueTrigger" (squeue) from author "Microsoft" in pack Microsoft.Azure.WebJobs.ItemTemplates
+Template name "ServiceBusTopicTrigger" (stopic) from author "Microsoft" in pack Microsoft.Azure.WebJobs.ItemTemplates
+Template name "IotHubTrigger" (iothub) from author "Microsoft" in pack Microsoft.Azure.WebJobs.ItemTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.Azure.WebJobs.ItemTemplates::3.1.1624
+
+Template name ".NET Core 3.x IoT Hub REST API Template" (iotwebapi3) from author "Jon Mikel Inza" in pack JMI.DotNetCore3x.IoTHub.REST.API.Template.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i JMI.DotNetCore3x.IoTHub.REST.API.Template.CSharp::3.1.659
+
+Template name "Azure IoT Edge Function" (aziotedgefunction) from author "Microsoft" in pack Microsoft.Azure.IoT.Edge.Function
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.Azure.IoT.Edge.Function::3.5.0
+
+Template name "EasyQuery Advanced Search View" (eq.view.advsearch) from author "Korzh.com" in pack Korzh.EasyQuery.AspNetCoreTemplates
+Template name "EasyQuery FullTextSearch View" (eq.view.textsearch) from author "Korzh.com" in pack Korzh.EasyQuery.AspNetCoreTemplates
+Template name "EasyQuery GridFilter View" (eq.view.gridfilter) from author "Korzh.com" in pack Korzh.EasyQuery.AspNetCoreTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Korzh.EasyQuery.AspNetCoreTemplates::4.3.1
+
+Template name "Unit Test Project" (mstest) from author "Microsoft" in pack Microsoft.DotNet.Test.ProjectTemplates.2.0
+Template name "xUnit Test Project" (xunit) from author "Microsoft" in pack Microsoft.DotNet.Test.ProjectTemplates.2.0
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.DotNet.Test.ProjectTemplates.2.0::1.0.0-beta2-20170727-301
+
+Template name "Nybus AWS Lambda function with RabbitMQ" (nybus-rabbitmq-lambda) from author "Renato Golia" in pack Nybus.Templates
+Template name "Nybus Console App with RabbitMQ" (nybus-rabbitmq-console) from author "Renato Golia" in pack Nybus.Templates
+Template name "Nybus Windows Service with RabbitMQ" (nybus-rabbitmq-windows-service) from author "Renato Golia" in pack Nybus.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Nybus.Templates::1.4.1
+
+Template name "[EMG] Lambda Event Function" (emg-lambda-event) from author "EMG" in pack EMG.Templates
+Template name "[EMG] Lambda Local Runner" (emg-lambda-local-runner) from author "EMG" in pack EMG.Templates
+Template name "[EMG] Lambda RequestResponse Function" (emg-lambda-requestresponse) from author "EMG" in pack EMG.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i EMG.Templates::3.0.4
+
+Template name "Order Flowers Chatbot Tutorial" (lambda.OrderFlowersChatbot) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Custom Runtime Function (.NET 5.0)" (lambda.CustomRuntimeFunction) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Empty Function" (lambda.EmptyFunction) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Simple Application Load Balancer Function" (lambda.SimpleApplicationLoadBalancerFunction) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Simple DynamoDB Function" (lambda.DynamoDB) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Simple Kinesis Firehose Function" (lambda.KinesisFirehose) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Simple Kinesis Function" (lambda.Kinesis) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Simple S3 Function" (lambda.S3) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Serverless Simple S3 Function" (serverless.S3) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Simple SNS Function" (lambda.SNS) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Lambda Simple SQS Function" (lambda.SQS) from author "AWS" in pack Amazon.Lambda.Templates
+Template name "Step Functions Hello World" (serverless.StepFunctionsHelloWorld) from author "AWS" in pack Amazon.Lambda.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Amazon.Lambda.Templates::4.2.0
+
+Template name "TheSadRogue GoRogue-SadConsole Game" (goroguesadconsolegame) from author "Chris3606;Thraka" in pack TheSadRogue.GoRogueSadConsole.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i TheSadRogue.GoRogueSadConsole.Templates::1.0.1
+
+Template name "Cloud Foundry Buildpack Template" (buildpack) from author "Andrew Stakhov" in pack CloudFoundry.Buildpack.V2
+    To use this template, run the following command and try again:
+        dotnet new -i CloudFoundry.Buildpack.V2::3.0.0
+
+Template name "cloudscribe web project template" (cloudscribe) from author "Joe Audette" in pack cloudscribe.templates
+    To use this template, run the following command and try again:
+        dotnet new -i cloudscribe.templates::3.2.0
+
+Template name "Onion Architecture MVC" (onionArch) from author "Jamie Taylor" in pack OnionArch.Mvc
+    To use this template, run the following command and try again:
+        dotnet new -i OnionArch.Mvc::0.0.4
+
+Template name ".Net Core Custom Console Application" (cnsola) from author "Jaxel Rojas" in pack Cnsola
+    To use this template, run the following command and try again:
+        dotnet new -i Cnsola::0.0.1
+
+Template name "RedisQueues" (redisqueues) from author "Olivier Lefebvre" in pack Aguacongas.RedisQueue
+    To use this template, run the following command and try again:
+        dotnet new -i Aguacongas.RedisQueue::1.0.0-preview0001
+
+Template name "ASP.NET Core with VueJs" (vue) from author "Highlander Paiva" in pack aspdotnet-vuejs
+    To use this template, run the following command and try again:
+        dotnet new -i aspdotnet-vuejs::3.0.0
+
+Template name "Bot v4 - Auth" (bot-auth) from author "Christian Glessner" in pack Ltwlf.BotBuilderV4.Auth
+    To use this template, run the following command and try again:
+        dotnet new -i Ltwlf.BotBuilderV4.Auth::0.0.4
+
+Template name "Fabulous Xamarin.Forms App v0.60.0-preview2" (fabulous-xf-app) from author "fsprojects" in pack Fabulous.XamarinForms.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Fabulous.XamarinForms.Templates::0.60.0-preview2
+
+Template name "Prism Forms Module" (prismmodule) from author "Dan Siegel" in pack Prism.Forms.QuickstartTemplates
+Template name "Prism Forms Mobile App - QuickStart" (prismforms) from author "Dan Siegel" in pack Prism.Forms.QuickstartTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Prism.Forms.QuickstartTemplates::1.4.0
+
+Template name "Nethereum Web Faucet" (nethereumfaucet) from author "Juan Blanco" in pack Nethereum.Templates.Faucet
+    To use this template, run the following command and try again:
+        dotnet new -i Nethereum.Templates.Faucet::0.1.0
+
+Template name "Unit Test Project" (mstest) from author "Microsoft" in pack Microsoft.DotNet.Test.ProjectTemplates.1.x
+Template name "xUnit Test Project" (xunit) from author "Microsoft" in pack Microsoft.DotNet.Test.ProjectTemplates.1.x
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.DotNet.Test.ProjectTemplates.1.x::1.0.0-beta2-20170629-269
+
+Template name "Cloud Foundry Buildpack Template - HttpModule" (buildpack-httpmodule) from author "Andrew Stakhov" in pack CloudFoundry.Buildpack.V2.HttpModule
+    To use this template, run the following command and try again:
+        dotnet new -i CloudFoundry.Buildpack.V2.HttpModule::1.0.0
+
+Template name "FsLab.Journal" (fslab-journal) from author "fslaborg" in pack FsLab.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i FsLab.Templates::1.1.6
+
+Template name "Arcus WebAPI v0.4.0" (arcus-webapi) from author "Arcus" in pack Arcus.Templates.WebApi
+    To use this template, run the following command and try again:
+        dotnet new -i Arcus.Templates.WebApi::0.4.0
+
+Template name "CoreTemplate => AspNetCore template for AspIdentity using MongoDB" (ct-mongo-asp) from author "Vishnu Sankar" in pack CoreTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i CoreTemplates::1.0.2
+
+Template name "Lambda Empty Event Function" (lambda-template-event-empty) from author "Renato Golia" in pack Kralizek.Lambda.Templates
+Template name "Lambda Empty RequestResponse Function" (lambda-template-requestresponse-empty) from author "Renato Golia" in pack Kralizek.Lambda.Templates
+Template name "Lambda Boilerplate Event Function" (lambda-template-event-boilerplate) from author "Renato Golia" in pack Kralizek.Lambda.Templates
+Template name "Lambda Boilerplate RequestResponse Function" (lambda-template-requestresponse-boilerplate) from author "Renato Golia" in pack Kralizek.Lambda.Templates
+Template name "Lambda SNS Event Function" (lambda-template-sns-event) from author "Renato Golia" in pack Kralizek.Lambda.Templates
+Template name "Lambda SQS Event Function" (lambda-template-sqs-event) from author "Renato Golia" in pack Kralizek.Lambda.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Kralizek.Lambda.Templates::4.1.0
+
+Template name "ASP.NET Core with Angular" (angular) from author "Microsoft" in pack Microsoft.DotNet.Web.Spa.ProjectTemplates.3.0
+Template name "ASP.NET Core with React.js and Redux" (reactredux) from author "Microsoft" in pack Microsoft.DotNet.Web.Spa.ProjectTemplates.3.0
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.DotNet.Web.Spa.ProjectTemplates.3.0::3.0.3
+
+Template name "Jasper with Azure Service Bus" (jasper.azureservicebus) from author "Jeremy D. Miller" in pack JasperTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i JasperTemplates::1.0.1
+
+Template name "Gitlab AWS build template" (gitlab-aws) from author "Scania Devtools" in pack Scania.Devtools.Gitlab.AWS.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Scania.Devtools.Gitlab.AWS.Templates::0.0.4
+
+Template name "Arcus Service Bus Queue v0.4.0" (arcus-servicebus-queue) from author "Arcus" in pack Arcus.Templates.ServiceBus.Queue
+    To use this template, run the following command and try again:
+        dotnet new -i Arcus.Templates.ServiceBus.Queue::0.4.0
+
+Template name "Arcus Service Bus Topic v0.4.0" (arcus-servicebus-topic) from author "Arcus" in pack Arcus.Templates.ServiceBus.Topic
+    To use this template, run the following command and try again:
+        dotnet new -i Arcus.Templates.ServiceBus.Topic::0.4.0
+
+Template name "ASP.NET Core with Aurelia" (aurelia) from author "Microsoft" in pack Microsoft.AspNetCore.SpaTemplates
+Template name "ASP.NET Core with Knockout.js" (knockout) from author "Microsoft" in pack Microsoft.AspNetCore.SpaTemplates
+Template name "ASP.NET Core with Vue.js" (vue) from author "Microsoft" in pack Microsoft.AspNetCore.SpaTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.AspNetCore.SpaTemplates::2.1.0-preview1-final
+
+Template name "NuGet library" (nuget-lib) from author "Julio Ramos" in pack RamosISW.Templates.NuGetLib.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i RamosISW.Templates.NuGetLib.CSharp::1.0.5
+
+Template name "ASP.NET Core with Vue and Picnic" (vuejs-picnic) from author "Nordes Menard-Lamarre" in pack HoNoSoFt.DotNet.Web.Spa.ProjectTemplates
+Template name "ASP.NET Core + Vue + Picnic + ..." (vuejs-picnic-table) from author "Nordes Menard-Lamarre" in pack HoNoSoFt.DotNet.Web.Spa.ProjectTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i HoNoSoFt.DotNet.Web.Spa.ProjectTemplates::1.6.4
+
+Template name "ASP.NET Core with Angular" (angular) from author "Microsoft" in pack Microsoft.DotNet.Web.Spa.ProjectTemplates.3.1
+Template name "ASP.NET Core with React.js and Redux" (reactredux) from author "Microsoft" in pack Microsoft.DotNet.Web.Spa.ProjectTemplates.3.1
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.DotNet.Web.Spa.ProjectTemplates.3.1::3.1.10
+
+Template name "xUnit Test Class" (xunit-class) from author "The Sharp Ninja" in pack GatewayProgrammingSchool.xUnit.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i GatewayProgrammingSchool.xUnit.CSharp::1.0.2
+
+Template name "Customer Success Template (.NET Core)" (customersuccess-template) from author "take" in pack Take.CustomerSuccess.Bot
+    To use this template, run the following command and try again:
+        dotnet new -i Take.CustomerSuccess.Bot::1.1.8
+
+Template name "IdentityServer4 with AdminUI" (is4admin) from author "Brock Allen, Dominick Baier" in pack IdentityServer4.Templates
+Template name "IdentityServer4 with In-Memory Stores and Test Users" (is4inmem) from author "Brock Allen, Dominick Baier" in pack IdentityServer4.Templates
+Template name "IdentityServer4 Quickstart UI (UI assets only)" (is4ui) from author "Brock Allen, Dominick Baier" in pack IdentityServer4.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i IdentityServer4.Templates::4.0.1
+
+Template name "DBConfirm: NUnit project for SQL Server" (dbconfirm-sqlserver-nunit) from author "Bungalow64" in pack DBConfirm.Templates.SQLServer.NUnit
+    To use this template, run the following command and try again:
+        dotnet new -i DBConfirm.Templates.SQLServer.NUnit::0.1.0-CI-20201109-095004
+
+Template name "Routable Basic" (routable-basic) from author "Hardened Elements" in pack Routable.Templates.Basic
+    To use this template, run the following command and try again:
+        dotnet new -i Routable.Templates.Basic::1.1.4
+
+Template name "Cross-Platform App (Uno Platform)" (unoapp) from author "Uno Platform" in pack Uno.ProjectTemplates.Dotnet
+Template name "Prism Cross-Platform App (Uno Platform)" (unoapp-prism) from author "Uno Platform" in pack Uno.ProjectTemplates.Dotnet
+Template name "Cross-Platform App (WinUI, Uno Platform)" (unoapp-winui) from author "Uno Platform" in pack Uno.ProjectTemplates.Dotnet
+Template name "Cross-Platform Library (Uno Platform)" (unolib) from author "Uno Platform" in pack Uno.ProjectTemplates.Dotnet
+Template name "Cross-Runtime Library (Uno Platform)" (unolib-crossruntime) from author "Uno Platform" in pack Uno.ProjectTemplates.Dotnet
+Template name "Uno Platform WebAssembly Head for Xamarin.Forms" (wasmxfhead) from author "Uno Platform" in pack Uno.ProjectTemplates.Dotnet
+    To use this template, run the following command and try again:
+        dotnet new -i Uno.ProjectTemplates.Dotnet::3.2.0
+
+Template name "TypeEdge VsCode Module" (typeedgemodulevscode) from author "Microsoft" in pack Microsoft.Azure.TypeEdge.Templates.Module.VsCode
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.Azure.TypeEdge.Templates.Module.VsCode::0.4.4.41
+
+Template name "Easify API Solution" (easify-api) from author "Mohammad Moattar" in pack Easify.API
+    To use this template, run the following command and try again:
+        dotnet new -i Easify.API::3.0.1
+
+Template name "Mount & Blade 2: Bannerlord Module" (blmodfx) from author "BUTR Team" in pack Bannerlord.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Bannerlord.Templates::1.3.1.4
+
+Template name "ASP.NET Core with Angular" (angular) from author "Microsoft" in pack Microsoft.DotNet.Web.Spa.ProjectTemplates.2.1
+Template name "ASP.NET Core with React.js and Redux" (reactredux) from author "Microsoft" in pack Microsoft.DotNet.Web.Spa.ProjectTemplates.2.1
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.DotNet.Web.Spa.ProjectTemplates.2.1::2.1.23
+
+Template name "GitHub Actions workflow for .NET Core" (workflow) from author "Tim Heuer" in pack TimHeuer.GitHubActions.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i TimHeuer.GitHubActions.Templates::1.0.4
+
+Template name "Template .NET Core - Clean Architecture" (id3i-netcore) from author "Thomas GIANINI" in pack iD3i.NetCore
+    To use this template, run the following command and try again:
+        dotnet new -i iD3i.NetCore::3.0.3
+
+Template name "PubSub Worker Template" (pubsubworker) from author "Jude Daryl Clarino" in pack pubsubworker
+    To use this template, run the following command and try again:
+        dotnet new -i pubsubworker::1.0.7
+
+Template name "xUnit Test Project" (xunit) from author "" in pack Microsoft.Quantum.ProjectTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.Quantum.ProjectTemplates::0.13.20111004
+
+Template name "Fusca" (fusca) from author "Ole Consignado" in pack Fusca
+    To use this template, run the following command and try again:
+        dotnet new -i Fusca::1.2.0
+
+Template name "NBB Unit Test Project" (NbbUnitTest) from author "totalsoft" in pack NBB.UnitTest
+    To use this template, run the following command and try again:
+        dotnet new -i NBB.UnitTest::4.2.8
+
+Template name "SpatialFocus: Xamarin Forms Shell Project" (focus-xfshell) from author "SpatialFocus" in pack SpatialFocus.DotNetNew.XamarinFormsShell
+    To use this template, run the following command and try again:
+        dotnet new -i SpatialFocus.DotNetNew.XamarinFormsShell::0.1.2
+
+Template name "ASP.NET Core with Angular" (angular) from author "Microsoft" in pack Microsoft.DotNet.Web.Spa.ProjectTemplates.2.2
+Template name "ASP.NET Core with React.js and Redux" (reactredux) from author "Microsoft" in pack Microsoft.DotNet.Web.Spa.ProjectTemplates.2.2
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.DotNet.Web.Spa.ProjectTemplates.2.2::2.2.8
+
+Template name "DataJuggler.DataTier.Net.Core.ItemTemplates.BlazorDataServices" (DataTier.Net.Core.ItemTemplates.BlazorDataServices) from author "Data Juggler" in pack DataJuggler.DataTier.Net.Core.ItemTemplates.BlazorDataServices
+    To use this template, run the following command and try again:
+        dotnet new -i DataJuggler.DataTier.Net.Core.ItemTemplates.BlazorDataServices::2.0.10
+
+Template name "Burcin BoilerPlate" (burcin) from author "Cengiz Ilerler" in pack Burcin.Templates.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i Burcin.Templates.CSharp::1.2.33
+
+Template name "Azure Cosmos DB SQL Quickstart" (cosmosdb-sql) from author "ealsur" in pack CosmosDBSQLTemplate.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i CosmosDBSQLTemplate.CSharp::1.0.0
+
+Template name "Idea42: Angular base" (angularapp) from author "Idea42, LLC" in pack Idea42.NetCore.Templates
+Template name "Idea42: AngularJS base" (angularjsapp) from author "Idea42, LLC" in pack Idea42.NetCore.Templates
+Template name "Idea42: Authenticated API Base" (authapi) from author "Idea42, LLC" in pack Idea42.NetCore.Templates
+Template name "Idea42: Authenticated ReactJS base" (authreact) from author "Idea42, LLC" in pack Idea42.NetCore.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Idea42.NetCore.Templates::1.0.103
+
+Template name "MonoGame Windows Universal Application (CoreApp)" (mguwpcore) from author "MonoGame Team" in pack MonoGame.Templates.CSharp
+Template name "MonoGame Windows Universal Application (XAML)" (mguwpxaml) from author "MonoGame Team" in pack MonoGame.Templates.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i MonoGame.Templates.CSharp::3.8.0.1641
+
+Template name "Skoruba IdentityServer4 Admin" (skoruba.is4admin) from author "Jan Skoruba" in pack Skoruba.IdentityServer4.Admin.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Skoruba.IdentityServer4.Admin.Templates::1.0.0
+
+Template name "ASP.NET Core MVC Web App/Identity Azure Tables " (mvc-id-azure-tables) from author "David Melendez" in pack ElCamino.AspNetCore.Identity.AzureTable.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i ElCamino.AspNetCore.Identity.AzureTable.Templates::5.0.0
+
+Template name "Runly Application" (runly-app) from author "Runly" in pack Runly.Templates
+Template name "Runly Job" (runly-job) from author "Runly" in pack Runly.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Runly.Templates::1.0.2
+
+Template name "Equinox Shipping Sample" (eqxShipping) from author "@jet @kimserey @bartelink" in pack Equinox.Templates
+Template name "Equinox Testbed" (eqxtestbed) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Equinox Web App" (eqxwebcs) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Equinox Web App" (eqxweb) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Propulsion Archiver service" (proArchiver) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Propulsion Kafka Consumer" (proConsumer) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Propulsion Projector" (proProjector) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Propulsion Pruner service" (proPruner) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Propulsion EventStore/Cosmos/Kafka Reactor" (proReactor) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Propulsion/Equinox Summary Consumer" (summaryConsumer) from author "@jet @fnipo" in pack Equinox.Templates
+Template name "Propulsion Sync tool" (proSync) from author "@jet @bartelink" in pack Equinox.Templates
+Template name "Propulsion/Equinox Tracking Consumer" (trackingConsumer) from author "@jet @bartelink" in pack Equinox.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Equinox.Templates::4.11.0
+
+Template name "osu!framework empty game template" (osu-framework-game) from author "ppy Pty Ltd" in pack ppy.osu.Framework.Templates
+Template name "osu!framework flappy game template" (osu-framework-flappy-game) from author "ppy Pty Ltd" in pack ppy.osu.Framework.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i ppy.osu.Framework.Templates::2020.1111.0
+
+Template name "ASP.NET Core Razor pages Piranha CMS Module" (piranha.module) from author "Håkan Edling" in pack Piranha.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Piranha.Templates::8.4.3
+
+Template name "Console app with Cake build system template" (cake) from author "Stefan Hausotte" in pack CakeApp
+    To use this template, run the following command and try again:
+        dotnet new -i CakeApp::3.2.0
+
+Template name "ASP.NET Core with Vue.js 2" (vuejs) from author "Mark Pieszak" in pack aspnetcore-vuejs
+    To use this template, run the following command and try again:
+        dotnet new -i aspnetcore-vuejs::1.0.9
+
+Template name "Petabridge Akka.Cluster Starter App" (pb-akka-cluster) from author "Petabridge" in pack Petabridge.Templates
+Template name "Petabridge ASP.NET Core + Akka.Cluster Starter App" (pb-akka-web) from author "Petabridge" in pack Petabridge.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Petabridge.Templates::1.1.0
+
+Template name "Opinionated ASP.NET Core + React boilerplate" (gluestarter) from author "Jannik Buschke" in pack JBuschke.Glue.Starter
+    To use this template, run the following command and try again:
+        dotnet new -i JBuschke.Glue.Starter::0.14.0
+
+Template name "Avalonia UserControl" (avalonia.usercontrol) from author "AvaloniaUI" in pack VitalElement.AvalonStudio.Templates
+Template name "Class" (vitalelement.CPlusPlus.class) from author "VitalElement" in pack VitalElement.AvalonStudio.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i VitalElement.AvalonStudio.Templates::0.9.0
+
+Template name "Bionic Layout Template" (bionic.layout) from author "Bionic Framework Contributors" in pack BionicTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i BionicTemplates::1.0.27
+
+Template name "NServiceBus Docker Container" (nsbdockercontainer) from author "Particular Software" in pack ParticularTemplates
+Template name "NServiceBus Windows Service" (nsbwinservice) from author "Particular Software" in pack ParticularTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i ParticularTemplates::4.1.0
+
+Template name "OpenMod Universal Plugin" (openmod-universal-plugin) from author "OpenMod" in pack OpenMod.Templates
+Template name "OpenMod Unturned Plugin" (openmod-unturned-plugin) from author "OpenMod" in pack OpenMod.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i OpenMod.Templates::2.2.2
+
+Template name "SpecFlow Feature File" (specflow-feature) from author "Manuel Eiwen" in pack SpecFlow.Templates.DotNet
+Template name "SpecFlow Configuration JSON File" (specflow-json) from author "Manuel Eiwen" in pack SpecFlow.Templates.DotNet
+Template name "SpecFlow Plus Profile" (specflow-plus-profile) from author "Manuel Eiwen" in pack SpecFlow.Templates.DotNet
+    To use this template, run the following command and try again:
+        dotnet new -i SpecFlow.Templates.DotNet::3.4.41-beta
+
+Template name "ASP.NET Core with Angular 6" (angular6) from author "Saeed Ganji <shahabganji@gmail.com>" in pack AspNetCore.Angular6
+    To use this template, run the following command and try again:
+        dotnet new -i AspNetCore.Angular6::1.0.0
+
+Template name "Blazor WebAssembly App (hosted, minimum)" (blazorwasmhostedmin) from author "J.Sakamoto" in pack Toolbelt.AspNetCore.Blazor.Minimum.Templates
+Template name "Blazor WebAssembly App (minimum)" (blazorwasmmin) from author "J.Sakamoto" in pack Toolbelt.AspNetCore.Blazor.Minimum.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Toolbelt.AspNetCore.Blazor.Minimum.Templates::5.0.0
+
+Template name "DevExpress ASP.NET Core Angular Reporting Project" (dx.reporting.angular) from author "Developer Express Inc. " in pack DevExpress.DotNet.Web.ProjectTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i DevExpress.DotNet.Web.ProjectTemplates::20.2.3
+
+Template name "Orchard Core Module" (ocmodulecms) from author "Orchard Project" in pack OrchardCore.ProjectTemplates
+Template name "Orchard Core Module" (ocmodulemvc) from author "Orchard Project" in pack OrchardCore.ProjectTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i OrchardCore.ProjectTemplates::1.0.0-rc2-13450
+
+Template name "Microservice bootstrapped with NetFusion" (nf.micro-srv) from author "NetFusion-Contrib" in pack NetFusion.Templates.MicroService
+    To use this template, run the following command and try again:
+        dotnet new -i NetFusion.Templates.MicroService::4.4.6
+
+Template name "PowerShell Core RC2 module" (ps-core-module) from author "Adam Friedman (tintoy@tintoy.io)" in pack FiftyProtons.Templates.PSCore
+    To use this template, run the following command and try again:
+        dotnet new -i FiftyProtons.Templates.PSCore::0.2.2
+
+Template name "Sukt.Core Dotnet" (suktcorewebapitpl) from author "Kawhiyatou" in pack SuktCoreWebApi.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i SuktCoreWebApi.Templates::1.4.0
+
+Template name "ASP.NET Core with Aurelia Toolbelt" (aut) from author "Saeed Ganji <shahabganji@gmail.com>" in pack AureliaToolbelt.AspNetCore
+    To use this template, run the following command and try again:
+        dotnet new -i AureliaToolbelt.AspNetCore::1.2.1
+
+Template name "Synergy EF Provider Solution" (efprovider) from author "Synergex" in pack Harmony.Core.ProjectTemplates
+Template name "Harmony Core Starter Solution" (harmonycore) from author "Synergex" in pack Harmony.Core.ProjectTemplates
+Template name "Harmony Core Demo Solution" (harmonydemo) from author "Synergex" in pack Harmony.Core.ProjectTemplates
+Template name "Harmony Core Unit Test Project" (harmonytest) from author "Synergex" in pack Harmony.Core.ProjectTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Harmony.Core.ProjectTemplates::3.1.145
+
+Template name "Magenic.Maqs.Appium" (Maqs.Appium) from author "Magenic" in pack Magenic.Maqs.Templates
+Template name "Magenic.Maqs.Selenium" (Maqs.Selenium) from author "Magenic" in pack Magenic.Maqs.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Magenic.Maqs.Templates::6.0.1
+
+Template name "Cofoundry Web" (cofoundry-web) from author "Cofoundry" in pack Cofoundry.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Cofoundry.Templates::0.4.0
+
+Template name "MVC ASP.NET Core with Kendo UI for Angular" (kendo-ng) from author "Ed Charbeneau" in pack Progress.AspNetCore.SpaTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Progress.AspNetCore.SpaTemplates::1.0.1
+
+Template name "Humidifier Solution Template" (humidifier) from author "Humidifier" in pack Humidifier.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Humidifier.Templates::1.0.6
+
+Template name ".NET Core Vue.js" (vue) from author "SoftwareAteliers" in pack SoftwareAteliers.AspNetCoreVueStarter
+    To use this template, run the following command and try again:
+        dotnet new -i SoftwareAteliers.AspNetCoreVueStarter::2.6.0
+
+Template name "expressApp Framework Empty Module" (xaf-module) from author "Manuel Grundner" in pack Scissors.XafTemplates.Module.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i Scissors.XafTemplates.Module.CSharp::0.3.2-ci0004
+
+Template name "RAGEMP - Client Side Resource csproj" (rage-clientproj) from author "Dave Horsefield" in pack RageMp.DotnetTemplates
+Template name "RAGEMP - Server Side Resource csproj" (rage-serverproj) from author "Dave Horsefield" in pack RageMp.DotnetTemplates
+Template name "RAGEMP - Server / Client solution" (rage-solution) from author "Dave Horsefield" in pack RageMp.DotnetTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i RageMp.DotnetTemplates::1.0.9
+
+Template name "expressApp Framework Empty WindowsForms Module" (xaf-win-module) from author "Manuel Grundner" in pack Scissors.XafTemplates.Module.Win.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i Scissors.XafTemplates.Module.Win.CSharp::0.3.2-ci0004
+
+Template name "MrGuan Web" (MrGuanWeb) from author "Mr.Guan" in pack MrGuan.Web
+    To use this template, run the following command and try again:
+        dotnet new -i MrGuan.Web::1.0.3
+
+Template name "Orchard Core Module" (ocmodule) from author "Orchard Project" in pack OrchardCore.Cms.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i OrchardCore.Cms.Templates::1.0.0-beta2-70992
+
+Template name "Aurelia SPA" (aurelia) from author "Aurelia Core Team" in pack Aurelia.DotNet.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Aurelia.DotNet.Templates::1.5.0
+
+Template name "Enigmatry Selenium Tools Tests" (enigmatry-selenium-tests) from author "Enigmatry" in pack Enigmatry.Selenium.Tools.Tests.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Enigmatry.Selenium.Tools.Tests.Templates::1.0.88
+
+Template name "ARC-Computation" (arc-computation) from author "Me" in pack ARC-Scaffold
+    To use this template, run the following command and try again:
+        dotnet new -i ARC-Scaffold::0.0.2
+
+Template name "Console Application using the Remote I/O Protocol Library" (csharp_console_libremoteio) from author "Philip Munts, President, Munts AM Corp dba Munts Technologies" in pack libremoteio-templates
+    To use this template, run the following command and try again:
+        dotnet new -i libremoteio-templates::2.2020.76.1
+
+Template name "DataJuggler.DataTier.Net.Core.ProjectTemplates" (DataTier.Net.Core.ProjectTemplates) from author "Data Juggler" in pack DataJuggler.DataTier.Net.Core.ProjectTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i DataJuggler.DataTier.Net.Core.ProjectTemplates::2.4.2
+
+Template name "Subscriber Hosted Worker" (subscriberhostedworker) from author "Ole Consignado" in pack SubscriberHostedWorker
+    To use this template, run the following command and try again:
+        dotnet new -i SubscriberHostedWorker::1.1.0
+
+Template name "Simplify.Web angular template" (sweb.angular) from author "Alexander Krylkov" in pack Simplify.Web.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Simplify.Web.Templates::0.7.3
+
+Template name "ASP.NET Core Vue.js Boilerplate" (aspnetcorevue) from author "Keven van Zuijlen" in pack AspNetCoreVueBoilerplate
+    To use this template, run the following command and try again:
+        dotnet new -i AspNetCoreVueBoilerplate::1.0.0
+
+Template name "DSharpPlus Bot (CNext)" (dsharpplus-cnext) from author "trinitrotoluene" in pack DiscordBotTemplates
+Template name "DSharpPlus Bot" (dsharpplus) from author "trinitrotoluene" in pack DiscordBotTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i DiscordBotTemplates::1.4.1.19
+
+Template name "Console Application using the Linux Simple I/O Libary" (csharp_console_libsimpleio) from author "Philip Munts, President, Munts AM Corp dba Munts Technologies" in pack libsimpleio-templates
+    To use this template, run the following command and try again:
+        dotnet new -i libsimpleio-templates::2.2020.57.1
+
+Template name "RocketMod Plugin" (rocket-plugin) from author "Enes Sadık Özbek (esozbek.me)" in pack Rocket.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Rocket.Templates::5.0.0.9
+
+Template name "Google Cloud Functions CloudEvent Function" (gcf-event) from author "Google LLC" in pack Google.Cloud.Functions.Templates
+Template name "Google Cloud Functions HttpFunction" (gcf-http) from author "Google LLC" in pack Google.Cloud.Functions.Templates
+Template name "Google Cloud Functions CloudEvent Function (Untyped)" (gcf-untyped-event) from author "Google LLC" in pack Google.Cloud.Functions.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Google.Cloud.Functions.Templates::1.0.0-beta02
+
+Template name "Type Edge Module" (typeedgemodule) from author "Microsoft" in pack Microsoft.Azure.TypeEdge.Templates.Module
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.Azure.TypeEdge.Templates.Module::0.4.4.41
+
+Template name "Aksel Authorization" (netcore-auth) from author "Aksel Arzuman" in pack AkselArzuman.Dotnet.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i AkselArzuman.Dotnet.Templates::1.3.0
+
+Template name "Type Edge Emulator" (typeedgeemulator) from author "Microsoft" in pack Microsoft.Azure.TypeEdge.Templates.Emulator
+    To use this template, run the following command and try again:
+        dotnet new -i Microsoft.Azure.TypeEdge.Templates.Emulator::0.4.4.41
+
+Template name "Prospa AspNetCore API - Azure, NServiceBus" (prospaapiazurensb) from author "Prospa Engineering" in pack Prospa.Templates
+Template name "Prospa Worker - NServiceBus" (prospaworkernsb) from author "Prospa Engineering" in pack Prospa.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Prospa.Templates::4.0.0
+
+Template name "osu! ruleset" (ruleset) from author "ppy Pty Ltd" in pack ppy.osu.Game.Templates
+Template name "osu! ruleset (pippidon example)" (ruleset-example) from author "ppy Pty Ltd" in pack ppy.osu.Game.Templates
+Template name "osu! ruleset (scrolling)" (ruleset-scrolling) from author "ppy Pty Ltd" in pack ppy.osu.Game.Templates
+Template name "osu! ruleset (scrolling pippidon example)" (ruleset-scrolling-example) from author "ppy Pty Ltd" in pack ppy.osu.Game.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i ppy.osu.Game.Templates::2020.407.0
+
+Template name "Inline function" (inlinefunc) from author "MSBuild.Sdk.SqlProj" in pack MSBuild.Sdk.SqlProj.Templates
+Template name "Scalar Function" (scalarfunc) from author "MSBuild.Sdk.SqlProj" in pack MSBuild.Sdk.SqlProj.Templates
+Template name "Stored procedure" (sproc) from author "MSBuild.Sdk.SqlProj" in pack MSBuild.Sdk.SqlProj.Templates
+Template name "User-defined table type" (udtt) from author "MSBuild.Sdk.SqlProj" in pack MSBuild.Sdk.SqlProj.Templates
+Template name "Table-valued Function" (tablefunc) from author "MSBuild.Sdk.SqlProj" in pack MSBuild.Sdk.SqlProj.Templates
+Template name "User-defined data type" (uddt) from author "MSBuild.Sdk.SqlProj" in pack MSBuild.Sdk.SqlProj.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i MSBuild.Sdk.SqlProj.Templates::1.9.0
+
+Template name "CitizenFX Resource" (cfx-resource) from author "Cfx.re" in pack CitizenFX.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i CitizenFX.Templates::0.2.2
+
+Template name "Basic EDAQuickstart template for microservice" (edaq-template-console) from author "Me" in pack EDAQuickstart.Templates
+Template name "EDAQuickstart template for microservice with ASP.Net enabled" (edaq-template-asp) from author "Me" in pack EDAQuickstart.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i EDAQuickstart.Templates::2.1.0
+
+Template name "Clean Architecture Solution Template" (ca-sln-sql) from author "Casey Crouse" in pack CleanArchitecture.Templates
+Template name "Clean Architecture Solution Template" (ca-sln) from author "Casey Crouse" in pack CleanArchitecture.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i CleanArchitecture.Templates::1.3.1
+
+Template name "TypeEdge VsCode Module" (typeedgemodulevscode) from author "Spyros Garyfallos" in pack TypeEdge.Module.VsCode
+    To use this template, run the following command and try again:
+        dotnet new -i TypeEdge.Module.VsCode::0.4.1
+
+Template name "URF for .NET Core Web API Templates" (urf-webapi-templates) from author "Tony Sneed" in pack URF.Core.WebApi.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i URF.Core.WebApi.Templates::1.0.0-rc
+
+Template name "Foundation Api Template" (foundation) from author "Paul DeVito" in pack Foundation.Api
+    To use this template, run the following command and try again:
+        dotnet new -i Foundation.Api::0.1.2
+
+Template name "ML.NET Console App for Training with MLOps.NET support" (mlnet-training-mlops) from author "Alexander Slotte" in pack ML.NET.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i ML.NET.Templates::0.3.0-beta
+
+Template name "LineTen WebAPI AzureFunctions" (ltazfunc) from author "Toby Reid" in pack LineTen.Utility.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i LineTen.Utility.Templates::1.0.10
+
+Template name "RTI Connext DDS Pub-Sub Applications" (dds-console) from author "RTI" in pack Rti.ConnextDds.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Rti.ConnextDds.Templates::0.0.5-alpha
+
+Template name "GeneticSharp TSP Unity3d" (GeneticSharpTspUnity3d) from author "Diego Giacomelli" in pack GeneticSharp.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i GeneticSharp.Templates::1.1.0
+
+Template name "Adatum Corporation Console Application" (adatumconsole) from author "Travis Chau" in pack AdatumCorporation.Utility.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i AdatumCorporation.Utility.Templates::1.3.0
+
+Template name "Engenious UI project template" (engenious.ui) from author "jvbsl" in pack engenious.Templates
+Template name "Engenious project template" (engenious) from author "jvbsl" in pack engenious.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i engenious.Templates::0.3.0.5
+
+Template name "Console App (.NET Core & UWP)" (coreuwp) from author "Giancarlo Lelli" in pack GL.UWPNetCoreConsole.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i GL.UWPNetCoreConsole.CSharp::1.0.0
+
+Template name "Thundra Lambda Function" (thundra.Sample) from author "Thundra" in pack Thundra.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Thundra.Templates::1.1.0
+
+Template name "Structured Blazor Server Template" (structuredblazor) from author "Corey Weathers" in pack Structured.Blazor.Server
+    To use this template, run the following command and try again:
+        dotnet new -i Structured.Blazor.Server::1.0.2
+
+Template name "Ultraviolet Presentation Foundation Game" (upfgame) from author "Cole Campbell" in pack Ultraviolet.Templates
+Template name "Ultraviolet Game" (uvgame) from author "Cole Campbell" in pack Ultraviolet.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Ultraviolet.Templates::1.2.3
+
+Template name "Rocket Surgery AspNetCore Api" (rocketapi) from author "David Driscoll" in pack Rocket.Surgery.Templates
+Template name "Rocket Surgery Command Line Application" (rocketcli) from author "David Driscoll" in pack Rocket.Surgery.Templates
+Template name "Rocket Surgery Azure Functions Application" (rocketfun) from author "David Driscoll" in pack Rocket.Surgery.Templates
+Template name "Rocket Surgery General Host" (rockethost) from author "David Driscoll" in pack Rocket.Surgery.Templates
+Template name "Rocket Surgery Library" (rocketlib) from author "David Driscoll" in pack Rocket.Surgery.Templates
+Template name "Rocket Surgery Solution" (rocketsln) from author "David Driscoll" in pack Rocket.Surgery.Templates
+Template name "Rocket Surgery General Web Application" (rocketweb) from author "David Driscoll" in pack Rocket.Surgery.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Rocket.Surgery.Templates::0.1.3
+
+Template name "Simplify.Scheduler console scheduler" (simplify.scheduler) from author "Alexander Krylkov" in pack Simplify.ProjectsTemplates
+Template name "Simplify.WindowsServices scheduler based on windows service" (simplify.windowsservice) from author "Alexander Krylkov" in pack Simplify.ProjectsTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Simplify.ProjectsTemplates::0.1.3
+
+Template name ".NET Core Source Linked Library" (sll) from author "Giancarlo Lelli" in pack GL.NetCoreSourceLinked.CSharp
+    To use this template, run the following command and try again:
+        dotnet new -i GL.NetCoreSourceLinked.CSharp::1.0.0
+
+Template name "AzureFunctionTemplates: ServiceBus Function" (azurefunction-servicebus) from author "Oscar van Tol" in pack Oscarvantol.AzureFunctionsTemplates
+Template name "AzureFunctionTemplates: dependency injection project" (azurefunctionsdi) from author "Oscar van Tol" in pack Oscarvantol.AzureFunctionsTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Oscarvantol.AzureFunctionsTemplates::1.0.2
+
+Template name "HAS web site module" (has-website) from author "Mega International" in pack Hopex.ApplicationServer.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Hopex.ApplicationServer.Templates::1.0.8
+
+Template name "Clean Architecture Of ASP.NET Core Web API " (rxwebapi) from author "ajayojha" in pack clean.architecture.aspnetcore
+    To use this template, run the following command and try again:
+        dotnet new -i clean.architecture.aspnetcore::1.0.1
+
+Template name "Industrial App Store Adapter" (iasadapter) from author "Intelligent Plant" in pack IntelligentPlant.IndustrialAppStore.Templates
+Template name "Industrial App Store App (MVC)" (iasmvc) from author "Intelligent Plant" in pack IntelligentPlant.IndustrialAppStore.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i IntelligentPlant.IndustrialAppStore.Templates::1.0.0
+
+Template name "ASP.NET Core, React, Ant Design, Typescript modular boilerplate" (raanc-module) from author "Jannik Buschke" in pack JBuschke.RAANC.Module
+    To use this template, run the following command and try again:
+        dotnet new -i JBuschke.RAANC.Module::0.14.0
+
+Template name "Empty Umbraco Package" (umbraco-v8-package) from author "UmbracoPackageTeam" in pack Umbraco.Tools.Packages.Templates
+Template name "Empty Umbraco Site" (umbraco-v8-site) from author "UmbracoPackageTeam" in pack Umbraco.Tools.Packages.Templates
+Template name "Umbraco Dashboard Item" (umbraco-v8-dashboard) from author "UmbracoPackageTeam" in pack Umbraco.Tools.Packages.Templates
+Template name "Umbraco Github build script" (umbraco-v8-github-build) from author "UmbracoPackageTeam" in pack Umbraco.Tools.Packages.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Umbraco.Tools.Packages.Templates::0.2.5
+
+Template name "CodeGeneration.Roslyn Plugin Attributes Project" (cgrpluginatts) from author "Amadeusz Sadowski" in pack CodeGeneration.Roslyn.Templates
+Template name "CodeGeneration.Roslyn Attribute class" (cgratt) from author "Amadeusz Sadowski" in pack CodeGeneration.Roslyn.Templates
+Template name "CodeGeneration.Roslyn Plugin Generators Project" (cgrplugingens) from author "Amadeusz Sadowski" in pack CodeGeneration.Roslyn.Templates
+Template name "CodeGeneration.Roslyn Plugin projects (whole set)" (cgrplugin) from author "Amadeusz Sadowski" in pack CodeGeneration.Roslyn.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i CodeGeneration.Roslyn.Templates::0.7.63
+
+Template name "Onion Architecture Solution Template" (AroOnionArc) from author "Alireza Oroumand" in pack Aro.SolutionTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i Aro.SolutionTemplates::1.0.0
+
+Template name "Go Project (Basic layout)" (gobasic) from author "Will Huang" in pack Duotify.Templates.DotNetNew
+Template name "Go Project (Full layout)" (gofull) from author "Will Huang" in pack Duotify.Templates.DotNetNew
+Template name "Go Project (Library layout)" (golib) from author "Will Huang" in pack Duotify.Templates.DotNetNew
+    To use this template, run the following command and try again:
+        dotnet new -i Duotify.Templates.DotNetNew::1.2.1
+
+Template name "ASP.NET Core Azure Web App" (azurewebapp) from author "David Bottiau" in pack AspNetCoreAzureTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i AspNetCoreAzureTemplates::3.1.0
+
+Template name "DualitySolutionTemplate" (dualitySolution) from author "Rick van Dam" in pack AdamsLair.Duality.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i AdamsLair.Duality.Templates::4.0.0-alpha2
+
+Template name "Angular Bot UI with AAD Auth" (botui) from author "Rob Reilly" in pack RobWare.Bots.Templates.BotUI
+    To use this template, run the following command and try again:
+        dotnet new -i RobWare.Bots.Templates.BotUI::1.0.0
+
+Template name "Enum.cs file" (enum) from author "Roman Shcherbakov (daredever.net)" in pack Yae.Templates
+Template name "Struct.cs file" (struct) from author "Roman Shcherbakov (daredever.net)" in pack Yae.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Yae.Templates::0.0.2
+
+Template name "Aardvark.UI Application" (aardvark.ui) from author "Aardvark Platform Team" in pack Aardvark.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Aardvark.Templates::1.0.0
+
+Template name "Clean Architecture CQRS Command" (ca-command) from author "Daniel Mackay" in pack CleanArchitecture.CQRS.Templates
+Template name "Clean Architecture CQRS Query" (ca-query) from author "Daniel Mackay" in pack CleanArchitecture.CQRS.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i CleanArchitecture.CQRS.Templates::1.0.1
+
+Template name "AWS Lambda using Lambdajection" (lambdajection) from author "Cythral LLC" in pack Lambdajection.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Lambdajection.Templates::0.5.0
+
+Template name "VS2017 Solution File" (sln2017) from author "David Coats" in pack R5T.Templates.Solution.VS2017
+    To use this template, run the following command and try again:
+        dotnet new -i R5T.Templates.Solution.VS2017::1.1.0
+
+Template name "ASP.NET Core Web API with API Documentation" (restapi) from author "Yas Ikeda <ycode.laboratory@gmail.com>" in pack Ycode.RestApi
+    To use this template, run the following command and try again:
+        dotnet new -i Ycode.RestApi::1.1.0
+
+Template name "Knst Arch Template MultiSql" (knst-multi) from author "PorriDG3" in pack KnstArchitecture.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i KnstArchitecture.Templates::3.2.0-pre-update2
+
+Template name "ASP.NET Core Web API with Clean Architecture" (webapi-clean) from author "Haryz Izzudin" in pack Pyrox.Templates.AspNetCore
+    To use this template, run the following command and try again:
+        dotnet new -i Pyrox.Templates.AspNetCore::3.0.0
+
+Template name "CQS Query" (cqsquery) from author "Steen F. Tøttrup" in pack CreativeMinds.CQS.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i CreativeMinds.CQS.Templates::1.0.0.7
+
+Template name "Source and Test Project" (proj) from author "Jacob Viau" in pack Vio.Dotnet.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Vio.Dotnet.Templates::1.0.4-preview
+
+Template name "SourceGear Rust .NET Console Application" (console) from author "Eric Sink" in pack SourceGear.Rust.NET.Templates
+Template name "SourceGear Rust .NET Library" (classlib) from author "Eric Sink" in pack SourceGear.Rust.NET.Templates
+Template name "SourceGear Rust .NET Sample" (rustsample) from author "Eric Sink" in pack SourceGear.Rust.NET.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i SourceGear.Rust.NET.Templates::0.1.1
+
+Template name "VS2019 Solution File" (sln2019) from author "David Coats" in pack R5T.Templates.Solution.VS2019
+    To use this template, run the following command and try again:
+        dotnet new -i R5T.Templates.Solution.VS2019::1.0.0
+
+Template name "Blazor without CSS framework, set up for Wasm and Server using a shared components project" (blazor-vanilla-dualsolution) from author "Blazor Templates Project, Stefan Lörwald" in pack BlazorTemplates
+Template name "Blazor without CSS framework, set up for Blazor Server" (blazor-vanilla-server) from author "Blazor Templates Project, Stefan Lörwald" in pack BlazorTemplates
+Template name "Blazor without CSS framework, set up for Blazor WebAssembly" (blazor-vanilla-wasm) from author "Blazor Templates Project, Stefan Lörwald" in pack BlazorTemplates
+    To use this template, run the following command and try again:
+        dotnet new -i BlazorTemplates::1.0.0
+
+Template name "RandomChance - Background Service Library for the Generic Service Host" (rc-bgservice) from author "Chance Carroll" in pack RandomChance.Common.Templates
+Template name "RandomChance - .NET Core console application that can run as a windows service." (rc-serviceapp) from author "Chance Carroll" in pack RandomChance.Common.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i RandomChance.Common.Templates::0.1.1
+
+Template name "Duotify Sample 01" (sample01) from author "Duotify" in pack Duotify.Templates.Samples.3.1
+Template name "Duotify Sample 02" (sample02) from author "Duotify" in pack Duotify.Templates.Samples.3.1
+Template name "Duotify Sample 03" (sample03) from author "Duotify" in pack Duotify.Templates.Samples.3.1
+Template name "Duotify Sample 04" (sample04) from author "Duotify" in pack Duotify.Templates.Samples.3.1
+    To use this template, run the following command and try again:
+        dotnet new -i Duotify.Templates.Samples.3.1::1.0.0
+
+Template name "Snowflake Assembly Module/Plugin" (snowflake-mod) from author "Snowflake Authors" in pack Snowflake.Templates.AssemblyModule
+    To use this template, run the following command and try again:
+        dotnet new -i Snowflake.Templates.AssemblyModule::1.0.0
+
+Template name "Azure Functions Project With Tests" (functests) from author "Matt Sloan" in pack Sloan.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Sloan.Templates::1.0.0
+
+Template name "Azure Function Project (HTTP Trigger)" (azure-function-http) from author "InteXX" in pack Intexx.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Intexx.Templates::1.0.0
+
+Template name "Plugga Core Component" (pluggable) from author "Emanuele Gualtierotti" in pack Plugga.Core.Templates
+Template name "Plugga Core Run Application" (pluggarun) from author "Emanuele Gualtierotti" in pack Plugga.Core.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Plugga.Core.Templates::1.0.2
+
+Template name "Solid Composition Module" (solid-module) from author "Gennady Verdel" in pack Solid.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Solid.Templates::2.2.0-rc1
+
+Template name "Automata component template" (automata-component) from author "CorruptTurret" in pack Automata.Templates
+Template name "Automata Discord bot template" (automata-discord) from author "CorruptTurret" in pack Automata.Templates
+    To use this template, run the following command and try again:
+        dotnet new -i Automata.Templates::0.3.0
+
+Template name "Rundeck Cli Application" (rundeck) from author "Panoramic Data Limited" in pack Rundeck.Cli
+    To use this template, run the following command and try again:
+        dotnet new -i Rundeck.Cli::1.0.5
+
+Template name "Basic client/server solution for gRPC on RaspberryPi" (gRPCpi) from author "Erik Taylor <https://dev.to/erikest>" in pack grpcpi
+    To use this template, run the following command and try again:
+        dotnet new -i grpcpi::1.1.0
+

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/template",
-  "author": "UmbracoPackageTeam",
+  "author": "Umbraco Community",
   "classifications": [ 
     "Web", 
     "Umbraco", 
@@ -13,11 +13,13 @@
 
   "identity": "Umbraco.Template.Package",
 
-  "name": "Empty Umbraco Package",
+  "name": "Umbraco Package Empty",
   "shortName": "umbraco-v8-package",
-  "description": "Basic umbraco package project template",
+  "description": "An empty project template for creating an Umbraco package.",
 
   "sourceName": "UmbracoPackage.1",
+  "defaultName": "UmbracoPackage1",
+
 
   "preferNameDirectory": true,
 
