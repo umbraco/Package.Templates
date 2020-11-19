@@ -1,6 +1,7 @@
 {
   "javascript": [
-    "~/app_plugins/uiexamples/example.section.controller.js"
+    "~/app_plugins/uiexamples/example.section.controller.js",
+    "~/app_plugins/uiexamples/example.resource.js"
   ],
   "sections": [
     {

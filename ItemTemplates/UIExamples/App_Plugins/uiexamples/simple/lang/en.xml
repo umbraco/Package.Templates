@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+  <area alias="example">
+    <key alias="buttonTitle">umb-button</key>
+    <key alias="buttonDescription">Render a styled button</key>
+    <key alias="buttonNote"></key>
+    <key alias="groupedButtonTitle">umb-grouped-button</key>
+    <key alias="groupedButtonDescription">Render a grouped button</key>
+    <key alias="groupedButtonNote"></key>
+    <key alias="groupedButton_default">Grouped style 'info'</key>
+    <key alias="groupedButton_subButtonA">Sub Button A</key>
+    <key alias="groupedButton_subButtonB">Sub Button B</key>
+    <key alias="groupedButtonNote"></key>
+  </area>
+</language>

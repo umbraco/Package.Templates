@@ -1,31 +1,25 @@
 ﻿<div ng-controller="exampleSectionSimpleController as vm">
-
-
     <umb-box>
         <umb-box-header title-key="example_buttonTitle"
                         description-key="example_buttonDescription">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButton');"
+                        label-key="example_apiDocumentation"
+                        type="button"
+                        button-style="info">
+            </umb-button>
         </umb-box-header>
 
         <umb-box-content>
-
-
-            <a href="https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButton" target="_blank">API Documentation</a>
-            <code>
-                <pre>
-        &lt;umb-button
-            action="vm.doStuff()"
-            label="Hello world"
-            type="button"
-            button-style="block | action | primary | info | success | warning | danger | inverse | link"&gt;
-        &lt;/umb-button&gt;</pre>
-            </code>
-
+            <umb-code-snippet language="'html'">&lt;umb-button
+    action="vm.doStuff()"
+    label="Hello world"
+    type="button"
+    button-style="block | action | primary | info | success | warning | danger | inverse | link"&gt;
+&lt;/umb-button&gt;</umb-code-snippet>
             <localize key="example_buttonNote"></localize>
         </umb-box-content>
 
         <umb-box-content>
-
-
             <umb-button action="vm.doStuff()"
                         label="block"
                         type="button"
@@ -78,4 +72,48 @@
         </umb-box-content>
     </umb-box>
 
+    <umb-box>
+        <umb-box-header title-key="example_groupedButtonTitle"
+                        description-key="example_groupedButtonDescription">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButtonGroup');"
+                        label-key="example_apiDocumentation"
+                        type="button"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+
+        <umb-box-content>
+            <umb-code-snippet language="'html'">&lt;umb-button-group
+    button-style="block | action | primary | info | success | warning | danger | inverse | link"
+    default-button="vm.buttonGroup.defaultButton"
+    sub-buttons="vm.buttonGroup.subButtons"
+    direction="up | down">
+&lt;/umb-button-group&gt;</umb-code-snippet>
+            <localize key="example_groupedButtonNote"></localize>
+        </umb-box-content>
+
+        <umb-box-content>
+
+            <umb-button-group 
+                default-button="vm.buttonGroup.defaultButton"
+                sub-buttons="vm.buttonGroup.subButtons"
+                direction="up">
+            </umb-button-group>
+
+            <umb-button-group 
+                button-style="success"
+                default-button="vm.buttonGroup.defaultButton"
+                sub-buttons="vm.buttonGroup.subButtons"
+                direction="up">
+            </umb-button-group>
+
+            <umb-button-group 
+                button-style="danger"
+                default-button="vm.buttonGroup.defaultButton"
+                sub-buttons="vm.buttonGroup.subButtons"
+                direction="up">
+            </umb-button-group>
+
+        </umb-box-content>
+    </umb-box>
 </div>
