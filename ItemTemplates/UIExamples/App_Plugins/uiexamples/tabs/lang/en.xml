@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+	<area alias="example">
+		<key alias="tabsTitle">Tabs</key>
+    <key alias="tabsDescription">This shows how you can use tabs</key>
+	</area>
+</language>
