@@ -22,6 +22,12 @@
                     'alias': 'basic',
                     'icon': 'icon-sprout color-green',
                     'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/basic.html',
+                },
+                {
+                    'name': 'simple',
+                    'alias': 'simple',
+                    'icon': 'icon-sprout color-green',
+                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/Simple/simple.html',
                 }
             ]
         }

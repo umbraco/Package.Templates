@@ -1,5 +1,10 @@
 {
-  "javascript": [ "~/App_Plugins/UIExamples/exampleSection.controller.js" ],
+  "javascript": [
+
+    "~/App_Plugins/UIExamples/exampleSection.controller.js",
+    "~/App_Plugins/UIExamples/Simple/simple.controller.js"
+
+  ],
   "sections": [
     {
       "alias": "uiExamples",
