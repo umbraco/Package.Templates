@@ -1,0 +1,16 @@
+{
+  "javascript": [ "~/App_Plugins/UIExamples/exampleSection.controller.js" ],
+  "sections": [
+    {
+      "alias": "uiExamples",
+      "name": "UI Examples"
+    }
+  ],
+  "dashboards": [
+    {
+      "alias": "uiexample",
+      "sections": [ "uiExamples" ],
+      "view": "~/App_Plugins/UIExamples/exampleSection.html"
+    }
+  ]
+}

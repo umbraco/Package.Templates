@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "UmbracoPackageTeam",
+    "classifications": [
+        "Web",
+        "Umbraco",
+        "v8"
+    ],
+    "tags": {
+        "language": "C#",
+        "type": "item"
+    },
+
+    "identity": "Umbraco.Templates.Items.UIExamples",
+    "groupIdentity": "Umbraco.Templates.Items.UIExamples",
+
+    "name": "Umbraco UI Examples App",
+    "shortName": "umbraco-v8-UIExamples",
+    "description": "Files to add UI Examples Sections to a project",
+    
+    "sourceName": "UmbracoPackage.1"
+}
