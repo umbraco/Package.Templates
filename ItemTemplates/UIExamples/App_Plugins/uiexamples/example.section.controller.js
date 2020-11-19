@@ -28,6 +28,12 @@
                     'icon': 'icon-sprout color-green',
                     'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/Simple/simple.html',
                     'active': true
+                },
+                {
+                    'name': 'tabs',
+                    'alias': 'tabs',
+                    'icon': 'icon-tab color-green',
+                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/tabs/tabs.html',
                 }
             ]
         }
