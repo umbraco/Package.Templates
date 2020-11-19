@@ -1,9 +1,6 @@
 {
   "javascript": [
-
-    "~/App_Plugins/UIExamples/exampleSection.controller.js",
-    "~/App_Plugins/UIExamples/Simple/simple.controller.js"
-
+    "~/app_plugins/uiexamples/example.section.controller.js"
   ],
   "sections": [
     {
@@ -15,7 +12,7 @@
     {
       "alias": "uiexample",
       "sections": [ "uiExamples" ],
-      "view": "~/App_Plugins/UIExamples/exampleSection.html"
+      "view": "~/app_plugins/uiexamples/example.section.html"
     }
   ]
 }

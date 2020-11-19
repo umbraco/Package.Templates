@@ -1,62 +1,81 @@
 ﻿<div ng-controller="exampleSectionSimpleController as vm">
 
-    <a href="https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButton" target="_blank">API Documentation</a>
-    <code>
-        <pre>
+
+    <umb-box>
+        <umb-box-header title-key="example_buttonTitle"
+                        description-key="example_buttonDescription">
+        </umb-box-header>
+
+        <umb-box-content>
+
+
+            <a href="https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButton" target="_blank">API Documentation</a>
+            <code>
+                <pre>
         &lt;umb-button
             action="vm.doStuff()"
             label="Hello world"
             type="button"
             button-style="block | action | primary | info | success | warning | danger | inverse | link"&gt;
         &lt;/umb-button&gt;</pre>
-    </code>
+            </code>
 
-    <umb-button action="vm.doStuff()"
-                label="block"
-                type="button"
-                button-style="block">
-    </umb-button>
-    <umb-button action="vm.doStuff()"
-                label="action"
-                type="button"
-                button-style="action">
-    </umb-button>
-    <umb-button action="vm.doStuff()"
-                label="primary"
-                type="button"
-                button-style="primary">
-    </umb-button>
+            <localize key="example_buttonNote"></localize>
+        </umb-box-content>
 
-    <umb-button action="vm.doStuff()"
-                label="info"
-                type="button"
-                button-style="info">
-    </umb-button>
+        <umb-box-content>
 
-    <umb-button action="vm.doStuff()"
-                label="success"
-                type="button"
-                button-style="success">
-    </umb-button>
-    <umb-button action="vm.doStuff()"
-                label="warning"
-                type="button"
-                button-style="warning">
-    </umb-button>
 
-    <umb-button action="vm.doStuff()"
-                label="danger"
-                type="button"
-                button-style="danger">
-    </umb-button>
-    <umb-button action="vm.doStuff()"
-                label="inverse"
-                type="button"
-                button-style="inverse">
-    </umb-button>
-    <umb-button action="vm.doStuff()"
-                label="link"
-                type="button"
-                button-style="link">
-    </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="block"
+                        type="button"
+                        button-style="block">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="action"
+                        type="button"
+                        button-style="action">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="primary"
+                        type="button"
+                        button-style="primary">
+            </umb-button>
+
+            <umb-button action="vm.doStuff()"
+                        label="info"
+                        type="button"
+                        button-style="info">
+            </umb-button>
+
+            <umb-button action="vm.doStuff()"
+                        label="success"
+                        type="button"
+                        button-style="success">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="warning"
+                        type="button"
+                        button-style="warning">
+            </umb-button>
+
+            <umb-button action="vm.doStuff()"
+                        label="danger"
+                        type="button"
+                        button-style="danger">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="inverse"
+                        type="button"
+                        button-style="inverse">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="link"
+                        type="button"
+                        button-style="link">
+            </umb-button>
+
+        </umb-box-content>
+    </umb-box>
+
 </div>
