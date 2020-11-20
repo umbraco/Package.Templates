@@ -1,0 +1,80 @@
+﻿<div ng-controller="umbboxController as vm">
+
+    <umb-box id="group-umb-box">
+        <umb-box-header title-key="umbbox_boxTitle">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbBox');"
+                        label-key="example_apiDocumentation"
+                        type="button"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+
+        <umb-box-content>
+            <umb-code-snippet language="'html'">
+&lt;umb-box&gt;
+    &lt;umb-box-header title="this is a title"&gt;&lt;/umb-box-header&gt;
+    &lt;umb-box-content&gt;
+        // Content here
+    &lt;/umb-box-content&gt;
+&lt;/umb-box&gt;
+            </umb-code-snippet>
+
+            <localize key="umbbox_boxDescription"></localize>
+        </umb-box-content>
+    </umb-box>
+
+    <umb-box id="group-umb-box-header">
+        <umb-box-header title-key="umbbox_headerTitle">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbBoxHeader');"
+                        label-key="example_apiDocumentation"
+                        type="button"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+
+        <umb-box-content>
+            <umb-code-snippet language="'html'">
+&lt;umb-box-header
+    [title="{string}"]
+    [title-key="{string}"]
+    [description="{string}"]
+    [description-key="{string}"]&gt;
+&lt;/umb-box-header&gt;
+            </umb-code-snippet>
+
+            <localize key="umbbox_headerDescription"></localize>
+
+            <umb-code-snippet language="'html'">
+&lt;umb-box-header title-key="umbbox_headerTitle"&gt;
+    &lt;umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbBoxHeader');"
+                label-key="example_apiDocumentation"
+                type="button"
+                button-style="info"&gt;
+    &lt;/umb-button&gt;
+&lt;/umb-box-header&gt;
+            </umb-code-snippet>
+
+            <localize key="umbbox_headerButtonNote"></localize>
+        </umb-box-content>
+    </umb-box>
+
+    <umb-box id="group-umb-box-content">
+        <umb-box-header title-key="umbbox_contentTitle">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbBoxContent');"
+                        label-key="example_apiDocumentation"
+                        type="button"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+
+        <umb-box-content>
+            <umb-code-snippet language="'html'">
+&lt;umb-box-content&gt;
+&lt;/umb-box-content&gt;
+            </umb-code-snippet>
+
+            <localize key="umbbox_contentDescription"></localize>
+        </umb-box-content>
+    </umb-box>
+
+</div>

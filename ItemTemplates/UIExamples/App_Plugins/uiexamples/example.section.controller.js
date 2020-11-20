@@ -34,6 +34,12 @@
                     'alias': 'tabs',
                     'icon': 'icon-tab color-green',
                     'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/tabs/tabs.html',
+                },
+                {
+                    'name': 'umbbox',
+                    'alias': 'umbbox',
+                    'icon': 'icon-box',
+                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/umbbox/umbbox.html'
                 }
             ]
         }
