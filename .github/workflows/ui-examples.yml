@@ -31,7 +31,8 @@ jobs:
         
       - name: Setup NuGet.exe for use with actions
         uses: NuGet/setup-nuget@v1
-        with: nuget-version: ${{ matrix.nuget }}  
+        with: 
+          nuget-version: ${{ matrix.nuget }}  
         
       - name: Setup .net core
         uses: actions/setup-dotnet@v1.4.0
