@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+	<area alias="umbbox">
+		<key alias="boxTitle">The umb-box element</key>
+		<key alias="boxDescription">The umb-box element is used as a wrapper for boxes in Umbraco. It contains a header and content element that are described below in more detail.</key>
+		<key alias="headerTitle">The umb-box-header element</key>
+		<key alias="headerDescription">
+			<![CDATA[
+			<p>The umb-box-header element is the top part of a box, above the horizontal line. It can contain a title and description or their language keys.</p>
+			<h2>Adding a button</h2>
+			<p>Anything inside the umb-box-header element will be right aligned, just like the "API Documentation" button at the top of this current box. See the example below:</p>
+			]]>			
+		</key>
+		<key alias="headerButtonNote">The vm.linkAway method is a method in the angular controller, not a standard Umbraco thing. It calls window.open(url) on the passed in url.</key>
+		<key alias="contentTitle">The umb-box-content element</key>
+		<key alias="contentDescription">The umb-box-content element is anything within the box and under the header. It is a simple wrapper for whatever you wish to put inside, and comes with no special config options.</key>
+	</area>
+</language>
