@@ -40,15 +40,6 @@ jobs:
       - name: Setup UmbPack
         run: dotnet tool install Umbraco.Tools.Packages --global
         
-      - name: Setup MSBuild
-        uses: microsoft/setup-msbuild@v1
-
-      - name: Restore Packages
-        run: dotnet restore ./src
-
-      - name: Build Project
-        run: msbuild ./src -p:Configuration=${{ env.CONFIG }}
-        
       # path to your package.xml file should go here.
       - name: Create Umbraco package file
         run: UmbPack pack ./package.xml -o ${{ env.OUTPUT }} -v ${{ steps.get_version.outputs.VERSION }}
