@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umbPackage>
+  <info>
+    <package>
+      <name>UI Examples</name>
+      <version>1.0.0</version>
+      <iconUrl></iconUrl>
+      <licence url="https://opensource.org/licenses/MIT">MIT</licence>
+      <url>https://our.umbraco.com</url>
+      <requirements type="strict">
+        <major>8</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>UmbracoPackageTeam</name>
+      <website>https://our.umbraco.com</website>
+    </author>
+    <readme><![CDATA[Collection of UI examples for the Umbraco Backoffice. They are all installed into a new section and are self-documented.]]></readme>
+  </info>
+  <files>
+    <folder path="ItemTemplates/UIExamples/App_Plugins/uiexamples" orgPath="app_plugins/uiexamples" />
+  </files>
+  <Actions />
+  <control />
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>
