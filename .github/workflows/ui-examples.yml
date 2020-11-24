@@ -8,8 +8,6 @@ name: Pack UI Examples
 
 env:
   OUTPUT: ./Output
-  LIBRARY_FOLDER: ./src/UmbracoPackage.1
-  CONFIG: release
 
 on:
   push:
