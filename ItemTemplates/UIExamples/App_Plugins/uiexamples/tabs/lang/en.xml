@@ -3,5 +3,7 @@
 	<area alias="example">
 		<key alias="tabsTitle">Tabs</key>
     <key alias="tabsDescription">This shows how you can use tabs</key>
+    <key alias="tabsNavDocumentation">API Documentation umbTabsNav</key>
+    <key alias="tabContentDocumentation">API Documentation umbTabContent</key>
 	</area>
 </language>
