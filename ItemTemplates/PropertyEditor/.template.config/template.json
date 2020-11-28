@@ -7,7 +7,7 @@
     "v8"
   ],
   "tags": {
-    "language": "C#",
+    "language": "JavaScript",
     "type": "item"
   },
 
@@ -15,8 +15,55 @@
   "groupIdentity": "Umbraco.Templates.Items.PropertyEditor",
 
   "name": "Umbraco Property Editor Item",
-  "shortName": "umbraco-v8-dashboard",
+  "shortName": "umbraco-v8-property-editor",
   "description": "Umbraco property editor files",
 
-  "sourceName": "UmbracoPackage.1"
+  "sourceName": "UmbracoPackage.1",
+
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(propertyEditor == \"boilerplate\")",
+          "include": [
+            "**/[Pp]roperty[Ee]ditor/**/*",
+            "**/[Pp]roperty[Ee]ditor*.cs"
+          ],
+          "exclude": [
+            "**/[Mm]arkdown[Pp]roperty[Ee]ditor/**/*",
+            "**/[Mm]arkdown[Pp]roperty[Ee]ditor*.cs"
+          ]
+        },
+        {
+          "condition": "(propertyEditor == \"markdown-sample\")",
+          "include": [
+            "**/[Mm]arkdown[Pp]roperty[Ee]ditor/**/*",
+            "**/[Mm]arkdown[Pp]roperty[Ee]ditor*.cs"
+          ],
+          "exclude": [
+            "**/[Pp]roperty[Ee]ditor/**/*",
+            "**/[Pp]roperty[Ee]ditor*.cs"
+          ]
+        }
+      ]
+    }
+  ],
+  "symbols": {
+    "propertyEditor": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "boilerplate",
+          "description": "Just the plain boilerplate code"
+        },
+        {
+          "choice": "markdown-sample",
+          "description": "A real markdown editor"
+        }
+      ],
+      "defaultValue": "boilerplate",
+      "description": "Include template code for a property editor"
+    }
+  }
 }

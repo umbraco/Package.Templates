@@ -67,22 +67,7 @@
           ]
         },
         {
-          "condition": "(propertyEditor == \"boilerplate\")",
-          "include": [
-            "**/[Pp]roperty[Ee]ditor/**/*",
-            "**/[Pp]roperty[Ee]ditor*.cs"
-          ],
-          "exclude": [
-            "**/[Mm]arkdown[Pp]roperty[Ee]ditor/**/*",
-            "**/[Mm]arkdown[Pp]roperty[Ee]ditor*.cs"
-          ]
-        },
-        {
-          "condition": "(propertyEditor == \"markdown-sample\")",
-          "include": [
-            "**/[Mm]arkdown[Pp]roperty[Ee]ditor/**/*",
-            "**/[Mm]arkdown[Pp]roperty[Ee]ditor*.cs"
-          ],
+          "condition": "(!propertyEditor)",
           "exclude": [
             "**/[Pp]roperty[Ee]ditor/**/*",
             "**/[Pp]roperty[Ee]ditor*.cs"
@@ -128,18 +113,8 @@
     },
     "propertyEditor": {
       "type": "parameter",
-      "datatype": "choice",
-      "choices": [
-        {
-          "choice": "boilerplate",
-          "description": "Just the plain boilerplate code"
-        },
-        {
-          "choice": "markdown-sample",
-          "description": "A real markdown editor"
-        }
-      ],
-      "defaultValue": "boilerplate",
+      "datatype": "bool",
+      "defaultValue": "false",
       "description": "Include template code for a property editor"
     },
     "github": {
