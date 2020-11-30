@@ -21,8 +21,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="ProjectTemplates\**\*;ItemTemplates\**\*"
-             Exclude="**\bin\**;**\obj\**;**\.vs\**;**\umbraco\**;**\packages\**" />
+    <Content Include="ProjectTemplates\**\*;ItemTemplates\**\*" Exclude="**\bin\**;**\obj\**;**\.vs\**;**\umbraco\**;**\packages\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
+ 
 </Project>

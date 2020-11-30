@@ -1,0 +1,9 @@
+﻿<div ng-controller="umbracopackage__1MarkdownEditorController">
+    <div id="wmd-button-bar-{{model.alias}}"></div>
+
+    <textarea ng-model="model.value" class="wmd-input" id="wmd-input-{{model.alias}}">
+        <!-- our content will be loaded here -->
+    </textarea>
+
+    <div id="wmd-preview-{{model.alias}}" ng-show="{{model.config.preview}}" class="wmd-panel wmd-preview"></div>
+</div>
