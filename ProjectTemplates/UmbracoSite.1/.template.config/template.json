@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/template",
-  "author": "UmbracoPackageTeam",
+  "author": "Umbraco Community",
   "classifications": [ 
     "Web", 
     "Umbraco", 
@@ -13,11 +13,12 @@
 
   "identity": "Umbraco.Template.Site",
 
-  "name": "Empty Umbraco Site",
+  "name": "Umbraco Site Empty",
   "shortName": "umbraco-v8-site",
-  "description": "Basic umbraco site project template",
+  "description": "An empty Umbraco site for testing an Umbraco package.",
 
   "sourceName": "UmbracoSite.1",
+  "defaultName": "UmbracoSite1",
 
   "sources": [
     {
