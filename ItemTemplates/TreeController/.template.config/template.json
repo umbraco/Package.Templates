@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "UmbracoPackageTeam",
+  "classifications": [
+    "Web",
+    "Umbraco",
+    "v8"
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+
+  "identity": "Umbraco.Templates.Items.TreeController",
+  "groupIdentity": "Umbraco.Templates.Items.Trees",
+
+  "name": "Umbraco TreeController Item",
+  "shortName": "umbraco-v8-tree",
+  "description": "Umbraco tree controller files",
+
+  "sourceName": "UmbracoPackage.1",
+
+  "symbols": {
+    "treeTitle": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "The tree name",
+      "isRequired": true,
+      "replaces": "#treeTitle#",
+      "fileRename": "_treeTitle_"
+    },
+    "treeAlias": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "The tree alias",
+      "isRequired": true,
+      "replaces": "#treeAlias#"
+    },
+    "sectionAlias": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "The section alias",
+      "isRequired": true,
+      "replaces": "#sectionAlias#"
+    },
+    "searchable": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Should the tree support searching"
+    }
+  }
+}
