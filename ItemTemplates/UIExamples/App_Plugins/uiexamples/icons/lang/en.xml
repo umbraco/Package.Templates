@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+  <area alias="uiexamplesIcons">
+		<key alias="headerTitle">umb-icon</key>
+		<key alias="headerDescription">Use this directive to render a svg icon</key>
+    <key alias="parameterIcon">The 'icon' parameter determines which icon to show. All names are prefixed with icon-, for example 'icon-alert' and 'icon-checkbox'. See below for a list of all icons and their names.</key>
+    <key alias="parameterClass">The 'class' parameter can be used to render the icon with a fixed size:</key>
+    <key alias="parameterClassNone">Without a size class specified the icon will inherit the font-size of their parent container.</key>
+		<key alias="listTitle">Available Icons</key>
+		<key alias="listDescription">The core Umbraco backoffice svg icons</key>
+  </area>
+</language>
