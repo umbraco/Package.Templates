@@ -1,0 +1,45 @@
+﻿<div ng-controller="exampleSectionIconsController as vm">
+
+    <umb-box>
+        <umb-box-header title-key="uiexamplesIcons_headerTitle"
+                        description-key="uiexamplesIcons_headerDescription">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbIcon');"
+                        label-key="example_apiDocumentation"
+                        type="button"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+
+        <umb-box-content>
+            <umb-code-snippet language="'html'">&lt;umb-icon
+    icon="icon-{name}"&gt;
+    class="small | medium | large"&gt;
+&lt;/umb-icon&gt;</umb-code-snippet>
+            <p><localize key="uiexamplesIcons_parameterIcon"></localize></p>
+            <p><localize key="uiexamplesIcons_parameterClass"></localize></p>
+            <ul>
+                <li><code>small </code> &nbsp; 14px <umb-icon icon="icon-alert" class="small"></umb-icon></li>
+                <li><code>medium</code> &nbsp; 24px <umb-icon icon="icon-alert" class="medium"></umb-icon></li>
+                <li><code>large </code> &nbsp; 32px <umb-icon icon="icon-alert" class="large"></umb-icon></li>
+            </ul>
+            <p><localize key="uiexamplesIcons_parameterClassNone"></localize></p></p>
+        </umb-box-content>
+    </umb-box>
+
+    <umb-box>
+
+        <umb-box-header title-key="uiexamplesIcons_listTitle"
+                        description-key="uiexamplesIcons_listDescription">
+        </umb-box-header>
+
+        <umb-box-content>
+            <div class="flex justify-between flex-wrap">
+                <div ng-repeat="icon in vm.icons | orderBy: 'name'" class="umb-iconpicker-item" style="justify-content: left;">
+                    <umb-icon class="umb-iconpicker-svg {{icon.name}} large" icon="{{icon.name}}"></umb-icon>
+                    <div class="ml2">{{icon.name}}</div>
+                </div>
+            </div>
+        </umb-box-content>
+    </umb-box>
+
+</div>

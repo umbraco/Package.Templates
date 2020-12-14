@@ -14,7 +14,7 @@
                     'name': 'Icons',
                     'alias': 'icons',
                     'icon': 'icon-cupcake',
-                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/icons.html',
+                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/icons/icons.html',
                 },
                 {
                     'name': 'basic',
