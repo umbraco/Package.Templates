@@ -7,29 +7,34 @@
         vm.linkAway = exampleResource.linkAway;
 
         function init() {
-            iconHelper.getAllIcons().then(function (icons) {
+
+            var allIconMethod = iconHelper.getAllIcons;
+            if (allIconMethod === undefined) {
+                // pre v8.8 method is getIcons 
+                allIconMethod = iconHelper.getIcons;
+            }
+
+            allIconMethod().then(function (icons) {
+
                 vm.icons = icons;
 
-                //copied from IconPickerController in umbraco.controllers.js
-                iconHelper.getIcons().then(function (icons) {
-                    if (icons && icons.length > 0) {
-                        var legacyIcons = icons.filter(function (icon) {
-                            return !vm.icons.find(function (x) {
-                                return x.name == icon;
-                            });
-                        }).map(function (icon) {
-                            return {
-                                name: icon,
-                                svgString: null
-                            };
+                if (icons && icons.length > 0) {
+                    var legacyIcons = icons.filter(function (icon) {
+                        return !vm.icons.find(function (x) {
+                            return x.name == icon;
                         });
-                        vm.icons = legacyIcons.concat(vm.icons);
-                    }
-                });
+                    }).map(function (icon) {
+                        return {
+                            name: icon,
+                            svgString: null
+                        };
+                    });
+                    vm.icons = legacyIcons.concat(vm.icons);
+                }
             });
         }
 
-        init(); 
+        init();
     }
 
     angular.module('umbraco')
