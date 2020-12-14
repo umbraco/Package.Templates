@@ -1,3 +1,7 @@
 {
-  "javascript": [ "~/App_Plugins/uiexamples/icons/icons.controller.js" ]
+  "javascript": [
+    "~/App_Plugins/uiexamples/icons/icons.controller.js",
+    "~/App_Plugins/uiexamples/icons/iconoverlay.controller.js"
+
+  ]
 }

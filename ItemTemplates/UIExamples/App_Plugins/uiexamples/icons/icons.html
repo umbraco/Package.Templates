@@ -1,4 +1,4 @@
-﻿<div ng-controller="exampleSectionIconsController as vm">
+<div ng-controller="exampleSectionIconsController as vm">
 
     <umb-box>
         <umb-box-header title-key="uiexamplesIcons_headerTitle"
@@ -34,7 +34,8 @@
 
         <umb-box-content>
             <div class="flex justify-between flex-wrap">
-                <div ng-repeat="icon in vm.icons | orderBy: 'name'" class="umb-iconpicker-item" style="justify-content: left;">
+                <div ng-repeat="icon in vm.icons | orderBy: 'name'" class="umb-iconpicker-item cursor-pointer" style="justify-content: left;"
+                     ng-click="vm.openIconOverlay(icon)">
                     <umb-icon class="umb-iconpicker-svg {{icon.name}} large" icon="{{icon.name}}"></umb-icon>
                     <div class="ml2">{{icon.name}}</div>
                 </div>
