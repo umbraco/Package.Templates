@@ -1,0 +1,22 @@
+﻿/* simple style addtion so we can outline the boxes in flexbox examples*/
+.uiexamples-outline {
+    border: 1px solid red;
+    margin: 1em 0;
+}
+
+    .uiexamples-outline > div {
+        margin: 0.5em 0;
+        padding: 1em;
+        border: 1px solid blue;
+        background-color: #eee;
+    }
+
+.uiexamples-outline-no-margin {
+    border: 1px solid red;
+    margin: 0 10px;
+    flex-grow: 2;
+}
+
+    .uiexamples-outline-no-margin > div {
+        border: 1px solid blue;
+    }

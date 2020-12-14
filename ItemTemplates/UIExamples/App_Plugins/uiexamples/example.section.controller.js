@@ -1,4 +1,4 @@
-﻿
+
 (function () {
     'use strict';
 
@@ -11,28 +11,28 @@
             description: 'UI Examples',
             navigation: [
                 {
-                    'name': 'Icons',
-                    'alias': 'icons',
-                    'icon': 'icon-cupcake',
-                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/icons/icons.html',
+                    'name': 'UI Examples',
+                    'alias': 'default',
+                    'icon': 'icon-sprout',
+                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/default.html',
+                    'active': true
                 },
                 {
-                    'name': 'basic',
-                    'alias': 'basic',
-                    'icon': 'icon-sprout color-green',
-                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/basic.html',
+                    'name': 'Icons',
+                    'alias': 'icons',
+                    'icon': 'icon-picture',
+                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/icons/icons.html',
                 },
                 {
                     'name': 'simple',
                     'alias': 'simple',
-                    'icon': 'icon-sprout color-green',
+                    'icon': 'icon-checkbox-empty',
                     'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/Simple/simple.html',
-                    'active': true
                 },
                 {
                     'name': 'tabs',
                     'alias': 'tabs',
-                    'icon': 'icon-tab color-green',
+                    'icon': 'icon-tab',
                     'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/tabs/tabs.html',
                 },
                 {
@@ -40,7 +40,14 @@
                     'alias': 'umbbox',
                     'icon': 'icon-box',
                     'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/umbbox/umbbox.html'
-                }
+                },
+                {
+                    'name': 'layout',
+                    'alias': 'layout',
+                    'icon': 'icon-layout',
+                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/layout/layout.html'
+                },
+
             ]
         }
 

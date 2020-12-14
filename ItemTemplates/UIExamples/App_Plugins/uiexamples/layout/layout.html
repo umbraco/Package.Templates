@@ -1,0 +1,249 @@
+﻿<div ng-controller="exampleLayoutController as vm" id="tab-layout">
+
+    <div ng-if="vm.loading">
+        <div class="flex justify-center">
+            <umb-button action="vm.toggleLoading()" label-key="layout_stopLoading" type="button" button-style="info"></umb-button>
+        </div>
+        <umb-load-indicator ng-if="vm.loading"></umb-load-indicator>
+    </div>
+
+    <div ng-if="!vm.loading">
+        <umb-box id="group-layout">
+            <umb-box-header title-key="layout_loadingTitle"
+                            description-key="layout_loadingDescription">
+                <umb-button action="vm.openLink('')" type="button"
+                            button-style="info"
+                            label-key="example_apiDocumentation"
+                            icon="icon-book"></umb-button>
+            </umb-box-header>
+            <umb-box-content>
+                <localize key="layout_loadingMessage"></localize>
+
+                <umb-code-snippet language="'html'">&lt;umb-load-indicator&gt;&lt;/umb-load-indicator&gt;</umb-code-snippet>
+
+                <umb-button action="vm.toggleLoading()"
+                            label-key="layout_loading"
+                            button-style="action"
+                            type="button"></umb-button>
+            </umb-box-content>
+        </umb-box>
+
+        <umb-box id="group-layout">
+            <umb-box-header title-key="layout_layoutTitle"
+                            description-key="layout_layoutDescription"></umb-box-header>
+            <umb-box-content>
+
+                <localize key="layout_flex"></localize>
+
+                <!-- justify -->
+                <h4>Justify</h4>
+
+                <localize key="layout_flexJustify"></localize>
+
+                <umb-code-snippet language="'html'">&lt;div class="flex jusitfy-center"&gt;&lt;/div&gt;</umb-code-snippet>
+
+                <div class="flex justify-between">
+
+                    <div class="flx-b2">
+                        <h5>justify-start</h5>
+                        <div class="flex justify-start uiexamples-outline">
+                            <div>One</div>
+                            <div>Two</div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>justify-end</h5>
+                        <div class="flex justify-end uiexamples-outline">
+                            <div>One</div>
+                            <div>Two</div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>justify-center</h5>
+                        <div class="flex justify-center uiexamples-outline">
+                            <div>One</div>
+                            <div>Two</div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>justify-between</h5>
+                        <div class="flex justify-between uiexamples-outline">
+                            <div>One</div>
+                            <div>Two</div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>justify-around</h5>
+                        <div class="flex justify-around uiexamples-outline">
+                            <div>One</div>
+                            <div>Two</div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- align-items -->
+                <h4>Align items</h4>
+
+                <localize key="layout_flexItems"></localize>
+
+                <umb-code-snippet language="'html'">&lt;div class="flex items-center"&gt;&lt;/div&gt;</umb-code-snippet>
+
+                <div class="flex justify-between">
+
+                    <div class="flx-b2">
+                        <h5>items-start</h5>
+                        <div class="flex items-start justify-around uiexamples-outline">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>items-end</h5>
+                        <div class="flex items-end justify-around uiexamples-outline">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>items-center</h5>
+                        <div class="flex items-center justify-around uiexamples-outline">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>items-between</h5>
+                        <div class="flex items-between justify-around uiexamples-outline">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>items-around</h5>
+                        <div class="flex items-around uiexamples-outline">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Three</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- align-content -->
+                <h4>Align Content</h4>
+
+                <localize key="layout_flexContent"></localize>
+
+                <umb-code-snippet language="'html'">&lt;div class="flex content-center"&gt;&lt;/div&gt;</umb-code-snippet>
+
+                <div class="flex justify-between">
+
+                    <div class="flx-b2">
+                        <h5>content-start</h5>
+                        <div class="flex content-start flex-wrap uiexamples-outline" style="height:300px;">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Thrid block</div>
+                            <div>Four<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Final block</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>content-end</h5>
+                        <div class="flex content-end flex-wrap uiexamples-outline" style="height:300px;">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Thrid block</div>
+                            <div>Four<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Final block</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>content-center</h5>
+                        <div class="flex content-center flex-wrap uiexamples-outline" style="height:300px;">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Thrid block</div>
+                            <div>Four<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Final block</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>content-between</h5>
+                        <div class="flex content-between flex-wrap uiexamples-outline" style="height:300px;">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Thrid block</div>
+                            <div>Four<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Final block</div>
+                        </div>
+                    </div>
+                    <div class="flx-b2 ml2">
+                        <h5>content-around</h5>
+                        <div class="flex content-around flex-wrap uiexamples-outline" style="height:300px;">
+                            <div>One<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Thrid block</div>
+                            <div>Four<br />thing</div>
+                            <div><i class="icon icon-science large color-orange"></i></div>
+                            <div>Final block</div>
+                        </div>
+                    </div>
+                </div>
+            </umb-box-content>
+        </umb-box>
+
+        <umb-box id="group-margin">
+            <umb-box-header title-key="layout_marginTitle"
+                            description-key="layout_marginDescription"></umb-box-header>
+            <umb-box-content>
+                <localize key="layout_margins"></localize>
+
+                <h4>Margin Top</h4>
+                <div class="flex justify-between content-stretch mb4">
+                    <div ng-repeat="x in [].constructor(8) track by $index"
+                         class="uiexamples-outline-no-margin">
+                        <div class="mt{{$index}}">.mt{{$index}}</div>
+                    </div>
+                </div>
+
+                <!--
+                 <div class="flex justify-between content-stretch">
+                    <div ng-repeat="x in [].constructor(8) track by $index"
+                       class="uiexamples-outline-no-margin">
+                        <div class="mb{{$index}}">.mb{{$index}}</div>
+                    </div> 
+                </div>-->
+
+                <h4>Margin right</h4>
+                <div class="flex justify-between content-stretch mb4">
+                    <div ng-repeat="x in [].constructor(8) track by $index"
+                         class="uiexamples-outline-no-margin">
+                        <div class="mr{{$index}}">.mr{{$index}}</div>
+                    </div>
+                </div>
+
+                <h4>Margin Left</h4>
+                <div class="flex justify-between content-stretch m4">
+                    <div ng-repeat="x in [].constructor(8) track by $index"
+                         class="uiexamples-outline-no-margin">
+                        <div class="ml{{$index}}">.ml{{$index}}</div>
+                    </div>
+                </div>
+
+            </umb-box-content>
+        </umb-box>
+    </div>
+</div>

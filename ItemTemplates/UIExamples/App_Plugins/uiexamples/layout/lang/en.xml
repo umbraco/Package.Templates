@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+	<area alias="layout">
+
+		<!-- loading -->
+		<key alias="loadingTitle">Loading indicator</key>
+		<key alias="loadingDescription">Display loading bubbles why things setup</key>
+		<key alias="loadingMessage"><![CDATA[<p>The umbraco load indicator, allows you to show the three progress 'bubbles' while your page initializes or you do work that will take some time</p>]]></key>
+
+		<!-- layout (flex) -->
+		<key alias="layoutTitle">Layout</key>
+		<key alias="layoutDescription">classes to aid page layout</key>
+		
+		<key alias="flex">
+				<![CDATA[
+			<p>Umbraco conatins many helper methods for controlling how a flex box and its child items are rendered.</p>
+			<p>for a complete rundown of flexbox behaviour see <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">a guide to flexbox</a></p>
+		]]></key>
+		<key alias="flexJustify">Jusfiy content within a flex layout - good for spacing your content across the page</key>
+		<key alias="flexItems">Align items within the flex layout, good for aligning text and image boxes of diffrent sizes</key>
+		<key alias="flexContent">Align content within flex layout, good for controlling how boxes flow across the page</key>
+
+		
+		<!-- margins -->
+		<key alias="marginTitle">Margins</key>
+		<key alias="marginDescription">Classes to help with the margins between items</key>
+		<key alias="margins">
+			<![CDATA[<a href="https://github.com/umbraco/Umbraco-CMS/blob/v8/contrib/src/Umbraco.Web.UI.Client/src/less/utilities/_spacing.less">Umbraco's spacing styles</a>]]>
+		</key>
+	</area>
+</language>

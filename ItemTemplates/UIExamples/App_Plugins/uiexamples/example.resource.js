@@ -1,4 +1,4 @@
-﻿function exampleResource($q) {
+function exampleResource($q) {
 
     return {
         linkAway: function(url) {
