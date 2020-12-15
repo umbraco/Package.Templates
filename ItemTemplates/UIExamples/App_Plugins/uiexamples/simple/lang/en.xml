@@ -3,13 +3,16 @@
   <area alias="example">
     <key alias="buttonTitle">umb-button</key>
     <key alias="buttonDescription">Render a styled button</key>
-    <key alias="buttonNote"></key>
+    <key alias="buttonNote">
+		<![CDATA[
+            This is an example of using a button. The type of button depends on the "button-style", you can see the options in the example above and see them rendered down below.
+        ]]>
+	</key>
     <key alias="groupedButtonTitle">umb-grouped-button</key>
     <key alias="groupedButtonDescription">Render a grouped button</key>
-    <key alias="groupedButtonNote"></key>
+    <key alias="groupedButtonNote">This is an example of a button group, you can see a few examples rendered down below.</key>
     <key alias="groupedButton_default">Grouped style 'info'</key>
     <key alias="groupedButton_subButtonA">Sub Button A</key>
     <key alias="groupedButton_subButtonB">Sub Button B</key>
-    <key alias="groupedButtonNote"></key>
   </area>
 </language>
