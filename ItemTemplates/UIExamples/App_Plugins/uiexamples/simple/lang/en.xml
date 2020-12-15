@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
-  <area alias="example">
+  <area alias="simple">
     <key alias="buttonTitle">umb-button</key>
     <key alias="buttonDescription">Render a styled button</key>
     <key alias="buttonNote">
