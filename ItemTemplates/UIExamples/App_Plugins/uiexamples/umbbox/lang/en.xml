@@ -2,12 +2,16 @@
 <language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
 	<area alias="umbbox">
 		<key alias="boxTitle">The umb-box element</key>
-		<key alias="boxDescription">The umb-box element is used as a wrapper for boxes in Umbraco. It contains a header and content element that are described below in more detail.</key>
+		<key alias="boxDescription">
+			<![CDATA[
+			<p>The <span style="color:red";>umb-box</span> element (outlined in red) is used as a wrapper for boxes in Umbraco. It contains a <span style="color:blue";>header</span> (outlined in blue) and <span style="color:green";>content</span> element (outlined in green) that are described below in more detail.
+			]]>
+		</key>
 		<key alias="headerTitle">The umb-box-header element</key>
 		<key alias="headerDescription">
 			<![CDATA[
 			<p>The umb-box-header element is the top part of a box, above the horizontal line. It can contain a title and description or their language keys.</p>
-			<h2>Adding a button</h2>
+			<h4>Adding a button</h2>
 			<p>Anything inside the umb-box-header element will be right aligned, just like the "API Documentation" button at the top of this current box. See the example below:</p>
 			]]>			
 		</key>

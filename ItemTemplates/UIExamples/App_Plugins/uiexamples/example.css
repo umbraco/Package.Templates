@@ -20,3 +20,17 @@
     .uiexamples-outline-no-margin > div {
         border: 1px solid blue;
     }
+
+.uiexamples-umbbox-outline {
+    border: 1px solid red;
+}
+    
+    .uiexamples-umbbox-outline > .header {
+        border: 1px solid blue;
+        margin: 5px;
+    }
+
+    .uiexamples-umbbox-outline > .content {
+        border: 1px solid green;
+        margin: 5px;
+    }

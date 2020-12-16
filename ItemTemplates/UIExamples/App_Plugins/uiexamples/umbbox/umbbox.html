@@ -1,15 +1,16 @@
 ﻿<div ng-controller="umbboxController as vm">
 
-    <umb-box id="group-umb-box">
-        <umb-box-header title-key="umbbox_boxTitle">
+    <umb-box id="group-umb-box" class="uiexamples-umbbox-outline">
+        <umb-box-header title-key="umbbox_boxTitle" class="header">
             <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbBox');"
                         label-key="example_apiDocumentation"
                         type="button"
+                        icon="icon-book"
                         button-style="info">
             </umb-button>
         </umb-box-header>
 
-        <umb-box-content>
+        <umb-box-content class="content">
             <umb-code-snippet language="'html'">
 &lt;umb-box&gt;
     &lt;umb-box-header title="this is a title"&gt;&lt;/umb-box-header&gt;
@@ -28,6 +29,7 @@
             <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbBoxHeader');"
                         label-key="example_apiDocumentation"
                         type="button"
+                        icon="icon-book"
                         button-style="info">
             </umb-button>
         </umb-box-header>
@@ -63,6 +65,7 @@
             <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbBoxContent');"
                         label-key="example_apiDocumentation"
                         type="button"
+                        icon="icon-book"
                         button-style="info">
             </umb-button>
         </umb-box-header>
