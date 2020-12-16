@@ -4,36 +4,30 @@
     function exampleSectionIconsController(exampleResource, iconHelper, overlayService) {
 
         var vm = this;
+        vm.loading = true;
         vm.linkAway = exampleResource.linkAway;
 
         vm.openIconOverlay = openIconOverlay;
 
         function init() {
 
-            var allIconMethod = iconHelper.getAllIcons;
-            if (allIconMethod === undefined) {
-                // pre v8.8 method is getIcons 
-                allIconMethod = iconHelper.getIcons;
+            if (iconHelper.getAllIcons !== undefined) {
+
+                iconHelper.getAllIcons().then(function (icons) {
+                    vm.icons = icons;
+                    vm.loading = false;
+                });
             }
-
-            allIconMethod().then(function (icons) {
-
-                vm.icons = icons;
-
-                if (icons && icons.length > 0) {
-                    var legacyIcons = icons.filter(function (icon) {
-                        return !vm.icons.find(function (x) {
-                            return x.name == icon;
-                        });
-                    }).map(function (icon) {
+            else {
+                iconHelper.getIcons().then(function (icons) {
+                    vm.icons = icons.map(function (icon) {
                         return {
-                            name: icon,
-                            svgString: null
+                            name: icon, svgString: null
                         };
                     });
-                    vm.icons = legacyIcons.concat(vm.icons);
-                }
-            });
+                    vm.loading = false;
+                });
+            }
         }
 
         /////////
