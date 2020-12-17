@@ -1,9 +1,9 @@
 {
   "javascript": [
-    "~/app_plugins/uiexamples/example.section.controller.js",
-    "~/app_plugins/uiexamples/example.resource.js"
+    "~/app_plugins/uiexamples/uiexamples.section.controller.js",
+    "~/app_plugins/uiexamples/uiexamples.resource.js"
   ],
-  "css": [ "~/app_plugins/uiexamples/example.css" ],
+  "css": [ "~/app_plugins/uiexamples/uiexamples.css" ],
   "sections": [
     {
       "alias": "uiExamples",
@@ -14,7 +14,7 @@
     {
       "alias": "uiexample",
       "sections": [ "uiExamples" ],
-      "view": "~/app_plugins/uiexamples/example.section.html"
+      "view": "~/app_plugins/uiexamples/uiexamples.section.html"
     }
   ]
 }

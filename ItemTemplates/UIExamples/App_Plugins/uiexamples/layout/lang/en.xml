@@ -5,11 +5,10 @@
 		<!-- loading -->
 		<key alias="loadingTitle">Loading indicator</key>
 		<key alias="loadingDescription">Display a loading indicator while things setup</key>
-		<key alias="loadingMessage">
-			<![CDATA[<p>The umbraco load indicator allows you to show the three progress 'bubbles' while your page initializes or you do work that will take some time.</p>
+		<key alias="loadingMessage"><![CDATA[
+			<p>The umbraco load indicator allows you to show the three progress 'bubbles' while your page initializes or you do work that will take some time.</p>
 			<p>Click the button below for an example, or try it yourself using this sample code:</p>
-		]]>
-		</key>
+		]]></key>
 		<key alias="loading">Start loading</key>
 		<key alias="stopLoading">Stop loading</key>
 

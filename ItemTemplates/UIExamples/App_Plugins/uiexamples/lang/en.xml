@@ -6,7 +6,7 @@
 	<area alias="sections">
 		<key alias="uiExamples">UIExamples</key>		
 	</area>
-	<area alias="default">
+	<area alias="info">
 		<key alias="heading">UI Examples</key>
 		<key alias="description">A backoffice component library as a package</key>
 		<key alias="intro">

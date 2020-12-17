@@ -2,7 +2,7 @@
 (function () {
     'use strict';
 
-    function simple($scope,
+    function buttons($scope,
         localizationService,
         overlayService,
         exampleResource) {
@@ -15,7 +15,7 @@
 
         vm.buttonGroup = {
             defaultButton: {
-                labelKey: "example_groupedButton_default",
+                labelKey: "buttons_groupedButton_default",
                 hotKey: "ctrl+d",
                 hotKeyWhenHidden: true,
                 buttonStyle: 'success',
@@ -26,7 +26,7 @@
             },
             subButtons: [
                 {
-                    labelKey: "example_groupedButton_subButtonA",
+                    labelKey: "buttons_groupedButton_subButtonA",
                     hotKey: "ctrl+a",
                     hotKeyWhenHidden: true,
                     handler: function () {
@@ -35,7 +35,7 @@
                     }
                 },
                 {
-                    labelKey: "example_groupedButton_subButtonB",
+                    labelKey: "buttons_groupedButton_subButtonB",
                     hotKey: "ctrl+b",
                     hotKeyWhenHidden: true,
                 buttonStyle: 'success',
@@ -55,7 +55,7 @@
 
         function openOverlay() {
 
-            localizationService.localizeMany(["exampleOverlayTitle", "exampleOverlayMessage"])
+            localizationService.localizeMany(["buttonsOverlayTitle", "buttonsOverlayMessage"])
                 .then(function (values) {
 
                     var overlay = {
@@ -74,5 +74,5 @@
     };
 
     angular.module('umbraco')
-        .controller('exampleSectionSimpleController', simple);
+        .controller('buttonsSectionController', buttons);
 })();
