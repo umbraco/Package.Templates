@@ -19,10 +19,8 @@
         };
 
         eventsService.on("app.tabChange", function (event, args) {
-            console.log('Tab switch called', event, args);
             $timeout(function () {
                 if (args.alias === 'tabs') {
-                    console.log('Tab app active');
                     vm.tabs = [
                         {
                             "alias": "tabOne",
