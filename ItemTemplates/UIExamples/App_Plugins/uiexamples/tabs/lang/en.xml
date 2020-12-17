@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
 	<area alias="tabs">
-		<key alias="tabsTitle">Tabs</key>
-    <key alias="tabsDescription">This shows how you can use tabs</key>
-    <key alias="tabsNavDocumentation">API Documentation umbTabsNav</key>
-    <key alias="tabContentDocumentation">API Documentation umbTabContent</key>
+		<key alias="headerTitle">Tabs</key>
+    <key alias="headerDescription">This shows how you can use tabs</key>
 	</area>
 </language>

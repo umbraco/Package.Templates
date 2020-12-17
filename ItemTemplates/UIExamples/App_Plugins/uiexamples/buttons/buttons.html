@@ -1,4 +1,4 @@
-﻿<div ng-controller="buttonsSectionController as vm">
+﻿<div ng-controller="buttonsSectionController as vm" id="tab-buttons">
     <umb-box>
         <umb-box-header title-key="buttons_buttonTitle"
                         description-key="buttons_buttonDescription">
@@ -17,10 +17,8 @@
     type="button"
     button-style="block | action | primary | info | success | warning | danger | inverse | link"&gt;
 &lt;/umb-button&gt;</umb-code-snippet>
-            <localize key="buttons_buttonNote"></localize>
-        </umb-box-content>
-
-        <umb-box-content>
+            <localize key="buttons_buttonNotes"></localize>
+            <div>&nbsp;</div>
             <umb-button action="vm.doStuff()"
                         label="block"
                         type="button"
@@ -74,8 +72,8 @@
     </umb-box>
 
     <umb-box>
-        <umb-box-header title-key="buttons_groupedButtonTitle"
-                        description-key="buttons_groupedButtonDescription">
+        <umb-box-header title-key="buttons_groupedTitle"
+                        description-key="buttons_groupedDescription">
             <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButtonGroup');"
                         label="umb-button-group"
                         type="button"
@@ -91,11 +89,8 @@
     sub-buttons="vm.buttonGroup.subButtons"
     direction="up | down">
 &lt;/umb-button-group&gt;</umb-code-snippet>
-            <localize key="buttons_groupedButtonNote"></localize>
-        </umb-box-content>
-
-        <umb-box-content>
-
+            <localize key="buttons_groupedNotes"></localize>
+            <div>&nbsp;</div>
             <umb-button-group 
                 default-button="vm.buttonGroup.defaultButton"
                 sub-buttons="vm.buttonGroup.subButtons"

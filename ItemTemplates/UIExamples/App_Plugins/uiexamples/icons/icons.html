@@ -1,8 +1,8 @@
-<div ng-controller="exampleSectionIconsController as vm">
+<div ng-controller="exampleSectionIconsController as vm" id="tab-icons">
 
     <umb-box>
-        <umb-box-header title-key="uiexamplesIcons_headerTitle"
-                        description-key="uiexamplesIcons_headerDescription">
+        <umb-box-header title-key="icons_headerTitle"
+                        description-key="icons_headerDescription">
             <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbIcon');"
                         label="umb-icon"
                         type="button"
@@ -16,14 +16,14 @@
     icon="icon-{name}"&gt;
     class="small | medium | large"&gt;
 &lt;/umb-icon&gt;</umb-code-snippet>
-            <p><localize key="uiexamplesIcons_parameterIcon"></localize></p>
-            <p><localize key="uiexamplesIcons_parameterClass"></localize></p>
+            <localize key="icons_parameterIcon"></localize>
+            <localize key="icons_parameterClass"></localize>
             <ul>
                 <li><code>small </code> &nbsp; 14px <umb-icon icon="icon-alert" class="small"></umb-icon></li>
                 <li><code>medium</code> &nbsp; 24px <umb-icon icon="icon-alert" class="medium"></umb-icon></li>
                 <li><code>large </code> &nbsp; 32px <umb-icon icon="icon-alert" class="large"></umb-icon></li>
             </ul>
-            <p><localize key="uiexamplesIcons_parameterClassNone"></localize></p></p>
+            <localize key="icons_parameterClassNone"></localize>
         </umb-box-content>
     </umb-box>
 
@@ -31,8 +31,8 @@
 
     <umb-box>
 
-        <umb-box-header title-key="uiexamplesIcons_listTitle"
-                        description-key="uiexamplesIcons_listDescription">
+        <umb-box-header title-key="icons_listTitle"
+                        description-key="icons_listDescription">
         </umb-box-header>
 
         <umb-box-content>

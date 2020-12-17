@@ -7,8 +7,7 @@
         var vm = this;
 
         vm.page = {
-            title: 'Examples',
-            description: 'UI Examples',
+            title: 'UI Examples',
             navigation: [
                 {
                     'name': 'Info',
@@ -30,6 +29,12 @@
                     'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/layout/layout.html'
                 },
                 {
+                    'name': 'Buttons',
+                    'alias': 'buttons',
+                    'icon': 'icon-checkbox-empty',
+                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/buttons/buttons.html',
+                },
+                {
                     'name': 'Tabs',
                     'alias': 'tabs',
                     'icon': 'icon-tab',
@@ -40,12 +45,6 @@
                     'alias': 'icons',
                     'icon': 'icon-picture',
                     'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/icons/icons.html',
-                },
-                {
-                    'name': 'Buttons',
-                    'alias': 'buttons',
-                    'icon': 'icon-checkbox-empty',
-                    'view': Umbraco.Sys.ServerVariables.umbracoSettings.appPluginsPath + '/uiexamples/buttons/buttons.html',
                 },
             ]
         }
