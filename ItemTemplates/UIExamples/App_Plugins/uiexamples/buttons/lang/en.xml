@@ -20,5 +20,9 @@
     <key alias="groupedSubButtonALabel">Sub Button A</key>
     <key alias="groupedSubButtonBLabel">Sub Button B</key>
 
+    <!-- overlay -->
+    <key alias="overlayTitle">This is an overlay</key>
+    <key alias="overlayMessage">If you want to see how this was done go to ~/App_Plugins/uiexamples/buttons and have a look!</key>
+
   </area>
 </language>

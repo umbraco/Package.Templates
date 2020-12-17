@@ -51,7 +51,7 @@
 
         function openOverlay() {
 
-            localizationService.localizeMany(["buttonsOverlayTitle", "buttonsOverlayMessage"])
+            localizationService.localizeMany(["buttons_overlayTitle", "buttons_overlayMessage"])
                 .then(function (values) {
 
                     var overlay = {
