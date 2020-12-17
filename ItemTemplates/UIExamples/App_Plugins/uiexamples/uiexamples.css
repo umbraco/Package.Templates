@@ -1,15 +1,22 @@
-﻿/* simple style addtion so we can outline the boxes in flexbox examples*/
+﻿a.uiexamples-link {
+    text-decoration: underline;
+}
+a.uiexamples-link:hover {
+    text-decoration: none;
+}
+
+/* simple style addtion so we can outline the boxes in flexbox examples*/
 .uiexamples-outline {
     border: 1px solid red;
     margin: 1em 0;
 }
 
-    .uiexamples-outline > div {
-        margin: 0.5em 0;
-        padding: 1em;
-        border: 1px solid blue;
-        background-color: #eee;
-    }
+.uiexamples-outline > div {
+    margin: 0.5em 0;
+    padding: 1em;
+    border: 1px solid blue;
+    background-color: #eee;
+}
 
 .uiexamples-outline-no-margin {
     border: 1px solid red;
@@ -17,20 +24,20 @@
     flex-grow: 2;
 }
 
-    .uiexamples-outline-no-margin > div {
-        border: 1px solid blue;
-    }
+.uiexamples-outline-no-margin > div {
+    border: 1px solid blue;
+}
 
 .uiexamples-umbbox-outline {
     border: 1px solid red;
 }
     
-    .uiexamples-umbbox-outline > .header {
-        border: 1px solid blue;
-        margin: 5px;
-    }
+.uiexamples-umbbox-outline > .header {
+    border: 1px solid blue;
+    margin: 5px;
+}
 
-    .uiexamples-umbbox-outline > .content {
-        border: 1px solid green;
-        margin: 5px;
-    }
+.uiexamples-umbbox-outline > .content {
+    border: 1px solid green;
+    margin: 5px;
+}

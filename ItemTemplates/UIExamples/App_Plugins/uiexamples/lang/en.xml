@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
-	<area alias="example">
-		<key alias="apiDocumentation">API Documentation</key>		
-	</area>
 	<area alias="sections">
-		<key alias="uiExamples">UIExamples</key>		
-	</area>
-	<area alias="info">
-		<key alias="heading">UI Examples</key>
-		<key alias="description">A backoffice component library as a package</key>
-		<key alias="intro">
-			<![CDATA[			
-			<p>This package is developed and maintained by the Umbraco Package Team.</p>
-			<p>It contains a quick overview of several backoffice elements and shows you how to use them. The package is also great reference material, if you see something within this section that isn't covered on one of the tabs you can go to your App_Plugins folder and check the source.</p>
-			<p>Everything in this package is frontend only (except for a bit of code that automatically adds this section to all user groups).</p>
-			]]>
-		</key>
+		<key alias="uiExamples">UI-Examples</key>		
 	</area>
 </language>
