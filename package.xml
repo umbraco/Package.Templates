@@ -21,6 +21,7 @@
   </info>
   <files>
     <folder path="ItemTemplates/UIExamples/App_Plugins/uiexamples" orgPath="app_plugins/uiexamples" />
+    <file path="UiExamplesLibrary/bin/Release/UiExamplesLibrary.dll" orgPath="bin/UiExamplesLibrary.dll"
   </files>
   <Actions />
   <control />
