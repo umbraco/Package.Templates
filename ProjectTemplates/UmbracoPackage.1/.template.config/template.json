@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/template",
-  "author": "UmbracoPackageTeam",
+  "author": "Umbraco Community",
   "classifications": [ 
     "Web", 
     "Umbraco", 
@@ -13,11 +13,13 @@
 
   "identity": "Umbraco.Template.Package",
 
-  "name": "Empty Umbraco Package",
+  "name": "Umbraco Package Empty",
   "shortName": "umbraco-v8-package",
-  "description": "Basic umbraco package project template",
+  "description": "An empty project template for creating an Umbraco package.",
 
   "sourceName": "UmbracoPackage.1",
+  "defaultName": "UmbracoPackage1",
+
 
   "preferNameDirectory": true,
 
@@ -65,46 +67,59 @@
             "**/[Dd]ashboard/**/*",
             "**/[Dd]ashboard*.cs"
           ]
+        },
+        {
+          "condition": "(!propertyEditor)",
+          "exclude": [
+            "**/[Pp]roperty[Ee]ditor/**/*",
+            "**/[Pp]roperty[Ee]ditor*.cs"
+          ]
         }
       ]
     }
   ],
 
-  "symbols": { 
-    "siteGuid" : {
-       "type": "generated",
-       "generator": "guid",
-       "replaces": "004F67C2-9A9E-49C3-8925-A55099E47D41",
-       "parameters": { "format": "D" }
+  "symbols": {
+    "siteGuid": {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "004F67C2-9A9E-49C3-8925-A55099E47D41",
+      "parameters": { "format": "D" }
     },
-    "projectRefGuid" : {
+    "projectRefGuid": {
       "type": "generated",
       "generator": "guid",
       "replaces": "F002C1EA-C083-4C69-878C-C1875385E534",
-      "parameters": { "format": "D"}
+      "parameters": { "format": "D" }
     },
-    "sitePort" : {
-      "type" : "generated",
+    "sitePort": {
+      "type": "generated",
       "generator": "random",
-      "parameters": { "low": 44300, "high" :44399 },
+      "parameters": {
+        "low": 44300,
+        "high": 44399
+      },
       "replaces": "44398"
     },
-    "contentApp" : 
-    {
+    "contentApp": {
       "type": "parameter",
       "datatype": "bool",
       "defaultValue": "false",
       "description": "Include template code for a content app"
     },
-    "dashboard" : 
-    {
+    "dashboard": {
       "type": "parameter",
       "datatype": "bool",
       "defaultValue": "false",
       "description": "Include template code for a dashboard"
     },
-    "github" :
-    {
+    "propertyEditor": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Include template code for a property editor"
+    },
+    "github": {
       "type": "parameter",
       "datatype": "bool",
       "defaultValue": "true",
@@ -116,23 +131,22 @@
       "defaultValue": "true",
       "description": "Include the test umbraco site project in .website"
     },
-    "ignore" :
-    {
+    "ignore": {
       "type": "generated",
       "generator": "constant",
-      "description" : "puts .website in the gitignore",
+      "description": "puts .website in the gitignore",
       "parameters": {
-        "value":".website"
+        "value": ".website"
       },
-      "replaces":"# .website #"
+      "replaces": "# .website #"
     },
-    "restore" :{
+    "restore": {
       "type": "parameter",
-      "datatype":"bool",
+      "datatype": "bool",
       "defaultValue": "false",
       "description": "Restore NuGet and NPM Modules"
     }
-    
+
   },
 
 
