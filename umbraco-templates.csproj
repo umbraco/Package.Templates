@@ -24,5 +24,10 @@
     <Content Include="ProjectTemplates\**\*;ItemTemplates\**\*" Exclude="**\bin\**;**\obj\**;**\.vs\**;**\umbraco\**;**\packages\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <None Remove="ItemTemplates\UIExamples\App_Plugins\UIExamples\exampleSection.controller.js" />
+    <None Remove="ItemTemplates\UIExamples\App_Plugins\UIExamples\exampleSection.html" />
+    <None Remove="ItemTemplates\UIExamples\App_Plugins\UIExamples\Lang\en.xml" />
+    <None Remove="ItemTemplates\UIExamples\App_Plugins\UIExamples\package.manifest" />
+  </ItemGroup>
 </Project>

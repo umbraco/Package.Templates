@@ -1,0 +1,53 @@
+# Builds a library, and packages it up.
+#
+# Works on a release/version tag
+#   e.g release/1.0.2 will build v1.0.2
+#
+
+name: Pack UI Examples
+
+env:
+  OUTPUT: ./Output
+
+on:
+  push:
+    tags:
+      - "uiexamples/*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:      
+      - name: Get Version 
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\/uiexamples\//}
+        shell: bash
+      
+      - name: checkout
+        uses: actions/checkout@v2
+        
+      - name: Setup NuGet.exe for use with actions
+        uses: NuGet/setup-nuget@v1
+        with: 
+          nuget-version: ${{ matrix.nuget }}  
+        
+      - name: Setup .net core
+        uses: actions/setup-dotnet@v1.4.0
+      
+      - name: Setup UmbPack
+        run: dotnet tool install Umbraco.Tools.Packages --global
+        
+      # path to your package.xml file should go here.
+      - name: Create Umbraco package file
+        run: UmbPack pack ./package.xml -o ${{ env.OUTPUT }} -v ${{ steps.get_version.outputs.VERSION }}
+
+#      # For the push step to work you will need to create an api key on Our, and save it as a secret on Github with the name "UMBRACO_DEPLOY_KEY"
+#      - name: Push package to Our
+#        run: umbpack push ${{ env.OUTPUT }}/UmbracoPackage.1_${{ steps.get_version.outputs.VERSION }}.zip -k ${{ secrets.UMBRACO_DEPLOY_KEY }}
+        
+      - name: upload-artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Build-Results-${{ steps.get_version.outputs.VERSION }}
+          path: ${{ env.OUTPUT }}/**/*

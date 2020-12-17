@@ -1,0 +1,88 @@
+﻿<div ng-controller="tabsController as vm" id="tab-tabs">
+
+    <umb-box>
+        <umb-box-header title-key="tabs_headerTitle" description-key="tabs_headerDescription">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbTabsNav');"
+                        label="umb-tabs-nav"
+                        type="button"
+                        icon="icon-book"
+                        button-style="info">
+            </umb-button>
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbTabContent');"
+                        label="umb-tab-content"
+                        type="button"
+                        icon="icon-book"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+        <umb-box-content>
+            <div ng-if="!vm.loading">
+                <umb-tabs-nav tabs="vm.tabs"
+                              on-tab-change="vm.changeTab(tab)">
+                </umb-tabs-nav>
+                <umb-tab-content ng-repeat="tab in vm.tabs"
+                                 ng-show="tab.active"
+                                 tab="tab">
+                    <umb-pane>
+                        <div ng-if="tab.alias === 'tabOne'">
+                            <umb-code-snippet language="'html'" title="HTML">
+&lt;div ng-controller="tabsController as vm"&gt;
+    &lt;umb-box&gt;
+        &lt;umb-tabs-nav tabs="vm.tabs" on-tab-change="vm.changeTab(tab)"&gt;
+        &lt;/umb-tabs-nav&gt;
+        &lt;umb-tab-content ng-repeat="tab in vm.tabs" ng-show="tab.active" tab="tab"&gt;
+            &lt;div ng-if="tab.alias === 'tabOne'"&gt;&lt;/div&gt;
+            &lt;div ng-if="tab.alias === 'tabTwo'"&gt;&lt;/div&gt;
+        &lt;/umb-tab-content&gt;
+    &lt;/umb-box&gt;
+&lt;/div&gt;
+                            </umb-code-snippet>
+                        </div>
+                        <div ng-if="tab.alias === 'tabTwo'">
+                            <umb-code-snippet language="'javascript'">
+(function () {
+    'use strict';
+
+    function tabsController($scope, eventsService) {
+
+        var vm = this;
+
+        vm.changeTab = changeTab;
+
+        vm.tabs = [
+            {
+                "alias": "tabOne",
+                "label": "Tab 1",
+                "active": true
+            },
+            {
+                "alias": "tabTwo",
+                "label": "Tab 2"
+            }
+        ];
+
+        function changeTab(selectedTab) {
+            vm.tabs.forEach(function (tab) {
+                tab.active = false;
+            });
+            selectedTab.active = true;
+        };
+
+        eventsService.on("app.tabChange", function (event, args) {
+            console.log("event", event);
+            console.log("args", args);
+        });
+    };
+
+    angular.module('umbraco')
+        .controller('tabsController', tabsController);
+})();
+                            </umb-code-snippet>
+
+                        </div>
+                    </umb-pane>
+                </umb-tab-content>
+            </div>
+        </umb-box-content>
+    </umb-box>
+</div>

@@ -1,0 +1,116 @@
+﻿<div ng-controller="buttonsSectionController as vm" id="tab-buttons">
+    <umb-box>
+        <umb-box-header title-key="buttons_buttonTitle"
+                        description-key="buttons_buttonDescription">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButton');"
+                        label="umb-button"
+                        type="button"
+                        icon="icon-book"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+
+        <umb-box-content>
+            <umb-code-snippet language="'html'">&lt;umb-button
+    action="vm.doStuff()"
+    label="Hello world"
+    type="button"
+    button-style="block | action | primary | info | success | warning | danger | inverse | link"&gt;
+&lt;/umb-button&gt;</umb-code-snippet>
+            <localize key="buttons_buttonNotes"></localize>
+            <div>&nbsp;</div>
+            <umb-button action="vm.doStuff()"
+                        label="block"
+                        type="button"
+                        button-style="block">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="action"
+                        type="button"
+                        button-style="action">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="primary"
+                        type="button"
+                        button-style="primary">
+            </umb-button>
+
+            <umb-button action="vm.doStuff()"
+                        label="info"
+                        type="button"
+                        button-style="info">
+            </umb-button>
+
+            <umb-button action="vm.doStuff()"
+                        label="success"
+                        type="button"
+                        button-style="success">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="warning"
+                        type="button"
+                        button-style="warning">
+            </umb-button>
+
+            <umb-button action="vm.doStuff()"
+                        label="danger"
+                        type="button"
+                        button-style="danger">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="inverse"
+                        type="button"
+                        button-style="inverse">
+            </umb-button>
+            <umb-button action="vm.doStuff()"
+                        label="link"
+                        type="button"
+                        button-style="link">
+            </umb-button>
+
+        </umb-box-content>
+    </umb-box>
+
+    <umb-box>
+        <umb-box-header title-key="buttons_groupedTitle"
+                        description-key="buttons_groupedDescription">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButtonGroup');"
+                        label="umb-button-group"
+                        type="button"
+                        icon="icon-book"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+
+        <umb-box-content>
+            <umb-code-snippet language="'html'">&lt;umb-button-group
+    button-style="block | action | primary | info | success | warning | danger | inverse | link"
+    default-button="vm.buttonGroup.defaultButton"
+    sub-buttons="vm.buttonGroup.subButtons"
+    direction="up | down">
+&lt;/umb-button-group&gt;</umb-code-snippet>
+            <localize key="buttons_groupedNotes"></localize>
+            <div>&nbsp;</div>
+            <umb-button-group 
+                default-button="vm.buttonGroup.defaultButton"
+                sub-buttons="vm.buttonGroup.subButtons"
+                direction="up">
+            </umb-button-group>
+
+            <umb-button-group 
+                button-style="success"
+                default-button="vm.buttonGroup.defaultButton"
+                sub-buttons="vm.buttonGroup.subButtons"
+                direction="up">
+            </umb-button-group>
+
+            <umb-button-group 
+                button-style="danger"
+                default-button="vm.buttonGroup.defaultButton"
+                sub-buttons="vm.buttonGroup.subButtons"
+                direction="up">
+            </umb-button-group>
+
+        </umb-box-content>
+    </umb-box>
+</div>

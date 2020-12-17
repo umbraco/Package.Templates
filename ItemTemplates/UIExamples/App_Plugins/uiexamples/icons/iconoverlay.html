@@ -1,0 +1,14 @@
+﻿<div ng-controller="exampleSectionIconsOverlayController as vm">
+
+    <div>
+        <div class="flex content-end flex-wrap">
+            <umb-file-icon ng-repeat="color in vm.colors" 
+                           icon="{{model.icon.name}}"
+                           class="{{color.value}} cursor-pointer"
+                           ng-click="vm.activeColor = color"></umb-file-icon>
+        </div>
+
+        <umb-code-snippet language="'html'">&lt;umb-icon icon="{{model.icon.name}}" class="{{vm.activeColor.value}}"&gt;&lt/umb-icon&gt;</umb-code-snippet>
+    </div>
+
+</div>

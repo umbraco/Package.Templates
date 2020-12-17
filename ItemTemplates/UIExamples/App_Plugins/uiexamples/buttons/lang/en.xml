@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+  <area alias="buttons">
+
+    <!-- single button -->
+    <key alias="buttonTitle">umb-button</key>
+    <key alias="buttonDescription">Use this directive to render a button</key>
+    <key alias="buttonNotes"><![CDATA[
+        <p>This is an example of using a button. The type of button depends on the 'button-style', you can see the options in the example above and see them rendered below:</p>
+    ]]></key>
+
+    <!-- grouped buttons -->
+    <key alias="groupedTitle">umb-grouped-button</key>
+    <key alias="groupedDescription">Render a grouped button</key>
+    <key alias="groupedNotes">
+      <![CDATA[
+        <p>This is an example of a button group, you can see a few examples rendered below:</p>
+    ]]></key>
+    <key alias="groupedDefaultLabel">Grouped Button</key>
+    <key alias="groupedSubButtonALabel">Sub Button A</key>
+    <key alias="groupedSubButtonBLabel">Sub Button B</key>
+
+    <!-- overlay -->
+    <key alias="overlayTitle">This is an overlay</key>
+    <key alias="overlayMessage">If you want to see how this was done go to ~/App_Plugins/uiexamples/buttons and have a look!</key>
+
+  </area>
+</language>

@@ -1,0 +1,49 @@
+<div ng-controller="exampleSectionIconsController as vm" id="tab-icons">
+
+    <umb-box>
+        <umb-box-header title-key="icons_headerTitle"
+                        description-key="icons_headerDescription">
+            <umb-button action="vm.linkAway('https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbIcon');"
+                        label="umb-icon"
+                        type="button"
+                        icon="icon-book"
+                        button-style="info">
+            </umb-button>
+        </umb-box-header>
+
+        <umb-box-content>
+            <umb-code-snippet language="'html'">&lt;umb-icon
+    icon="icon-{name}"&gt;
+    class="small | medium | large"&gt;
+&lt;/umb-icon&gt;</umb-code-snippet>
+            <localize key="icons_parameterIcon"></localize>
+            <localize key="icons_parameterClass"></localize>
+            <ul>
+                <li><code>small </code> &nbsp; 14px <umb-icon icon="icon-alert" class="small"></umb-icon></li>
+                <li><code>medium</code> &nbsp; 24px <umb-icon icon="icon-alert" class="medium"></umb-icon></li>
+                <li><code>large </code> &nbsp; 32px <umb-icon icon="icon-alert" class="large"></umb-icon></li>
+            </ul>
+            <localize key="icons_parameterClassNone"></localize>
+        </umb-box-content>
+    </umb-box>
+
+    <umb-load-indicator ng-if="vm.loading"></umb-load-indicator>
+
+    <umb-box>
+
+        <umb-box-header title-key="icons_listTitle"
+                        description-key="icons_listDescription">
+        </umb-box-header>
+
+        <umb-box-content>
+            <div class="flex justify-between flex-wrap">
+                <div ng-repeat="icon in vm.icons | orderBy: 'name'" class="umb-iconpicker-item cursor-pointer" style="justify-content: left;"
+                     ng-click="vm.openIconOverlay(icon)">
+                    <umb-icon class="umb-iconpicker-svg {{icon.name}} large" icon="{{icon.name}}"></umb-icon>
+                    <div class="ml2">{{icon.name}}</div>
+                </div>
+            </div>
+        </umb-box-content>
+    </umb-box>
+
+</div>
