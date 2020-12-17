@@ -1,13 +1,15 @@
 ﻿(function () {
     'use strict';
 
-    function tabsController($scope, $timeout, eventsService) {
+    function tabsController($scope, $timeout, eventsService, exampleResource) {
 
         var vm = this;
 
         vm.loading = true;
         vm.tabs = [];
         vm.changeTab = changeTab;
+
+        vm.linkAway = exampleResource.linkAway;
 
         function changeTab(selectedTab) {
             vm.tabs.forEach(function (tab) {
