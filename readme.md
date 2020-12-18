@@ -1,8 +1,12 @@
 # Umbraco Package Templates
 
-This repository contains some templates for starting new Umbraco package projects. 
+This repository contains some templates for starting new Umbraco package projects, and adding things to existing Umbraco projects. 
 
 The templates can be used via the `dotnet new` command. 
+
+## UI Examples
+
+One of the templates being developed adds a 'UI Examples' section to your Umbraco website. UI Examples has also been released as a package on [Our](https://our.umbraco.com/packages/developer-tools/ui-examples/), so you can add this to your site by installing that package from there. The source code for UI Examples is [in the Item Template](./ItemTemplates/UIExamples), and has its own [contribution guidelines](./CONTRIBUTING-UIExamples.md).
 
 ## Pre-requisite
 You must be using Visual Studio 2019 to work with these templates.
