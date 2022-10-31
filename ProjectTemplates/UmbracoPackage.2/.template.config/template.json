@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json.schemastore.org/template",
+  "author": "Umbraco Community",
+  "classifications": [ 
+    "Web", 
+    "Umbraco", 
+    "v8" 
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+
+  "identity": "Umbraco.Template.Package",
+
+  "name": "Umbraco Package Empty",
+  "shortName": "umbraco-v8-package",
+  "description": "An empty project template for creating an Umbraco package.",
+
+  "sourceName": "UmbracoPackage.1",
+  "defaultName": "UmbracoPackage1",
+
+
+  "preferNameDirectory": true,
+
+  "sources": [
+    {
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.vs/**",
+        "**/packages/**",
+        "**/node_modules/**",
+        "**/umbraco/**"
+      ],
+      "modifiers": [
+        {
+          "condition": "(!github)",
+          "exclude": [
+            ".github/**/*"
+          ]
+        },
+        {
+          "condition": "(!testsite)", 
+          "exclude": [
+            "**/.website/**/*", 
+            "gulpfile.js",
+            "paths.json",
+            "package.json",
+            "*.sln"
+          ]
+        },
+        {
+          "condition": "(!contentApp)",
+          "exclude": [
+            "**/[Cc]ontent[Aa]pp/**/*",
+            "**/[Cc]ontent[Aa]pp*.cs"
+          ]
+        },
+        {
+          "condition": "(!dashboard)",
+          "exclude": [
+            "**/[Dd]ashboard/**/*",
+            "**/[Dd]ashboard*.cs"
+          ]
+        },
+        {
+          "condition": "(!propertyEditor)",
+          "exclude": [
+            "**/[Pp]roperty[Ee]ditor/**/*",
+            "**/[Pp]roperty[Ee]ditor*.cs"
+          ]
+        }
+      ]
+    }
+  ],
+
+  "symbols": {
+    "siteGuid": {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "004F67C2-9A9E-49C3-8925-A55099E47D41",
+      "parameters": { "format": "D" }
+    },
+    "projectRefGuid": {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "F002C1EA-C083-4C69-878C-C1875385E534",
+      "parameters": { "format": "D" }
+    },
+    "sitePort": {
+      "type": "generated",
+      "generator": "random",
+      "parameters": {
+        "low": 44300,
+        "high": 44399
+      },
+      "replaces": "44398"
+    },
+    "contentApp": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Include template code for a content app"
+    },
+    "dashboard": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Include template code for a dashboard"
+    },
+    "propertyEditor": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Include template code for a property editor"
+    },
+    "github": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Include the GitHub Actions in the project."
+    },
+    "testsite": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Include the test umbraco site project in .website"
+    },
+    "ignore": {
+      "type": "generated",
+      "generator": "constant",
+      "description": "puts .website in the gitignore",
+      "parameters": {
+        "value": ".website"
+      },
+      "replaces": "# .website #"
+    },
+    "restore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Restore NuGet and NPM Modules"
+    }
+
+  },
+
+
+  "postActions": [   
+    {
+      "condition": "(restore)",
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "description": "Restore Nuget Packages Required by this project.",
+      "manualInstructions": [
+        { "text": "Run 'dotnet restore'" }
+      ],
+      "continueOnError": true
+    },
+    {
+      "condition": "(testsite && restore)",
+      "description": "Run npm install",
+      "manualInstructions": [{"text": "Run 'npm install'"}],
+      "actionId" :"3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
+      "args": {
+        "executable": "cmd.exe", 
+        "args": "/c npm install"
+      }
+    }
+  ]
+}

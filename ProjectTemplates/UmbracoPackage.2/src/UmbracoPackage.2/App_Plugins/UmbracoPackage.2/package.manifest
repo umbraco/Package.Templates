@@ -1,0 +1,24 @@
+﻿{
+  "name": "UmbracoPackage.2",
+  "version": "0.1",
+  "allowPackageTelemetry": true,
+  "dashboards": [
+    {
+      "alias": "welcomeDashboard",
+      "view": "/App_Plugins/UmbracoPackage.2/WelcomeDashboard.html",
+      "sections": [ "content" ],
+      "weight": -10,
+      "access": [
+        { "deny": "translator" },
+        { "grant": "admin" }
+      ]
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/UmbracoPackage.2/UmbracoPackage.2.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/UmbracoPackage.2/UmbracoPackage.2.css"
+  ]
+}
+
