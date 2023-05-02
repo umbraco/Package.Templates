@@ -1,0 +1,21 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <CustomPackageContentFilesPath>$(MSBuildThisFileDirectory)..\App_Plugins\UmbracoPackage.2\**\*.*</CustomPackageContentFilesPath>
+  </PropertyGroup>
+
+  <Target Name="CopyPackageAssets" BeforeTargets="Build">
+    <ItemGroup>
+      <CustomPackageContentFiles Include="$(CustomPackageContentFilesPath)" />
+    </ItemGroup>
+    <Message Text="Copying CustomPackage files: $(CustomPackageContentFilesPath) - #@(CustomPackageContentFiles->Count()) files" Importance="high" />
+    <Copy SourceFiles="@(CustomPackageContentFiles)" DestinationFiles="@(CustomPackageContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\UmbracoPackage.2\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+
+  <Target Name="ClearCustomPackageAssets" BeforeTargets="Clean">
+    <ItemGroup>
+      <CustomPackageDir Include="$(MSBuildProjectDirectory)\App_Plugins\UmbracoPackage.2\" />
+    </ItemGroup>
+    <Message Text="Clear old UmbracoPackage.2 data" Importance="high" />
+    <RemoveDir Directories="@(CustomPackageDir)" />
+  </Target>
+</Project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en_us" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
+	<creator>
+		<name>The Umbraco community</name>
+		<link>https://our.umbraco.com/documentation/Extending-Umbraco/Language-Files</link>
+	</creator>
+	<area alias="actions">
+		<key alias="welcomeDashboard">Welcome!</key>
+	</area>
+	<area alias="dashboard">
+		<key alias="welcomeDashboard_heading">I'm different in other languages! Oh, hi</key>
+	</area>
+</language>

@@ -1,0 +1,5 @@
+{
+  "library": "src/UmbracoPackage.2",
+  "pluginFolder": "UmbracoPackage.2",
+  "site": ".website"
+}
