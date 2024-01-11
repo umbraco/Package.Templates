@@ -28,7 +28,7 @@ The `dotnet new --update-apply` command will update any of the installed templat
 All Umbraco package templates are prefixed `umbraco-`. To see what Umbraco related templates you have installed: 
 
 ```
-dotnet new umbraco -l
+dotnet new list umbraco
 ```
 
 You can get a list of [all available templates in the docs](./docs)
